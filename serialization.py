@@ -43,7 +43,7 @@ def load_fiction(slot: int) -> Fiction | None:
 def save_fiction(fiction: Fiction) -> bool:
     # only save if sth changed
     if load_fiction(fiction.slot) == fiction: return False
-    with fiction_path(fiction.slot).open("w") as f:
+    with fiction_path(fiction.slot).open("w", encoding="utf-8") as f:
         yaml.dump(fiction, f)
     return True
 
@@ -102,7 +102,7 @@ def update_ranking(key: str, ranking: List[int]) -> bool:
     rankingstr = ",".join(str(s) for s in ranking)
     path = ranking_path(key)
     already_present = path.exists()
-    with path.open("a") as f:
+    with path.open("a", encoding="utf-8") as f:
         if not already_present:
             f.write("date & time   :ranking")
         f.write(f"\n{nowstr}:{rankingstr}")
