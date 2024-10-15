@@ -1,0 +1,1 @@
+from .fiction import Fiction, FictionStats

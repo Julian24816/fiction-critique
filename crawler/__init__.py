@@ -1,37 +1,58 @@
-from bs4 import Tag
-from cloudflare import fetch_as_soup
-from html2text import HTML2Text
-from datetime import datetime
-from .fiction import Fiction, FictionStats
+from serialization import save_fiction, update_ranking
+from typing import MutableMapping, List, Tuple, Mapping
 
+from .royalroad import scrape_fiction_list, Fiction
 
-def get_fictions_from_url(url):
-    """Note: currently only parses the first page of results"""
-    return [parse_fiction_listing(l) for l in
-        fetch_as_soup(url).findAll("div", attrs={"class": "fiction-list-item"})]
+def scrape_all_rankings(
+        key2url: Mapping[str, str],
+        report_rankings_until: int = 3, report_multi_ranking: int = 2, verbose: bool = True
+):
+    fictions: MutableMapping[int, Fiction] = {}
+    for key, url in key2url.items():
+        if verbose: print("now scraping", url)
+        scraped = scrape_fiction_list(url)
 
+        # update rankings
+        ranking = [f.slot for f in scraped]
+        updated = update_ranking(key, ranking)
+        if verbose: print("-", key, "ranking", "updated" if updated else "unchanged")
 
-def parse_fiction_listing(tag: Tag) -> Fiction:
-    """parses the contents of a div.fiction-listing-item on royalroad.com"""
-    fiction_id = tag.find("h2").find("a").get("href").split("/")[-2].strip()
-    return Fiction(
-        slot=int(fiction_id),
-        title=tag.find("h2").text.strip().split("\n")[0],
-        tags=[el.text for el in tag.find_all("a", attrs={"class": "fiction-tag"})],
-        stats=parse_stats(tag.find("div", attrs={"class": "stats"})),
-        description=HTML2Text().handle(tag.find(id="description-" + fiction_id).prettify())
+        # collect scraped novels
+        new = 0
+        for i, f in enumerate(scraped):
+            if f.slot not in fictions:
+                fictions[f.slot] = f
+                new += 1
+            f = fictions[f.slot]
+            f.stats[f"ranking-{key}"] = i + 1
+        if verbose: print("-", new, "of", len(scraped), "fictions not yet seen on rankings during this run")
+
+        # report on top ranks:
+        if report_rankings_until == 1:
+            print(key, "leader:", scraped[0].slot, scraped[0].title)
+        elif report_rankings_until > 1:
+            print(key, "ranking:")
+            for i in range(0, report_rankings_until):
+                print(f"{i + 1}. {scraped[i].slot} {scraped[i].title}")
+
+    if verbose: print("collected", len(fictions), "novels")
+    num_updated = 0
+    on_rankings: MutableMapping[int, List[Tuple[Fiction, List[str]]]] = {i: [] for i in range(len(key2url) + 1)}
+    for f in fictions.values():
+        if save_fiction(f):
+            num_updated += 1
+        rankings = list(i[8:] for i in filter(lambda item: item.startswith('ranking-'), f.stats))
+        on_rankings[len(rankings)].append((f, rankings))
+    if verbose: print("updated", num_updated)
+
+    for i in range(len(key2url), report_multi_ranking - 1, -1):
+        if len(on_rankings[i]) > 0:
+            print("fictions on", i, "rankings:")
+            for f, rankings in on_rankings[i]:
+                print("-", f.slot, *rankings, "-", f.title)
+
+def scrape_all_rankings_silent(key2url: Mapping[str, str]):
+    scrape_all_rankings(
+        key2url,
+        report_rankings_until=0, report_multi_ranking=len(key2url)+1, verbose=False
     )
-
-
-def parse_stats(tag: Tag) -> FictionStats:
-    """parses the contents of a div.stats on royalroad.com"""
-    parse_int = lambda x: int(x.replace(",",""))
-    stats = list(tag.find_all("div", attrs={"class": "col-sm-6"}))
-    return {
-        "followers": parse_int(stats[0].find("span").text.split(" ")[0]),
-        "rating": float(stats[1].get("aria-label").split(" ")[1]),
-        "pages": parse_int(stats[2].find("span").text.split(" ")[0]),
-        "views": parse_int(stats[3].find("span").text.split(" ")[0]),
-        "chapters": parse_int(stats[4].find("span").text.split(" ")[0]),
-        "last_updated": datetime.fromtimestamp(int(stats[5].find("time").get("unixtime")))
-    }

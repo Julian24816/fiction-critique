@@ -32,4 +32,13 @@ class Fiction:
                 self.stats == other.stats and
                 self.description == other.description)
 
+    def __repr__(self):
+        return (f"Fiction(slot={self.slot!r}, title={self.title!r}, tags={self.tags!r}, "
+                f"stats={self.stats!r}, description={self.description!r})")
 
+    def __str__(self):
+        return (f"Fiction: {self.title}\n"
+                f"Slot: {self.slot}\n"
+                f"Tags: {', '.join(self.tags)}\n"
+                f"Stats:\n    {'\n    '.join(f"{key}: {value}" for key,value in self.stats.items())}\n"
+                f"Description: {self.description}")

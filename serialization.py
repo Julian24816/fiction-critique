@@ -6,7 +6,7 @@ from pathlib import Path
 # yaml dumping of Fiction objects
 
 import yaml
-from crawler import Fiction
+from model import Fiction
 
 fiction_tag = "!Fiction"
 fictions_dir = Path("out/fictions/")
