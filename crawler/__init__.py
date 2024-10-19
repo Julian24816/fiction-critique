@@ -1,7 +1,8 @@
+from pathlib import Path
 from serialization import save_fiction, update_ranking
 from typing import MutableMapping, List, Tuple, Mapping
 
-from .royalroad import scrape_fiction_list, Fiction
+from .royalroad import scrape_fiction_list, Fiction, scrape_fiction, scrape_chapter
 
 def scrape_all_rankings(
         key2url: Mapping[str, str],
@@ -51,8 +52,51 @@ def scrape_all_rankings(
             for f, rankings in on_rankings[i]:
                 print("-", f.slot, *rankings, "-", f.title)
 
+
 def scrape_all_rankings_silent(key2url: Mapping[str, str]):
     scrape_all_rankings(
         key2url,
         report_rankings_until=0, report_multi_ranking=len(key2url)+1, verbose=False
     )
+
+
+def download_complete_fiction_text(slot: int, verbose: bool = True):
+    fiction = scrape_fiction(slot)
+    if verbose: print("scraped fiction:", fiction.title, "-", len(fiction.chapters), "chapters")
+    with open(f"out/{slot}.md", "w", encoding="utf-8") as f:
+        f.write(f"# {fiction.title}\n\n")
+        f.write(f"by {fiction.author}\n\n")
+        f.write(fiction.description)
+        f.write("\n\n")
+
+        for c in (scrape_chapter(slot, i) for i in fiction.chapters):
+            f.write(f"## {c.title}\n\n")
+            f.write(c.body)
+            f.write("\n\n")
+            if verbose: print("scraped chapter:", c.title)
+
+
+def remove_copyright_notes_from_file(path: Path, keyword="Amazon", interactive=True):
+    with path.open(encoding="utf-8") as file:
+        content = file.read()
+
+    paragraphs = content.split('\n\n')
+    paragraphs_with_word = [para for para in paragraphs if keyword.lower() in para.lower()]
+    to_remove = []
+
+    if interactive:
+        num = len(paragraphs_with_word)
+        for i, p in enumerate(paragraphs_with_word):
+            print(f"Paragraph {i + 1} of {num}: \n{p}")
+            response = input("Do you want to remove this paragraph? (yes/no): ").strip().lower()
+            if response == 'yes' or response == "y" or response == "":
+                to_remove.append(p)
+                print("Removed paragraph")
+            else:
+                print("Skipped paragraph")
+    else:
+        to_remove = paragraphs_with_word
+
+    new_content = '\n\n'.join(para for para in paragraphs if para not in to_remove)
+    with path.open('w', encoding="utf-8") as file:
+        file.write(new_content)

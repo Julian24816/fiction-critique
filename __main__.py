@@ -1,5 +1,14 @@
-from crawler import scrape_all_rankings_silent, scrape_all_rankings
-from crawler.royalroad import scrape_fiction, scrape_chapter
+# setup openai from .env file
+from dotenv import load_dotenv
+
+from crawler import scrape_all_rankings_silent, scrape_all_rankings, download_complete_fiction_text, \
+    remove_copyright_notes_from_file
+
+load_dotenv()
+
+from pathlib import Path
+from scene_segmentation import segment_text
+
 
 urls = {
     "best-rated": "https://www.royalroad.com/fictions/best-rated",
@@ -13,26 +22,25 @@ urls = {
     #    "writathon": "https://www.royalroad.com/fictions/writathon",
 }
 
-def download_complete_fiction(slot: int, verbose: bool = True):
-    fiction = scrape_fiction(slot)
-    if verbose: print("scraped fiction:", fiction.title, "-", len(fiction.chapters), "chapters")
-    with open(f"out/{slot}.md", "w", encoding="utf-8") as f:
-        f.write(f"# {fiction.title}\n\n")
-        f.write(f"by {fiction.author}\n\n")
-        f.write(fiction.description)
-        f.write("\n\n")
-
-        for c in (scrape_chapter(slot, i) for i in fiction.chapters):
-            f.write(f"## {c.title}\n\n")
-            f.write(c.body)
-            f.write("\n\n")
-            if verbose: print("scraped chapter:", c.title)
-
 
 if __name__ == "__main__":
     # scrape_all_rankings(urls)
     # scrape_all_rankings_silent(urls)
 
-    # 82003: john boy's big boy
-    # 89228: ruinous return
-    download_complete_fiction(89228)
+
+    download_complete_fiction_text(92144)
+    remove_copyright_notes_from_file(Path(f"out/92144.md"))
+    # scenes = segment_text(Path(f"out/82003.md"), verbosity=1)
+    #     for i, scene in enumerate(scenes):
+    #     with open(outdir / f"{i}.md", "w", encoding="utf-8") as f:
+    #         f.write(scene.to_markdown())
+    # outdir = Path(f"out/82003")
+    # outdir.mkdir(exist_ok=True)
+    #
+    # for i in range(71): # outdir currently contains 71 scenes
+    #     with (outdir / f"{i}.md").open(encoding="utf-8") as file:
+    #         title = file.readline()[3:-1]
+    #         file.readline()
+    #         summary = file.readline()[9:-1]
+    #     with (outdir / "summaries.md").open("a", encoding="utf-8") as file:
+    #         file.write(f"# {i}. {title}\n{summary}\n\n")
