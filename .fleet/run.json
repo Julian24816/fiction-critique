@@ -6,6 +6,12 @@
             "file": "scripts/download-gutenberg.py",
             "arguments": [],
         },
+        {
+            "type": "python",
+            "name": "paragraph-analysis",
+            "file": "scripts/paragraph-analysis.py",
+            "arguments": [],
+        },
 
     ]
 }

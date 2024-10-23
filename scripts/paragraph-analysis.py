@@ -57,18 +57,17 @@ def segment_text(text):
 
 # Example usage
 if __name__ == "__main__":
-    sample_text = (
-        "Kiran stared at the magical device in front of him. It was unlike anything he'd ever seen. "
-        "The intricate engravings glowed faintly, pulsing with a soft blue light. He couldn't help but wonder, "
-        "what kind of power it held?"
-    )
+    filename = 'data/gutenberg/68283.txt'  # Cthulhu's Tales
 
-    sentences, words = segment_text(sample_text)
+    with open(filename, 'r', encoding='utf-8') as file:
+        file_contents = file.read()
 
-    # Print segmented sentences and words
-    print("\nSegmented Sentences:")
-    for i, sentence in enumerate(sentences, 1):
-        print(f"{i}: {sentence}")
+    sentences, words = segment_text(file_contents)
 
-    print("\nSegmented Words:")
-    print(words)
+    # # Print segmented sentences and words
+    # print("\nSegmented Sentences:")
+    # for i, sentence in enumerate(sentences, 1):
+    #     print(f"{i}: {sentence}")
+    #
+    # print("\nSegmented Words:")
+    # print(words)
