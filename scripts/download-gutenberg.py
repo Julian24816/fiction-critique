@@ -1,10 +1,11 @@
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from rdflib import Graph, Namespace, URIRef
+from rdflib import Graph, Namespace
 from rdflib.namespace import RDF
 from typing import List
 import requests
 import yaml
+from requests import HTTPError
 
 
 @dataclass
@@ -15,14 +16,12 @@ class Agent:
     aliases: List[str]
     webpage: str
 
-
 @dataclass
 class FileFormat:
     about: str
     extents: List[int]
     modified: List[str]
     formats: List[str]
-
 
 @dataclass
 class GutenbergBook:
@@ -40,7 +39,6 @@ class GutenbergBook:
     bookshelves: List[str]
     hasFormats: List[FileFormat]
 
-
 def download_rdf(book_id: int, directory: Path) -> Path:
     path = directory / f"{book_id}.rdf"
     r = requests.get(f"https://www.gutenberg.org/cache/epub/{book_id}/pg{book_id}.rdf")
@@ -49,17 +47,20 @@ def download_rdf(book_id: int, directory: Path) -> Path:
         f.write(r.content)
     return path
 
+def download_text(book_id: int, directory: Path, utf8version: bool = True) -> Path:
+    url = f"https://www.gutenberg.org/cache/epub/{book_id}/pg{book_id}.txt"
+    if utf8version:
+        url += ".utf8"
 
-def download_text(book_id: int, directory: Path) -> Path:
-    path = directory / f"{book_id}.txt"
-    r = requests.get(f"https://www.gutenberg.org/cache/epub/{book_id}/pg{book_id}.txt.utf8")
+    r = requests.get(url)
     r.raise_for_status()
+
+    path = directory / f"{book_id}.txt"
     with path.open("wb") as f:
         f.write(r.content)
     return path
 
-
-def parse_rdf(path: Path, book_id: int) -> GutenbergBook:
+def parse_rdf(path: Path) -> GutenbergBook:
     g = Graph()
     g.parse(path)
 
@@ -67,21 +68,23 @@ def parse_rdf(path: Path, book_id: int) -> GutenbergBook:
     DCTERMS = Namespace("http://purl.org/dc/terms/")
 
     def get_text(subject, predicate) -> str:
-        return str(g.value(subject, predicate))
+        value = g.value(subject, predicate)
+        if value:
+            return str(value)
+        return ''
 
     def get_resource(subject, predicate) -> str:
         resource = g.value(subject, predicate)
-        return resource.toPython() if resource else None
+        return resource.toPython() if resource else ''
 
     def try_get_int(value: str, else_result: int = 0) -> int:
         try:
             return int(value)
-        except TypeError:
-            return else_result
-        except ValueError:
+        except (TypeError, ValueError):
             return else_result
 
-    ebook = URIRef(f"http://www.gutenberg.org/ebooks/{book_id}")
+    # Select the correct ebook URI
+    ebook = list(g.subjects(RDF.type, PGTERMS.ebook))[0]
 
     publisher = get_text(ebook, DCTERMS.publisher)
     license = get_resource(ebook, DCTERMS.license)
@@ -94,15 +97,13 @@ def parse_rdf(path: Path, book_id: int) -> GutenbergBook:
         name=get_text(creator_node, PGTERMS.name),
         birthdate=try_get_int(get_text(creator_node, PGTERMS.birthdate)),
         deathdate=try_get_int(get_text(creator_node, PGTERMS.deathdate)),
-        aliases=[alias.toPython() for alias in g.objects(creator_node, PGTERMS.alias)],
+        aliases=[str(alias) for alias in g.objects(creator_node, PGTERMS.alias)],
         webpage=get_resource(creator_node, PGTERMS.webpage)
     )
 
     title = get_text(ebook, DCTERMS.title)
     description = get_text(ebook, PGTERMS.marc520)
-    language = get_text(
-        g.value(ebook, DCTERMS.language), RDF.value
-    )
+    language = get_text(g.value(ebook, DCTERMS.language), RDF.value)
     subjects = [
         get_text(subject, RDF.value)
         for subject in g.objects(ebook, DCTERMS.subject)
@@ -117,7 +118,7 @@ def parse_rdf(path: Path, book_id: int) -> GutenbergBook:
     ]
     hasFormats = []
     for file_format in g.objects(ebook, DCTERMS.hasFormat):
-        extents = [int(e) for e in g.objects(file_format, DCTERMS.extent)]
+        extents = [try_get_int(str(e)) for e in g.objects(file_format, DCTERMS.extent)]
         modified = [str(m) for m in g.objects(file_format, DCTERMS.modified)]
 
         formats = []
@@ -150,21 +151,21 @@ def parse_rdf(path: Path, book_id: int) -> GutenbergBook:
         hasFormats=hasFormats
     )
 
-
 def save_as_yaml(book: GutenbergBook, directory: Path, book_id: int) -> Path:
     yaml_filepath = directory / f'{book_id}.yaml'
     with open(yaml_filepath, 'w', encoding='utf-8') as yaml_file:
         yaml.dump(asdict(book), yaml_file, default_flow_style=False, allow_unicode=True)
     return yaml_filepath
 
-
 def download_metadata_and_text(book_id: int, directory: Path) -> GutenbergBook:
     rdf_path = download_rdf(book_id, directory)
-    download_text(book_id, directory)
-    metadata = parse_rdf(rdf_path, book_id)
+    try:
+        download_text(book_id, directory)
+    except HTTPError as e:
+        download_text(book_id, directory, False)
+    metadata = parse_rdf(rdf_path)
     save_as_yaml(metadata, directory, book_id)
     return metadata
-
 
 if __name__ == "__main__":
     gut_dir = Path("data/gutenberg")
@@ -226,5 +227,8 @@ if __name__ == "__main__":
     ):
         if (gut_dir / f"{b}.yaml").exists():
             continue
-        meta = download_metadata_and_text(b, gut_dir)
-        print("downloaded", b, meta.title)
+        try:
+            meta = download_metadata_and_text(b, gut_dir)
+            print("downloaded", b, meta.title)
+        except HTTPError as e:
+            print("failed to download", b, e)
