@@ -1,12 +1,14 @@
-from typing import List, Tuple
+from dataclasses import asdict
 from pathlib import Path
+from typing import List, Tuple
 
 
 #####################################################
 # yaml dumping of Fiction objects
 
 import yaml
-from model import Fiction
+
+from fictique.model import Fiction, GutenbergBook
 
 fiction_tag = "!Fiction"
 fictions_dir = Path("out/fictions/")
@@ -46,6 +48,15 @@ def save_fiction(fiction: Fiction) -> bool:
     with fiction_path(fiction.slot).open("w", encoding="utf-8") as f:
         yaml.dump(fiction, f)
     return True
+
+#####################################################
+# yaml dumping of gutenberg metadata
+
+def save_as_yaml(book: GutenbergBook, directory: Path, book_id: int) -> Path:
+    yaml_filepath = directory / f'{book_id}.yaml'
+    with open(yaml_filepath, 'w', encoding='utf-8') as yaml_file:
+        yaml.dump(asdict(book), yaml_file, default_flow_style=False, allow_unicode=True)
+    return yaml_filepath
 
 #####################################################
 # reading/writing rankings

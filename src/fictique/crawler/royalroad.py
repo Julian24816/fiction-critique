@@ -1,9 +1,9 @@
 from bs4.element import Tag
-from cloudflare import fetch_as_soup
-from html2text import HTML2Text
 from datetime import datetime
-from model import Fiction, FictionStats
-from model.chapter import Chapter
+from fictique.cloudflare import fetch_as_soup
+from fictique.model import Fiction, FictionStats
+from fictique.model.chapter import Chapter
+from html2text import HTML2Text
 
 
 def scrape_fiction_list(url: str):

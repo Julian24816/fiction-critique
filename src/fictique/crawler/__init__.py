@@ -1,6 +1,7 @@
 from pathlib import Path
-from serialization import save_fiction, update_ranking
 from typing import MutableMapping, List, Tuple, Mapping
+
+from fictique.serialization import save_fiction, update_ranking
 
 from .royalroad import scrape_fiction_list, Fiction, scrape_fiction, scrape_chapter
 
