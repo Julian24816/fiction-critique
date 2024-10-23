@@ -1,0 +1,153 @@
+bookshelves:
+- 'Browsing: Children & Young Adult Reading'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Milne, Alan Alexander
+  - Miln, Alen Aleksander
+  - Milne, A.A.
+  birthdate: 1882
+  deathdate: 1956
+  name: Milne, A. A. (Alan Alexander)
+  webpage: https://en.wikipedia.org/wiki/A._A._Milne
+description: ''
+downloads: 6581
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/67098.html.images
+  extents:
+  - 185385
+  - 185321
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-19T21:37:15.329657'
+  - '2023-09-28T12:13:04.605450'
+- about: https://www.gutenberg.org/files/67098/67098-h/67098-h.htm
+  extents:
+  - 181516
+  formats:
+  - text/html
+  modified:
+  - '2022-12-28T09:24:00'
+- about: https://www.gutenberg.org/ebooks/67098.epub3.images
+  extents:
+  - 5030969
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-19T21:37:33.604126'
+- about: https://www.gutenberg.org/ebooks/67098.epub.images
+  extents:
+  - 5034107
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-19T21:37:24.323286'
+- about: https://www.gutenberg.org/ebooks/67098.epub.noimages
+  extents:
+  - 118551
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-19T21:37:18.676658'
+- about: https://www.gutenberg.org/ebooks/67098.kf8.images
+  extents:
+  - 5100300
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-19T21:37:41.816059'
+- about: https://www.gutenberg.org/ebooks/67098.kindle.images
+  extents:
+  - 5076821
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-19T21:37:32.925150'
+- about: https://www.gutenberg.org/ebooks/67098.kindle.noimages
+  extents:
+  - 177429
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-30T07:13:59.230672'
+- about: https://www.gutenberg.org/ebooks/67098.txt.utf-8
+  extents:
+  - 152258
+  - 152292
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-19T21:37:14.285671'
+  - '2023-09-28T12:13:03.631475'
+- about: https://www.gutenberg.org/files/67098/67098-0.txt
+  extents:
+  - 147958
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-12-28T09:23:36'
+- about: https://www.gutenberg.org/ebooks/67098.rdf
+  extents:
+  - 21655
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-19T21:37:41.982042'
+- about: https://www.gutenberg.org/cache/epub/67098/pg67098.cover.medium.jpg
+  extents:
+  - 16281
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-19T21:37:23.721118'
+- about: https://www.gutenberg.org/cache/epub/67098/pg67098.cover.small.jpg
+  extents:
+  - 2597
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-19T21:37:23.673114'
+- about: https://www.gutenberg.org/files/67098/67098-0.zip
+  extents:
+  - 49629
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-12-28T09:24:30'
+- about: https://www.gutenberg.org/files/67098/67098-h.zip
+  extents:
+  - 4466037
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-12-28T09:24:14'
+- about: https://www.gutenberg.org/cache/epub/67098/pg67098-h.zip
+  extents:
+  - 4521164
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-19T21:37:15.600656'
+issued: '2022-01-03'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Animals -- Juvenile fiction
+- Toys -- Juvenile fiction
+- Teddy bears -- Juvenile fiction
+- Winnie-the-Pooh (Fictitious character) -- Juvenile fiction
+- Piglet (Fictitious character) -- Juvenile fiction
+- Eeyore (Fictitious character) -- Juvenile fiction
+- Christopher Robin (Fictitious character) -- Juvenile fiction
+- PZ
+title: Winnie-the-Pooh
+types:
+- Text

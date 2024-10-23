@@ -1,0 +1,146 @@
+bookshelves:
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Defo, Daniel
+  - John, Gabriel
+  - Moreton, Andrew
+  - Defoë, Daniel
+  birthdate: 0
+  deathdate: 1731
+  name: Defoe, Daniel
+  webpage: https://en.wikipedia.org/wiki/Daniel_Defoe
+description: ''
+downloads: 381
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/70841.html.images
+  extents:
+  - 664209
+  - 664213
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-29T07:34:13.299074'
+  - '2023-09-30T08:50:58.478750'
+- about: https://www.gutenberg.org/files/70841/70841-h/70841-h.htm
+  extents:
+  - 661517
+  formats:
+  - text/html
+  modified:
+  - '2023-05-23T06:31:08'
+- about: https://www.gutenberg.org/ebooks/70841.epub3.images
+  extents:
+  - 4957780
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T07:34:25.996068'
+- about: https://www.gutenberg.org/ebooks/70841.epub.images
+  extents:
+  - 4952197
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T07:34:16.681080'
+- about: https://www.gutenberg.org/ebooks/70841.epub.noimages
+  extents:
+  - 443962
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T07:34:14.468088'
+- about: https://www.gutenberg.org/ebooks/70841.kf8.images
+  extents:
+  - 5324794
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T07:34:32.492984'
+- about: https://www.gutenberg.org/ebooks/70841.kindle.images
+  extents:
+  - 5276016
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T07:34:23.954071'
+- about: https://www.gutenberg.org/ebooks/70841.txt.utf-8
+  extents:
+  - 613310
+  - 613338
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-29T07:34:12.280118'
+  - '2023-09-30T08:50:57.172752'
+- about: https://www.gutenberg.org/files/70841/70841-0.txt
+  extents:
+  - 613066
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2023-05-23T06:31:08'
+- about: https://www.gutenberg.org/ebooks/70841.rdf
+  extents:
+  - 19960
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-29T07:34:32.654987'
+- about: https://www.gutenberg.org/cache/epub/70841/pg70841.cover.medium.jpg
+  extents:
+  - 20742
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T07:34:14.833061'
+- about: https://www.gutenberg.org/cache/epub/70841/pg70841.cover.small.jpg
+  extents:
+  - 3879
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T07:34:14.647063'
+- about: https://www.gutenberg.org/files/70841/70841-0.zip
+  extents:
+  - 219217
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-05-23T06:31:09'
+- about: https://www.gutenberg.org/files/70841/70841-h.zip
+  extents:
+  - 5495285
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-05-23T06:31:09'
+- about: https://www.gutenberg.org/cache/epub/70841/pg70841-h.zip
+  extents:
+  - 5930502
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-29T07:34:13.438095'
+issued: '2023-05-23'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Shipwreck survival -- Fiction
+- Islands -- Fiction
+- Crusoe, Robinson (Fictitious character) -- Fiction
+- Atlantic Ocean -- Fiction
+- Adventure stories
+- Castaways -- Fiction
+- PR
+title: Robinson Crusoe
+types:
+- Text

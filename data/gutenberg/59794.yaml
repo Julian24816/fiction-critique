@@ -1,0 +1,150 @@
+bookshelves:
+- 'Browsing: History - British'
+- 'Browsing: History - General'
+- 'Browsing: History - Warfare'
+creator:
+  aliases:
+  - Churchill, Winston Leonard Spencer, Sir
+  - Churchill, Winston Spencer
+  - Churchill, Sir Winston Spencer
+  - Churchill, Winston S.
+  birthdate: 1874
+  deathdate: 1965
+  name: Churchill, Winston
+  webpage: https://en.wikipedia.org/wiki/Winston_Churchill
+description: ''
+downloads: 208
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/59794.html.images
+  extents:
+  - 1540499
+  - 1540507
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-24T14:45:18.387746'
+  - '2023-09-25T13:04:08.064300'
+- about: https://www.gutenberg.org/files/59794/59794-h/59794-h.htm
+  extents:
+  - 1529474
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2019-06-29T10:54:50'
+- about: https://www.gutenberg.org/files/59794/59794-h.zip
+  extents:
+  - 3087626
+  formats:
+  - text/html; charset=utf-8
+  - application/zip
+  modified:
+  - '2019-06-29T11:00:50'
+- about: https://www.gutenberg.org/ebooks/59794.epub3.images
+  extents:
+  - 3279594
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T14:45:44.935061'
+- about: https://www.gutenberg.org/ebooks/59794.epub.images
+  extents:
+  - 3287975
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T14:45:23.447181'
+- about: https://www.gutenberg.org/ebooks/59794.epub.noimages
+  extents:
+  - 638081
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T14:45:20.816218'
+- about: https://www.gutenberg.org/ebooks/59794.kf8.images
+  extents:
+  - 3651232
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T14:45:59.318002'
+- about: https://www.gutenberg.org/ebooks/59794.kindle.images
+  extents:
+  - 3561130
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T14:45:42.021130'
+- about: https://www.gutenberg.org/ebooks/59794.kindle.noimages
+  extents:
+  - 920373
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-27T03:06:37.743658'
+- about: https://www.gutenberg.org/ebooks/59794.txt.utf-8
+  extents:
+  - 1317351
+  - 1317159
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-24T14:45:14.064779'
+  - '2023-09-25T13:04:04.038243'
+- about: https://www.gutenberg.org/files/59794/59794-0.txt
+  extents:
+  - 1317643
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2019-06-29T10:54:50'
+- about: https://www.gutenberg.org/files/59794/59794-0.zip
+  extents:
+  - 468299
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2019-06-29T11:00:48'
+- about: https://www.gutenberg.org/ebooks/59794.rdf
+  extents:
+  - 18882
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-24T14:45:59.513991'
+- about: https://www.gutenberg.org/cache/epub/59794/pg59794.cover.medium.jpg
+  extents:
+  - 8263
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T14:45:21.057191'
+- about: https://www.gutenberg.org/cache/epub/59794/pg59794.cover.small.jpg
+  extents:
+  - 1815
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T14:45:20.939233'
+- about: https://www.gutenberg.org/cache/epub/59794/pg59794-h.zip
+  extents:
+  - 3131767
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-24T14:45:18.575767'
+issued: '2019-06-23'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- World War, 1914-1918
+- World War, 1914-1918 -- Great Britain
+- D501
+title: The World Crisis, Volume 1 (of 6)
+types:
+- Text

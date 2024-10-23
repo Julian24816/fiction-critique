@@ -1,0 +1,183 @@
+bookshelves:
+- Best Books Ever Listings
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases: []
+  birthdate: 1775
+  deathdate: 1817
+  name: Austen, Jane
+  webpage: https://en.wikipedia.org/wiki/Jane_Austen
+description: '"Pride and Prejudice" by Jane Austen is a novel written in the early
+  19th century. The story is a sharp and humorous exploration of society, marriage,
+  and the complexities of human relationships, primarily focusing on the lives of
+  the Bennet family, especially the intelligent and spirited Elizabeth Bennet. The
+  novel intricately depicts the themes of love, class, and the challenge of overcoming
+  prejudice in the pursuit of true happiness.  The opening of the novel introduces
+  Mrs. Bennet, who is anxious to marry off her five daughters and is particularly
+  focused on a wealthy newcomer, Mr. Bingley, who has rented Netherfield Park. Mrs.
+  Bennet''s husband, Mr. Bennet, is less enthusiastic about visiting Bingley, engaging
+  in playful banter that highlights their contrasting characters. As the news about
+  Mr. Bingley spreads in the local community, it becomes clear he is a single man
+  possessing great wealth, which renders him an object of interest for local families.
+  The interactions between the Bennet family, especially Elizabeth and her parents,
+  set the tone for the blend of humor and social commentary that characterizes the
+  rest of the novel. Through witty dialogue and keen observations, Austen lays the
+  groundwork for the rich exploration of class and courtship that follows. (This is
+  an automatically generated summary.)'
+downloads: 2222
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/42671.html.images
+  extents:
+  - 747149
+  - 746917
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-18T04:29:31.167127'
+  - '2023-09-18T12:54:15.786089'
+- about: https://www.gutenberg.org/files/42671/42671-h/42671-h.htm
+  extents:
+  - 750506
+  formats:
+  - text/html
+  modified:
+  - '2013-05-08T23:21:08'
+- about: https://www.gutenberg.org/files/42671/42671-h.zip
+  extents:
+  - 9232592
+  formats:
+  - text/html
+  - application/zip
+  modified:
+  - '2013-05-08T23:27:38'
+- about: https://www.gutenberg.org/ebooks/42671.epub3.images
+  extents:
+  - 4731982
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T04:29:43.357069'
+- about: https://www.gutenberg.org/ebooks/42671.epub.images
+  extents:
+  - 4742883
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T04:29:34.050177'
+- about: https://www.gutenberg.org/ebooks/42671.epub.noimages
+  extents:
+  - 336212
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T04:29:32.056131'
+- about: https://www.gutenberg.org/ebooks/42671.kf8.images
+  extents:
+  - 3034935
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-18T04:29:50.386064'
+- about: https://www.gutenberg.org/ebooks/42671.kindle.images
+  extents:
+  - 2982430
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-18T04:29:41.489085'
+- about: https://www.gutenberg.org/ebooks/42671.kindle.noimages
+  extents:
+  - 567814
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-19T13:24:38.495882'
+- about: https://www.gutenberg.org/ebooks/42671.txt.utf-8
+  extents:
+  - 725472
+  - 725277
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-18T04:29:29.668151'
+  - '2023-09-18T12:54:14.331124'
+- about: https://www.gutenberg.org/files/42671/42671-8.txt
+  extents:
+  - 725083
+  formats:
+  - text/plain; charset=iso-8859-1
+  modified:
+  - '2013-05-08T23:13:55'
+- about: https://www.gutenberg.org/files/42671/42671-8.zip
+  extents:
+  - 262285
+  formats:
+  - text/plain; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2013-05-08T23:13:55'
+- about: https://www.gutenberg.org/files/42671/42671.txt
+  extents:
+  - 725090
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2013-05-08T23:13:55'
+- about: https://www.gutenberg.org/files/42671/42671.zip
+  extents:
+  - 262269
+  formats:
+  - text/plain; charset=us-ascii
+  - application/zip
+  modified:
+  - '2013-05-08T23:13:56'
+- about: https://www.gutenberg.org/ebooks/42671.rdf
+  extents:
+  - 22981
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-18T04:29:50.543057'
+- about: https://www.gutenberg.org/cache/epub/42671/pg42671.cover.medium.jpg
+  extents:
+  - 11673
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-18T04:29:32.443136'
+- about: https://www.gutenberg.org/cache/epub/42671/pg42671.cover.small.jpg
+  extents:
+  - 2919
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-18T04:29:32.246148'
+- about: https://www.gutenberg.org/cache/epub/42671/pg42671-h.zip
+  extents:
+  - 9431949
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-18T04:29:31.325153'
+issued: '2013-05-09'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- England -- Fiction
+- Young women -- Fiction
+- Love stories
+- Sisters -- Fiction
+- Domestic fiction
+- Courtship -- Fiction
+- Social classes -- Fiction
+- PR
+title: Pride and Prejudice
+types:
+- Text

@@ -1,0 +1,154 @@
+bookshelves:
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Humour'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Wodehouse, Pelham Grenville
+  - Windham, Basil
+  - Wodehouse, P.G.
+  birthdate: 1881
+  deathdate: 1975
+  name: Wodehouse, P. G. (Pelham Grenville)
+  webpage: https://en.wikipedia.org/wiki/P._G._Wodehouse
+description: ''
+downloads: 733
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/59254.html.images
+  extents:
+  - 442354
+  - 442388
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-24T12:14:42.189607'
+  - '2023-09-25T10:51:04.581578'
+- about: https://www.gutenberg.org/files/59254/59254-h/59254-h.htm
+  extents:
+  - 479847
+  formats:
+  - text/html
+  modified:
+  - '2021-06-03T13:14:33'
+- about: https://www.gutenberg.org/files/59254/59254-h.zip
+  extents:
+  - 373977
+  formats:
+  - text/html
+  - application/zip
+  modified:
+  - '2021-06-03T13:15:21'
+- about: https://www.gutenberg.org/ebooks/59254.epub3.images
+  extents:
+  - 425298
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T12:14:49.752588'
+- about: https://www.gutenberg.org/ebooks/59254.epub.images
+  extents:
+  - 425298
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T12:14:43.640591'
+- about: https://www.gutenberg.org/ebooks/59254.epub.noimages
+  extents:
+  - 256459
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T12:14:42.543613'
+- about: https://www.gutenberg.org/ebooks/59254.kf8.images
+  extents:
+  - 555828
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T12:14:54.405555'
+- about: https://www.gutenberg.org/ebooks/59254.kindle.images
+  extents:
+  - 534705
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T12:14:49.398591'
+- about: https://www.gutenberg.org/ebooks/59254.kindle.noimages
+  extents:
+  - 366853
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-26T21:59:17.978696'
+- about: https://www.gutenberg.org/ebooks/59254.txt.utf-8
+  extents:
+  - 417679
+  - 417624
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-24T12:14:41.200603'
+  - '2023-09-25T10:51:03.636060'
+- about: https://www.gutenberg.org/files/59254/59254-0.txt
+  extents:
+  - 417453
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2021-06-03T13:12:42'
+- about: https://www.gutenberg.org/files/59254/59254-0.zip
+  extents:
+  - 154338
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-06-03T13:14:58'
+- about: https://www.gutenberg.org/ebooks/59254.rdf
+  extents:
+  - 19999
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-24T12:14:54.555550'
+- about: https://www.gutenberg.org/cache/epub/59254/pg59254.cover.medium.jpg
+  extents:
+  - 18505
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T12:14:43.350618'
+- about: https://www.gutenberg.org/cache/epub/59254/pg59254.cover.small.jpg
+  extents:
+  - 3187
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T12:14:43.290604'
+- about: https://www.gutenberg.org/cache/epub/59254/pg59254-h.zip
+  extents:
+  - 373355
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-24T12:14:42.236592'
+issued: '2019-04-11'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Humorous stories
+- Wooster, Bertie (Fictitious character) -- Fiction
+- Jeeves (Fictitious character) -- Fiction
+- Single men -- Fiction
+- Valets -- Fiction
+- England -- Social life and customs -- Fiction
+- Upper class -- England -- Fiction
+- PR
+title: The Inimitable Jeeves
+types:
+- Text

@@ -1,0 +1,165 @@
+bookshelves:
+- Science Fiction
+- Best Books Ever Listings
+- 'Browsing: Literature'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases: []
+  birthdate: 1875
+  deathdate: 1950
+  name: Burroughs, Edgar Rice
+  webpage: https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs
+description: '"A Princess of Mars" by Edgar Rice Burroughs is a science fiction novel
+  written in the early 20th century. The story is set on Mars, known as Barsoom, where
+  the protagonist, John Carter, an Earthman, finds himself after a mysterious series
+  of events. He navigates the hostile Martian landscape, encounters strange creatures,
+  and becomes embroiled in the conflicts of various Martian tribes, all while striving
+  to protect the beautiful Martian princess, Dejah Thoris.  The opening of the book
+  introduces John Carter as an enigmatic character who claims to have experienced
+  death and resurrection. Reflecting on his past, he recounts his life as a Confederate
+  soldier in America and his subsequent adventure in Mars'' stunning and treacherous
+  wilderness. As he begins his journey, he faces threats from Apaches and realizes
+  he has been transported to another world, where his physical prowess is enhanced.
+  The narrative sets the stage for action, adventure, and deeper exploration of Martian
+  culture, putting John Carter at the center of a struggle that could change the fate
+  of Barsoom, particularly in his quest to save Dejah Thoris from peril. (This is
+  an automatically generated summary.)'
+downloads: 1308
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/62.html.images
+  extents:
+  - 421086
+  - 421321
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T03:49:39.304660'
+  - '2023-10-01T03:47:33.819823'
+- about: https://www.gutenberg.org/files/62/62-h/62-h.htm
+  extents:
+  - 426002
+  formats:
+  - text/html
+  modified:
+  - '2022-05-14T02:21:57'
+- about: https://www.gutenberg.org/ebooks/62.epub3.images
+  extents:
+  - 1358596
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:49:45.078631'
+- about: https://www.gutenberg.org/ebooks/62.epub.images
+  extents:
+  - 1359444
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:49:40.048715'
+- about: https://www.gutenberg.org/ebooks/62.epub.noimages
+  extents:
+  - 252718
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:49:39.662672'
+- about: https://www.gutenberg.org/ebooks/62.kf8.images
+  extents:
+  - 1461508
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:49:49.117611'
+- about: https://www.gutenberg.org/ebooks/62.kindle.images
+  extents:
+  - 1431697
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:49:44.721649'
+- about: https://www.gutenberg.org/ebooks/62.kindle.noimages
+  extents:
+  - 325737
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T03:56:18.266999'
+- about: https://www.gutenberg.org/ebooks/62.txt.utf-8
+  extents:
+  - 399866
+  - 399894
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T03:49:38.775665'
+  - '2023-10-01T03:47:33.330851'
+- about: https://www.gutenberg.org/files/62/62-0.txt
+  extents:
+  - 399678
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-05-14T02:26:44'
+- about: https://www.gutenberg.org/ebooks/62.rdf
+  extents:
+  - 19541
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T03:49:49.253616'
+- about: https://www.gutenberg.org/cache/epub/62/pg62.cover.medium.jpg
+  extents:
+  - 26294
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:49:39.766688'
+- about: https://www.gutenberg.org/cache/epub/62/pg62.cover.small.jpg
+  extents:
+  - 4201
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:49:39.715663'
+- about: https://www.gutenberg.org/files/62/62-0.zip
+  extents:
+  - 148892
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-05-14T02:27:13'
+- about: https://www.gutenberg.org/files/62/62-h.zip
+  extents:
+  - 1429899
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-05-14T02:27:32'
+- about: https://www.gutenberg.org/cache/epub/62/pg62-h.zip
+  extents:
+  - 1432672
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T03:49:39.364661'
+issued: '1993-04-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Science fiction
+- Mars (Planet) -- Fiction
+- Princesses -- Fiction
+- Carter, John (Fictitious character) -- Fiction
+- Dejah Thoris (Fictitious character) -- Fiction
+- PS
+title: A Princess of Mars
+types:
+- Text

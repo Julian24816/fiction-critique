@@ -1,0 +1,164 @@
+bookshelves:
+- Best Books Ever Listings
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Poetry'
+creator:
+  aliases:
+  - Ovidius Naso, Publius
+  - Nasón, Publio Ovidio
+  - Nason, Publio Ovidio
+  birthdate: -43
+  deathdate: 17
+  name: Ovid
+  webpage: https://en.wikipedia.org/wiki/Ovid
+description: '"The Metamorphoses of Ovid, Books I-VII" by Ovid is a classical epic
+  poem written in the early 1st century AD. This work is a seminal collection of mythological
+  tales from ancient Greece and Rome, exploring themes of transformation and the divine
+  interplay between gods and humans. Through the lens of these myths, the narrative
+  delves into the creation of the world, the origin of humankind, and the consequences
+  of divine retribution against human behavior.  At the start of the text, the focus
+  is on the creation narrative where Chaos is ordered by the deity, giving rise to
+  the four elements: earth, air, fire, and water, eventually leading to the creation
+  of man. Ovid introduces the Golden Age, followed by the subsequent ages of Silver,
+  Bronze, and Iron, illustrating humanity''s gradual moral decline. The text then
+  recounts the defiance of the Giants, who aspire to overthrow the gods, leading to
+  their punishment and the decision to flood the earth. Among the survivors are Deucalion
+  and Pyrrha, who are ultimately commanded to repopulate the earth after the flood
+  by casting stones, which transform into humans, symbolizing renewal and resilience.
+  (This is an automatically generated summary.)'
+downloads: 6740
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/21765.html.images
+  extents:
+  - 942923
+  - 942831
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-09T11:03:05.596999'
+  - '2023-09-10T04:05:17.174708'
+- about: https://www.gutenberg.org/files/21765/21765-h/21765-h.htm
+  extents:
+  - 951289
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2021-06-28T05:41:46'
+- about: https://www.gutenberg.org/files/21765/21765-h.zip
+  extents:
+  - 352609
+  formats:
+  - text/html; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-06-28T05:42:40'
+- about: https://www.gutenberg.org/ebooks/21765.epub3.images
+  extents:
+  - 377933
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T11:03:20.346946'
+- about: https://www.gutenberg.org/ebooks/21765.epub.images
+  extents:
+  - 387335
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T11:03:08.039989'
+- about: https://www.gutenberg.org/ebooks/21765.epub.noimages
+  extents:
+  - 378575
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T11:03:06.811003'
+- about: https://www.gutenberg.org/ebooks/21765.kf8.images
+  extents:
+  - 685301
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-09T11:03:28.633897'
+- about: https://www.gutenberg.org/ebooks/21765.kindle.images
+  extents:
+  - 583436
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-09T11:03:18.788933'
+- about: https://www.gutenberg.org/ebooks/21765.kindle.noimages
+  extents:
+  - 557250
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-10T09:08:10.180327'
+- about: https://www.gutenberg.org/ebooks/21765.txt.utf-8
+  extents:
+  - 780013
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-09-09T11:03:03.307070'
+- about: https://www.gutenberg.org/files/21765/21765-0.txt
+  extents:
+  - 779875
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2021-06-28T04:12:14'
+- about: https://www.gutenberg.org/files/21765/21765-0.zip
+  extents:
+  - 301408
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-06-28T05:42:17'
+- about: https://www.gutenberg.org/ebooks/21765.rdf
+  extents:
+  - 20106
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-09T11:03:28.800878'
+- about: https://www.gutenberg.org/cache/epub/21765/pg21765.cover.medium.jpg
+  extents:
+  - 8891
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-09T11:03:06.983990'
+- about: https://www.gutenberg.org/cache/epub/21765/pg21765.cover.small.jpg
+  extents:
+  - 1998
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-09T11:03:06.898017'
+- about: https://www.gutenberg.org/cache/epub/21765/pg21765-h.zip
+  extents:
+  - 347501
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-09T11:03:05.680997'
+issued: '2007-06-08'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Classical literature
+- Latin poetry -- Translations into English
+- Fables, Latin -- Translations into English
+- Metamorphosis -- Mythology -- Poetry
+- Mythology, Classical -- Poetry
+- PA
+title: The Metamorphoses of Ovid, Books I-VII
+types:
+- Text

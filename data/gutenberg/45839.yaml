@@ -1,0 +1,195 @@
+bookshelves:
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Stoker, Abraham
+  birthdate: 1847
+  deathdate: 1912
+  name: Stoker, Bram
+  webpage: https://en.wikipedia.org/wiki/Bram_Stoker
+description: '"Dracula" by Bram Stoker is a Gothic novel written in the late 19th
+  century. The story follows Jonathan Harker, a solicitor’s clerk, who travels to
+  Transylvania to assist Count Dracula with a real estate transaction in England.
+  The narrative delves into themes of fear, the unknown, and the supernatural, exploring
+  Harker''s unsettling experiences as he finds himself trapped in Dracula''s mysterious
+  castle.  At the start of the novel, the opening chapter presents Jonathan Harker''s
+  journal entries during his journey to Dracula''s castle. He describes his travels
+  through Eastern Europe, from Munich to Bistritz, where he encounters superstitions
+  and apprehension from the locals about his destination. Upon reaching the castle,
+  Harker experiences an odd hospitality from Count Dracula, marked by a growing sense
+  of dread as he realizes he is a prisoner. He witnesses strange behaviors from Dracula
+  and finds himself haunted by nightmarish visions, foreshadowing the terror he will
+  face in the ensuing chapters. The beginning establishes an eerie atmosphere that
+  sets the stage for Harker''s harrowing encounters with the enigmatic Count. (This
+  is an automatically generated summary.)'
+downloads: 1017
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/45839.html.images
+  extents:
+  - 965189
+  - 965198
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-19T08:22:30.822174'
+  - '2023-09-20T04:46:38.108937'
+- about: https://www.gutenberg.org/files/45839/45839-h/45839-h.htm
+  extents:
+  - 997401
+  formats:
+  - text/html
+  modified:
+  - '2022-07-09T14:27:46'
+- about: https://www.gutenberg.org/ebooks/45839.epub3.images
+  extents:
+  - 462328
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-19T08:22:41.756105'
+- about: https://www.gutenberg.org/ebooks/45839.epub.images
+  extents:
+  - 475103
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-19T08:22:32.433157'
+- about: https://www.gutenberg.org/ebooks/45839.epub.noimages
+  extents:
+  - 430983
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-19T08:22:31.633145'
+- about: https://www.gutenberg.org/ebooks/45839.kf8.images
+  extents:
+  - 730300
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-19T08:22:49.361079'
+- about: https://www.gutenberg.org/ebooks/45839.kindle.images
+  extents:
+  - 650007
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-19T08:22:40.857097'
+- about: https://www.gutenberg.org/ebooks/45839.kindle.noimages
+  extents:
+  - 606028
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-20T20:42:45.930966'
+- about: https://www.gutenberg.org/ebooks/45839.txt.utf-8
+  extents:
+  - 887085
+  - 886961
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-19T08:22:28.878166'
+  - '2023-09-20T04:46:36.368895'
+- about: https://www.gutenberg.org/files/45839/45839-0.txt
+  extents:
+  - 886875
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-07-09T14:26:32'
+- about: https://www.gutenberg.org/files/45839/45839-8.txt
+  extents:
+  - 877527
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2014-05-30T14:53:28'
+- about: https://www.gutenberg.org/files/45839/45839.txt
+  extents:
+  - 877526
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2014-05-30T14:53:30'
+- about: https://www.gutenberg.org/ebooks/45839.rdf
+  extents:
+  - 23244
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-19T08:22:49.502043'
+- about: https://www.gutenberg.org/cache/epub/45839/pg45839.cover.medium.jpg
+  extents:
+  - 10460
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-19T08:22:31.745152'
+- about: https://www.gutenberg.org/cache/epub/45839/pg45839.cover.small.jpg
+  extents:
+  - 2557
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-19T08:22:31.689139'
+- about: https://www.gutenberg.org/files/45839/45839-0.zip
+  extents:
+  - 336608
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-07-09T14:28:30'
+- about: https://www.gutenberg.org/files/45839/45839-8.zip
+  extents:
+  - 335394
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2014-05-30T14:54:00'
+- about: https://www.gutenberg.org/files/45839/45839-h.zip
+  extents:
+  - 427551
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-07-09T14:28:30'
+- about: https://www.gutenberg.org/files/45839/45839.zip
+  extents:
+  - 335319
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2014-05-30T14:54:00'
+- about: https://www.gutenberg.org/cache/epub/45839/pg45839-h.zip
+  extents:
+  - 440270
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-19T08:22:30.908165'
+issued: '2014-05-30'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Horror tales
+- Epistolary fiction
+- Gothic fiction
+- Vampires -- Fiction
+- Dracula, Count (Fictitious character) -- Fiction
+- Transylvania (Romania) -- Fiction
+- Whitby (England) -- Fiction
+- PR
+title: Dracula
+types:
+- Text

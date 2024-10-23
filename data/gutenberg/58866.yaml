@@ -1,0 +1,149 @@
+bookshelves:
+- Detective Fiction
+- 'Browsing: Crime/Mystery'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Christie, Agatha Mary Clarissa Miller
+  birthdate: 1890
+  deathdate: 1976
+  name: Christie, Agatha
+  webpage: https://en.wikipedia.org/wiki/Agatha_Christie
+description: ''
+downloads: 1612
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/58866.html.images
+  extents:
+  - 439806
+  - 440025
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-24T10:27:55.500279'
+  - '2023-09-25T09:17:26.777198'
+- about: https://www.gutenberg.org/files/58866/58866-h/58866-h.htm
+  extents:
+  - 468146
+  formats:
+  - text/html
+  modified:
+  - '2022-11-30T18:44:06'
+- about: https://www.gutenberg.org/ebooks/58866.epub3.images
+  extents:
+  - 346139
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T10:28:02.322229'
+- about: https://www.gutenberg.org/ebooks/58866.epub.images
+  extents:
+  - 346879
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T10:27:56.276258'
+- about: https://www.gutenberg.org/ebooks/58866.epub.noimages
+  extents:
+  - 253371
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T10:27:55.853231'
+- about: https://www.gutenberg.org/ebooks/58866.kf8.images
+  extents:
+  - 467264
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T10:28:06.927221'
+- about: https://www.gutenberg.org/ebooks/58866.kindle.images
+  extents:
+  - 438434
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T10:28:01.935197'
+- about: https://www.gutenberg.org/ebooks/58866.kindle.noimages
+  extents:
+  - 346213
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-26T18:12:07.366611'
+- about: https://www.gutenberg.org/ebooks/58866.txt.utf-8
+  extents:
+  - 404364
+  - 404392
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-24T10:27:54.531219'
+  - '2023-09-25T09:17:25.846168'
+- about: https://www.gutenberg.org/files/58866/58866-0.txt
+  extents:
+  - 404138
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-11-30T03:34:12'
+- about: https://www.gutenberg.org/ebooks/58866.rdf
+  extents:
+  - 18995
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-24T10:28:07.075179'
+- about: https://www.gutenberg.org/cache/epub/58866/pg58866.cover.medium.jpg
+  extents:
+  - 15185
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T10:27:55.957235'
+- about: https://www.gutenberg.org/cache/epub/58866/pg58866.cover.small.jpg
+  extents:
+  - 3066
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T10:27:55.904227'
+- about: https://www.gutenberg.org/files/58866/58866-0.zip
+  extents:
+  - 153625
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-11-30T03:34:18'
+- about: https://www.gutenberg.org/files/58866/58866-h.zip
+  extents:
+  - 296747
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-11-30T18:44:48'
+- about: https://www.gutenberg.org/cache/epub/58866/pg58866-h.zip
+  extents:
+  - 292273
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-24T10:27:55.541219'
+issued: '2019-02-11'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Private investigators -- England -- Fiction
+- Detective and mystery stories
+- Poirot, Hercule (Fictitious character) -- Fiction
+- PR
+title: The Murder on the Links
+types:
+- Text

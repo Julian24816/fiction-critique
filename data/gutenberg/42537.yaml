@@ -1,0 +1,173 @@
+bookshelves:
+- 'Browsing: Nature/Gardening/Animals'
+- 'Browsing: Science - General'
+creator:
+  aliases: []
+  birthdate: 1916
+  deathdate: 2007
+  name: Baker, Rollin H. (Rollin Harold)
+  webpage: ''
+description: '"The Avifauna of Micronesia, Its Origin, Evolution, and Distribution"
+  by Rollin H. Baker is a scientific publication written in the mid-20th century.
+  This work delves into the diverse bird species of Micronesia, analyzing their origins,
+  evolutionary history, and geographical distribution. It serves as a crucial resource
+  for ornithologists and ecologists interested in understanding the unique avian life
+  of these remote islands.  At the start of the book, the author introduces the avifauna
+  of Micronesia, noting that the region is home to 206 bird species across 37 families
+  and 91 genera. The opening chapters discuss the geographical characteristics of
+  Micronesia, highlighting its oceanic islands that have formed independently of continental
+  land masses. The text emphasizes the significance of understanding the mechanisms
+  by which bird species arrived in Micronesia, their ecological adaptations, and ongoing
+  threats to their survival, setting the groundwork for a comprehensive examination
+  of the islands'' bird life throughout the publication. (This is an automatically
+  generated summary.)'
+downloads: 88
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/42537.html.images
+  extents:
+  - 1912026
+  - 1912032
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-18T03:42:29.920420'
+  - '2023-09-18T12:11:56.086139'
+- about: https://www.gutenberg.org/files/42537/42537-h/42537-h.htm
+  extents:
+  - 1918892
+  formats:
+  - text/html; charset=us-ascii
+  modified:
+  - '2013-04-14T14:31:46'
+- about: https://www.gutenberg.org/files/42537/42537-h.zip
+  extents:
+  - 1005633
+  formats:
+  - text/html; charset=us-ascii
+  - application/zip
+  modified:
+  - '2013-04-14T14:33:14'
+- about: https://www.gutenberg.org/ebooks/42537.epub3.images
+  extents:
+  - 1164433
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T03:43:06.051221'
+- about: https://www.gutenberg.org/ebooks/42537.epub.images
+  extents:
+  - 1190598
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T03:42:37.012388'
+- about: https://www.gutenberg.org/ebooks/42537.epub.noimages
+  extents:
+  - 498141
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T03:42:33.715390'
+- about: https://www.gutenberg.org/ebooks/42537.kf8.images
+  extents:
+  - 1866810
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-18T03:43:23.361184'
+- about: https://www.gutenberg.org/ebooks/42537.kindle.images
+  extents:
+  - 1761352
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-18T03:43:02.004254'
+- about: https://www.gutenberg.org/ebooks/42537.kindle.noimages
+  extents:
+  - 877501
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-19T12:21:52.565818'
+- about: https://www.gutenberg.org/ebooks/42537.txt.utf-8
+  extents:
+  - 1160117
+  - 1159953
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-18T03:42:22.729446'
+  - '2023-09-18T12:11:48.721082'
+- about: https://www.gutenberg.org/files/42537/42537-8.txt
+  extents:
+  - 1158544
+  formats:
+  - text/plain; charset=iso-8859-1
+  modified:
+  - '2013-04-14T14:31:46'
+- about: https://www.gutenberg.org/files/42537/42537-8.zip
+  extents:
+  - 333863
+  formats:
+  - text/plain; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2013-04-14T14:33:14'
+- about: https://www.gutenberg.org/files/42537/42537.txt
+  extents:
+  - 1158724
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2013-04-14T14:33:02'
+- about: https://www.gutenberg.org/files/42537/42537.zip
+  extents:
+  - 333459
+  formats:
+  - text/plain; charset=us-ascii
+  - application/zip
+  modified:
+  - '2013-04-14T14:33:14'
+- about: https://www.gutenberg.org/ebooks/42537.rdf
+  extents:
+  - 20060
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-18T03:43:23.564128'
+- about: https://www.gutenberg.org/cache/epub/42537/pg42537.cover.medium.jpg
+  extents:
+  - 25120
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-18T03:42:34.347366'
+- about: https://www.gutenberg.org/cache/epub/42537/pg42537.cover.small.jpg
+  extents:
+  - 4552
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-18T03:42:34.032387'
+- about: https://www.gutenberg.org/cache/epub/42537/pg42537-h.zip
+  extents:
+  - 1112305
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-18T03:42:30.043390'
+issued: '2013-04-14'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Birds -- Micronesia
+- Birds -- Pacific Islands (Trust Territory)
+- QH
+title: The Avifauna of Micronesia, Its Origin, Evolution, and Distribution
+types:
+- Text

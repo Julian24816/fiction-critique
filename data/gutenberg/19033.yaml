@@ -1,0 +1,182 @@
+bookshelves:
+- Children's Literature
+- 'Browsing: Children & Young Adult Reading'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Dodgson, Charles Lutwidge
+  birthdate: 1832
+  deathdate: 1898
+  name: Carroll, Lewis
+  webpage: https://en.wikipedia.org/wiki/Lewis_Carroll
+description: '"Alice''s Adventures in Wonderland" by Lewis Carroll is a classic novel
+  written during the Victorian era. This fantastical tale follows a young girl named
+  Alice who embarks on an extraordinary journey through a whimsical world full of
+  peculiar characters and absurd situations. The book explores themes of identity,
+  curiosity, and the fluidity of reality, making it a timeless piece that continues
+  to captivate readers of all ages.  The story begins when Alice, bored and sleepy
+  while sitting by her sister, follows a hurried White Rabbit into a magical rabbit
+  hole, leading her into Wonderland. Throughout her adventures, she encounters a series
+  of odd characters, including the cynical Caterpillar, the grinning Cheshire Cat,
+  and the nonsensical Mad Hatter at a chaotic tea party. As Alice navigates through
+  various challenges and whimsical situations, her size constantly changes due to
+  magical foods and drinks, reflecting her feelings of confusion and identity. Ultimately,
+  her travels culminate in a ridiculous trial over a stolen tart, where Alice asserts
+  herself against the nonsensical authority of the Queen of Hearts. The whimsical
+  nature of this narrative invites readers to embrace imagination and explore the
+  complexities of growing up and self-discovery. (This is an automatically generated
+  summary.)'
+downloads: 2577
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/19033.html.images
+  extents:
+  - 96877
+  - 96890
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-08T10:16:14.527372'
+  - '2023-09-08T12:04:04.968841'
+- about: https://www.gutenberg.org/files/19033/19033-h/19033-h.htm
+  extents:
+  - 93085
+  formats:
+  - text/html; charset=iso-8859-1
+  modified:
+  - '2019-08-07T14:35:42'
+- about: https://www.gutenberg.org/files/19033/19033-h.zip
+  extents:
+  - 1765142
+  formats:
+  - text/html; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2019-08-07T14:36:08'
+- about: https://www.gutenberg.org/ebooks/19033.epub3.images
+  extents:
+  - 1915214
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-08T10:16:19.720356'
+- about: https://www.gutenberg.org/ebooks/19033.epub.images
+  extents:
+  - 1902942
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-08T10:16:15.658367'
+- about: https://www.gutenberg.org/ebooks/19033.epub.noimages
+  extents:
+  - 76040
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-08T10:16:15.100336'
+- about: https://www.gutenberg.org/ebooks/19033.kf8.images
+  extents:
+  - 1939360
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-08T10:16:23.016330'
+- about: https://www.gutenberg.org/ebooks/19033.kindle.images
+  extents:
+  - 1915057
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-08T10:16:18.517362'
+- about: https://www.gutenberg.org/ebooks/19033.kindle.noimages
+  extents:
+  - 113724
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-09T07:14:58.213615'
+- about: https://www.gutenberg.org/ebooks/19033.txt.utf-8
+  extents:
+  - 74930
+  - 74830
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-08T10:16:14.040346'
+  - '2023-09-08T12:04:04.590849'
+- about: https://www.gutenberg.org/files/19033/19033-8.txt
+  extents:
+  - 74735
+  formats:
+  - text/plain; charset=iso-8859-1
+  modified:
+  - '2006-08-12T03:42:30'
+- about: https://www.gutenberg.org/files/19033/19033-8.zip
+  extents:
+  - 27958
+  formats:
+  - text/plain; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2006-08-12T03:42:32'
+- about: https://www.gutenberg.org/files/19033/19033.txt
+  extents:
+  - 74726
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2006-08-12T03:42:30'
+- about: https://www.gutenberg.org/files/19033/19033.zip
+  extents:
+  - 27941
+  formats:
+  - text/plain; charset=us-ascii
+  - application/zip
+  modified:
+  - '2006-08-12T03:42:32'
+- about: https://www.gutenberg.org/ebooks/19033.rdf
+  extents:
+  - 22245
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-08T10:16:23.196296'
+- about: https://www.gutenberg.org/cache/epub/19033/pg19033.cover.medium.jpg
+  extents:
+  - 20577
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-08T10:16:15.179338'
+- about: https://www.gutenberg.org/cache/epub/19033/pg19033.cover.small.jpg
+  extents:
+  - 3488
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-08T10:16:15.139346'
+- about: https://www.gutenberg.org/cache/epub/19033/pg19033-h.zip
+  extents:
+  - 1802033
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-08T10:16:14.659344'
+issued: '2006-08-12'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Fantasy fiction
+- Children's stories
+- Imaginary places -- Juvenile fiction
+- Alice (Fictitious character from Carroll) -- Juvenile fiction
+- PR
+- PZ
+title: Alice's Adventures in Wonderland
+types:
+- Text

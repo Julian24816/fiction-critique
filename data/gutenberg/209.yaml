@@ -1,0 +1,150 @@
+bookshelves:
+- Best Books Ever Listings
+- Gothic Fiction
+- Horror
+- Opera
+- 'Browsing: Literature'
+- 'Browsing: Psychiatry/Psychology'
+- 'Browsing: Fiction'
+creator:
+  aliases: []
+  birthdate: 1843
+  deathdate: 1916
+  name: James, Henry
+  webpage: https://en.wikipedia.org/wiki/Henry_James
+description: '"The Turn of the Screw" by Henry James is a gothic novella written during
+  the late 19th century. The story revolves around a young governess tasked with looking
+  after two orphaned children at a remote English estate known as Bly, where strange
+  and unsettling occurrences unfold, raising questions about both the environment
+  and the children themselves.  At the start of the novella, a group of friends gathers
+  around a fire on Christmas Eve, where a conversation ignites about ghostly experiences.
+  Douglas, one of the members, hints at a chilling tale involving two children to
+  whom a dreadful apparition appeared. This sets the stage for the recounting of the
+  governess''s experiences at Bly. As she arrives at the estate, she finds herself
+  enchanted by the beauty of the children, Miles and Flora, yet underlying this charm
+  is an unsettling tension hinted at through dialogue, especially about the previous
+  governess who died under mysterious circumstances. The opening sequence effectively
+  builds an atmosphere of suspense, promising a haunting exploration of innocence,
+  corrupted motives, and the supernatural. (This is an automatically generated summary.)'
+downloads: 4165
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/209.html.images
+  extents:
+  - 276478
+  - 276699
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T04:44:57.523128'
+  - '2023-10-01T04:36:44.546804'
+- about: https://www.gutenberg.org/files/209/209-h/209-h.htm
+  extents:
+  - 266680
+  formats:
+  - text/html
+  modified:
+  - '2024-08-16T09:28:16'
+- about: https://www.gutenberg.org/ebooks/209.epub3.images
+  extents:
+  - 173332
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T04:45:03.007092'
+- about: https://www.gutenberg.org/ebooks/209.epub.images
+  extents:
+  - 174118
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T04:44:58.785176'
+- about: https://www.gutenberg.org/ebooks/209.epub.noimages
+  extents:
+  - 174118
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T04:44:57.999127'
+- about: https://www.gutenberg.org/ebooks/209.kf8.images
+  extents:
+  - 290614
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T04:45:06.244099'
+- about: https://www.gutenberg.org/ebooks/209.kindle.images
+  extents:
+  - 266895
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T04:45:02.466144'
+- about: https://www.gutenberg.org/ebooks/209.kindle.noimages
+  extents:
+  - 267693
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-17T15:00:23.457086'
+- about: https://www.gutenberg.org/ebooks/209.txt.utf-8
+  extents:
+  - 259244
+  - 259257
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T04:44:56.928154'
+  - '2023-10-01T04:36:44.088774'
+- about: https://www.gutenberg.org/files/209/209-0.txt
+  extents:
+  - 239527
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-08-16T09:28:16'
+- about: https://www.gutenberg.org/ebooks/209.rdf
+  extents:
+  - 17884
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T04:45:06.384091'
+- about: https://www.gutenberg.org/cache/epub/209/pg209.cover.medium.jpg
+  extents:
+  - 11659
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T04:44:58.346117'
+- about: https://www.gutenberg.org/cache/epub/209/pg209.cover.small.jpg
+  extents:
+  - 3169
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T04:44:58.170145'
+- about: https://www.gutenberg.org/cache/epub/209/pg209-h.zip
+  extents:
+  - 143080
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T04:44:57.548131'
+issued: '1995-02-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- England -- Fiction
+- Psychological fiction
+- Governesses -- Fiction
+- Ghost stories
+- Children -- Fiction
+- PS
+title: The Turn of the Screw
+types:
+- Text

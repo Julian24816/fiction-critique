@@ -1,0 +1,149 @@
+bookshelves:
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases: []
+  birthdate: 1899
+  deathdate: 1961
+  name: Hemingway, Ernest
+  webpage: https://en.wikipedia.org/wiki/Ernest_Hemingway
+description: ''
+downloads: 2598
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/67138.html.images
+  extents:
+  - 509119
+  - 509205
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-27T12:45:34.485507'
+  - '2023-09-28T12:21:10.292609'
+- about: https://www.gutenberg.org/files/67138/67138-h/67138-h.htm
+  extents:
+  - 515329
+  formats:
+  - text/html
+  modified:
+  - '2022-01-10T16:07:19'
+- about: https://www.gutenberg.org/ebooks/67138.epub3.images
+  extents:
+  - 330622
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T12:45:41.915494'
+- about: https://www.gutenberg.org/ebooks/67138.epub.images
+  extents:
+  - 338571
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T12:45:35.652485'
+- about: https://www.gutenberg.org/ebooks/67138.epub.noimages
+  extents:
+  - 219002
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T12:45:35.043485'
+- about: https://www.gutenberg.org/ebooks/67138.kf8.images
+  extents:
+  - 470080
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-27T12:45:46.602433'
+- about: https://www.gutenberg.org/ebooks/67138.kindle.images
+  extents:
+  - 439261
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-27T12:45:41.265452'
+- about: https://www.gutenberg.org/ebooks/67138.kindle.noimages
+  extents:
+  - 319892
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-30T07:32:37.453897'
+- about: https://www.gutenberg.org/ebooks/67138.txt.utf-8
+  extents:
+  - 413340
+  - 413368
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-27T12:45:32.321642'
+  - '2023-09-28T12:21:08.345599'
+- about: https://www.gutenberg.org/files/67138/67138-0.txt
+  extents:
+  - 413051
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-01-10T16:07:19'
+- about: https://www.gutenberg.org/ebooks/67138.rdf
+  extents:
+  - 19533
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-27T12:45:46.748424'
+- about: https://www.gutenberg.org/cache/epub/67138/pg67138.cover.medium.jpg
+  extents:
+  - 11019
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-27T12:45:35.165458'
+- about: https://www.gutenberg.org/cache/epub/67138/pg67138.cover.small.jpg
+  extents:
+  - 1935
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-27T12:45:35.105456'
+- about: https://www.gutenberg.org/files/67138/67138-0.zip
+  extents:
+  - 142107
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-01-10T16:07:21'
+- about: https://www.gutenberg.org/files/67138/67138-h.zip
+  extents:
+  - 315265
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-01-10T16:07:21'
+- about: https://www.gutenberg.org/cache/epub/67138/pg67138-h.zip
+  extents:
+  - 323082
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-27T12:45:34.525486'
+issued: '2022-01-10'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Americans -- France -- Fiction
+- Americans -- Spain -- Fiction
+- Ashley, Brett (Fictitious character) -- Fiction
+- Expatriation -- Fiction
+- Spain -- History -- Alfonso XIII, 1886-1931 -- Fiction
+- PS
+title: The Sun Also Rises
+types:
+- Text

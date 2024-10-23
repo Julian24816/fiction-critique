@@ -1,0 +1,153 @@
+bookshelves:
+- Gothic Fiction
+- 'Browsing: Gender & Sexuality Studies'
+- 'Browsing: Literature'
+- 'Browsing: Psychiatry/Psychology'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Stetson, Charlotte Perkins
+  - Perkins, Charlotte Anna
+  birthdate: 1860
+  deathdate: 1935
+  name: Gilman, Charlotte Perkins
+  webpage: https://en.wikipedia.org/wiki/Charlotte_Perkins_Gilman
+description: '"The Yellow Wallpaper" by Charlotte Perkins Gilman is a short story
+  written in the late 19th century, often associated with the feminist literature
+  genre. The narrative explores the themes of mental illness, gender roles, and the
+  constraints faced by women in a patriarchal society. It follows the mental deterioration
+  of a woman who is confined to a room by her husband, who is also her physician,
+  under the pretense of helping her recover from what he diagnoses as temporary nervous
+  depression.  The story is presented as a series of journal entries written by an
+  unnamed woman who is taken to a secluded mansion for rest cure. As she spends time
+  in the nursery, she becomes increasingly obsessed with the room''s yellow wallpaper,
+  which she finds repulsive yet fascinating. Over time, she perceives a figure of
+  a woman trapped within the wallpaper, reflecting her own feelings of oppression
+  and entrapment. As the protagonist''s isolation and desperation grow, she begins
+  to identify with the figure, leading to a dramatic climax where she asserts her
+  will by tearing down the wallpaper, ultimately rejecting the control her husband
+  has over her life. The story is a powerful commentary on the struggles against patriarchal
+  domination and the importance of self-identity and freedom. (This is an automatically
+  generated summary.)'
+downloads: 24056
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/1952.html.images
+  extents:
+  - 61071
+  - 61120
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T11:33:16.126374'
+  - '2023-10-01T10:28:09.823118'
+- about: https://www.gutenberg.org/files/1952/1952-h/1952-h.htm
+  extents:
+  - 38349
+  formats:
+  - text/html
+  modified:
+  - '2024-08-31T09:22:48'
+- about: https://www.gutenberg.org/ebooks/1952.epub3.images
+  extents:
+  - 228573
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T11:33:18.145370'
+- about: https://www.gutenberg.org/ebooks/1952.epub.images
+  extents:
+  - 227667
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T11:33:16.560359'
+- about: https://www.gutenberg.org/ebooks/1952.epub.noimages
+  extents:
+  - 87920
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T11:33:16.321347'
+- about: https://www.gutenberg.org/ebooks/1952.kf8.images
+  extents:
+  - 267617
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T11:33:19.540346'
+- about: https://www.gutenberg.org/ebooks/1952.kindle.images
+  extents:
+  - 261000
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T11:33:17.933368'
+- about: https://www.gutenberg.org/ebooks/1952.kindle.noimages
+  extents:
+  - 121373
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T13:02:10.554943'
+- about: https://www.gutenberg.org/ebooks/1952.txt.utf-8
+  extents:
+  - 52610
+  - 52588
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T11:33:15.977362'
+  - '2023-10-01T10:28:09.671103'
+- about: https://www.gutenberg.org/files/1952/1952-0.txt
+  extents:
+  - 32857
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-08-31T09:22:48'
+- about: https://www.gutenberg.org/ebooks/1952.rdf
+  extents:
+  - 19753
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T11:33:19.675373'
+- about: https://www.gutenberg.org/cache/epub/1952/pg1952.cover.medium.jpg
+  extents:
+  - 28457
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T11:33:16.418345'
+- about: https://www.gutenberg.org/cache/epub/1952/pg1952.cover.small.jpg
+  extents:
+  - 3764
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T11:33:16.368355'
+- about: https://www.gutenberg.org/cache/epub/1952/pg1952-h.zip
+  extents:
+  - 435438
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T11:33:16.139388'
+issued: '1999-11-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Psychological fiction
+- Mentally ill women -- Fiction
+- Feminist fiction
+- Married women -- Psychology -- Fiction
+- Sex role -- Fiction
+- PS
+title: The Yellow Wallpaper
+types:
+- Text

@@ -1,0 +1,165 @@
+bookshelves:
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Толстой, Лев Николаевич
+  - Tolstoi, Leo
+  - Tolstoy, Lev N.
+  - Tolstoï, Léon
+  - Tolstoy, Graf Leo
+  - Tolstoj, Lev Nikolaevič
+  - Tolstoj, Lev Nikolaevic
+  birthdate: 1828
+  deathdate: 1910
+  name: Tolstoy, Leo, graf
+  webpage: https://en.wikipedia.org/wiki/Leo_Tolstoy
+description: '"Anna Karenina" by graf Leo Tolstoy is a novel written in the late 19th
+  century. This complex literary work explores themes of love, morality, and social
+  conflict, primarily through the tumultuous life of its titular character, Anna Karenina.
+  The story begins with the unraveling of a marriage and sets the stage for an intricate
+  examination of personal and societal dilemmas faced by its characters.  The opening
+  of the novel introduces Stepan Arkadjevitsh Oblonski, affectionately known as Stiva,
+  whose marital troubles with his wife Dolly are laid bare after she discovers his
+  infidelity with a former governess. This domestic strife creates a chaotic atmosphere
+  in the Oblonski household, affecting not just the couple but also their children
+  and servants. As Stiva grapples with guilt and the implications of his actions,
+  the narrative hints at deeper questions regarding fidelity, happiness, and social
+  conventions in Russian society, setting a profound groundwork for the interwoven
+  stories that follow in the lives of Anna and those around her. (This is an automatically
+  generated summary.)'
+downloads: 89
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/49487.html.images
+  extents:
+  - 2304312
+  - 2304227
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-20T14:38:02.092460'
+  - '2023-09-21T10:59:19.668807'
+- about: https://www.gutenberg.org/ebooks/49487.html.noimages
+  extents:
+  - 2304305
+  - 2304220
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-20T14:38:02.735445'
+  - '2023-09-21T10:59:20.160804'
+- about: https://www.gutenberg.org/ebooks/49487.epub3.images
+  extents:
+  - 901219
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-20T14:38:28.045848'
+- about: https://www.gutenberg.org/ebooks/49487.epub.images
+  extents:
+  - 939102
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-20T14:38:07.286939'
+- about: https://www.gutenberg.org/ebooks/49487.epub.noimages
+  extents:
+  - 939102
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-20T14:38:04.828433'
+- about: https://www.gutenberg.org/ebooks/49487.kf8.images
+  extents:
+  - 1650774
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-20T14:38:45.886743'
+- about: https://www.gutenberg.org/ebooks/49487.kindle.images
+  extents:
+  - 1461609
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-20T14:38:25.614856'
+- about: https://www.gutenberg.org/ebooks/49487.kindle.noimages
+  extents:
+  - 1428315
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-22T12:07:16.330993'
+- about: https://www.gutenberg.org/ebooks/49487.txt.utf-8
+  extents:
+  - 2118660
+  - 2118627
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-20T14:38:00.550488'
+  - '2023-09-21T10:59:18.511898'
+- about: https://www.gutenberg.org/files/49487/49487-8.txt
+  extents:
+  - 2016150
+  formats:
+  - text/plain; charset=iso-8859-1
+  modified:
+  - '2015-07-19T09:33:54'
+- about: https://www.gutenberg.org/files/49487/49487-8.zip
+  extents:
+  - 762099
+  formats:
+  - text/plain; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2015-07-19T09:33:56'
+- about: https://www.gutenberg.org/ebooks/49487.rdf
+  extents:
+  - 20035
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-20T14:38:46.044767'
+- about: https://www.gutenberg.org/cache/epub/49487/pg49487.cover.medium.jpg
+  extents:
+  - 13852
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-20T14:38:05.454431'
+- about: https://www.gutenberg.org/cache/epub/49487/pg49487.cover.small.jpg
+  extents:
+  - 3769
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-20T14:38:05.118434'
+- about: https://www.gutenberg.org/cache/epub/49487/pg49487-h.zip
+  extents:
+  - 883732
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-20T14:38:02.945438'
+issued: '2015-07-19'
+language: fi
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Adultery -- Fiction
+- Didactic fiction
+- Love stories
+- Married women -- Fiction
+- Russia -- Fiction
+- Russian fiction -- Translations into Finnish
+- PG
+title: Anna Karenina
+types:
+- Text

@@ -1,0 +1,147 @@
+bookshelves:
+- 'Browsing: Literature'
+- 'Browsing: Poetry'
+- 'Browsing: Religion/Spirituality/Paranormal'
+creator:
+  aliases:
+  - Gibran, Khalil
+  birthdate: 1883
+  deathdate: 1931
+  name: Gibran, Kahlil
+  webpage: https://en.wikipedia.org/wiki/Kahlil_Gibran
+description: ''
+downloads: 5467
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/58585.html.images
+  extents:
+  - 109496
+  - 109655
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-24T08:59:48.148306'
+  - '2023-09-25T07:59:33.004743'
+- about: https://www.gutenberg.org/files/58585/58585-h/58585-h.htm
+  extents:
+  - 111632
+  formats:
+  - text/html
+  modified:
+  - '2021-12-23T07:27:33'
+- about: https://www.gutenberg.org/ebooks/58585.epub3.images
+  extents:
+  - 10465618
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T08:59:53.775326'
+- about: https://www.gutenberg.org/ebooks/58585.epub.images
+  extents:
+  - 10461642
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T08:59:49.173289'
+- about: https://www.gutenberg.org/ebooks/58585.epub.noimages
+  extents:
+  - 118409
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T08:59:48.465316'
+- about: https://www.gutenberg.org/ebooks/58585.kf8.images
+  extents:
+  - 10494069
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T08:59:56.973286'
+- about: https://www.gutenberg.org/ebooks/58585.kindle.images
+  extents:
+  - 10464596
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T08:59:52.785321'
+- about: https://www.gutenberg.org/ebooks/58585.kindle.noimages
+  extents:
+  - 131720
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-26T15:12:37.884611'
+- about: https://www.gutenberg.org/ebooks/58585.txt.utf-8
+  extents:
+  - 89991
+  - 89996
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-24T08:59:47.692315'
+  - '2023-09-25T07:59:32.352751'
+- about: https://www.gutenberg.org/files/58585/58585-0.txt
+  extents:
+  - 89763
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2021-12-23T07:27:18'
+- about: https://www.gutenberg.org/ebooks/58585.rdf
+  extents:
+  - 18379
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-24T08:59:57.122279'
+- about: https://www.gutenberg.org/cache/epub/58585/pg58585.cover.medium.jpg
+  extents:
+  - 11175
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T08:59:48.566314'
+- about: https://www.gutenberg.org/cache/epub/58585/pg58585.cover.small.jpg
+  extents:
+  - 1982
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T08:59:48.515297'
+- about: https://www.gutenberg.org/files/58585/58585-0.zip
+  extents:
+  - 32594
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-12-23T07:28:21'
+- about: https://www.gutenberg.org/files/58585/58585-h.zip
+  extents:
+  - 10043392
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-12-23T07:28:42'
+- about: https://www.gutenberg.org/cache/epub/58585/pg58585-h.zip
+  extents:
+  - 10052302
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-24T08:59:48.255302'
+issued: '2019-01-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Mysticism -- Poetry
+- Prose poems, American
+- PS
+title: The Prophet
+types:
+- Text

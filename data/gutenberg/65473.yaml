@@ -1,0 +1,150 @@
+bookshelves:
+- 'Browsing: Literature'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Swift, J. (Jonathan)
+  birthdate: 1667
+  deathdate: 1745
+  name: Swift, Jonathan
+  webpage: https://en.wikipedia.org/wiki/Jonathan_Swift
+description: ''
+downloads: 551
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/65473.html.images
+  extents:
+  - 640075
+  - 640084
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-27T05:35:30.971299'
+  - '2023-09-28T06:04:43.813209'
+- about: https://www.gutenberg.org/files/65473/65473-h/65473-h.htm
+  extents:
+  - 640259
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2021-05-31T04:00:46'
+- about: https://www.gutenberg.org/files/65473/65473-h.zip
+  extents:
+  - 1610395
+  formats:
+  - text/html; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-05-31T04:01:42'
+- about: https://www.gutenberg.org/ebooks/65473.epub3.images
+  extents:
+  - 1744043
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T05:35:40.491286'
+- about: https://www.gutenberg.org/ebooks/65473.epub.images
+  extents:
+  - 1742263
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T05:35:32.262289'
+- about: https://www.gutenberg.org/ebooks/65473.epub.noimages
+  extents:
+  - 355280
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T05:35:31.565323'
+- about: https://www.gutenberg.org/ebooks/65473.kf8.images
+  extents:
+  - 1878497
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-27T05:35:46.326221'
+- about: https://www.gutenberg.org/ebooks/65473.kindle.images
+  extents:
+  - 1832127
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-27T05:35:39.600262'
+- about: https://www.gutenberg.org/ebooks/65473.kindle.noimages
+  extents:
+  - 447767
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-29T13:11:59.719084'
+- about: https://www.gutenberg.org/ebooks/65473.txt.utf-8
+  extents:
+  - 593721
+  - 593749
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-27T05:35:30.197310'
+  - '2023-09-28T06:04:42.936206'
+- about: https://www.gutenberg.org/files/65473/65473-0.txt
+  extents:
+  - 593518
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2021-05-31T04:00:46'
+- about: https://www.gutenberg.org/files/65473/65473-0.zip
+  extents:
+  - 222428
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-05-31T04:01:42'
+- about: https://www.gutenberg.org/ebooks/65473.rdf
+  extents:
+  - 20070
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-27T05:35:46.565235'
+- about: https://www.gutenberg.org/cache/epub/65473/pg65473.cover.medium.jpg
+  extents:
+  - 18423
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-27T05:35:31.687309'
+- about: https://www.gutenberg.org/cache/epub/65473/pg65473.cover.small.jpg
+  extents:
+  - 3309
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-27T05:35:31.626305'
+- about: https://www.gutenberg.org/cache/epub/65473/pg65473-h.zip
+  extents:
+  - 1619689
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-27T05:35:31.077304'
+issued: '2021-05-31'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Fantasy fiction
+- Satire
+- Travelers -- Fiction
+- Gulliver, Lemuel (Fictitious character) -- Fiction
+- Voyages, Imaginary -- Early works to 1800
+- PR
+title: Gulliver's Travels
+types:
+- Text

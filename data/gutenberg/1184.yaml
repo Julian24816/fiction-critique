@@ -1,0 +1,154 @@
+bookshelves:
+- Adventure
+- Movie Books
+- 'Browsing: History - General'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Dumas, Alexander
+  - Dumas, Alexandre, pere
+  - père, Alexandre Dumas
+  birthdate: 1802
+  deathdate: 1870
+  name: Dumas, Alexandre
+  webpage: https://en.wikipedia.org/wiki/Alexandre_Dumas,_père
+description: '"The Count of Monte Cristo" by Alexandre Dumas and Auguste Maquet is
+  a renowned novel written during the early 19th century. The story explores themes
+  of justice, revenge, and redemption, primarily through the journey of its main character,
+  Edmond Dantès, a young sailor who is unjustly imprisoned. The narrative begins to
+  unfold in the bustling port city of Marseilles, setting the stage for the intricate
+  relationships and betrayals that will define Dantès'' life.  At the start of the
+  book, we are introduced to Edmond Dantès, who has just returned to Marseilles aboard
+  the ship Pharaon. He is celebrated for his successful voyage, but the arrival casts
+  a shadow of jealousy on some individuals around him, particularly Danglars and Fernand,
+  who have their own motives. The opening chapters illustrate Edmond''s joyous reunion
+  with his father and his betrothed, Mercédès, but it also hints at the brewing conspiracies,
+  particularly as the jealous Fernand and cunning Danglars scheme against him. This
+  builds a sense of impending doom as Dantès'' happiness appears to be fragile and
+  precarious against the backdrop of jealousy and ambition from those close to him.
+  (This is an automatically generated summary.)'
+downloads: 11815
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/1184.html.images
+  extents:
+  - 3008177
+  - 3013893
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T08:44:24.689346'
+  - '2023-10-01T08:03:48.243692'
+- about: https://www.gutenberg.org/files/1184/1184-h/1184-h.htm
+  extents:
+  - 3000094
+  formats:
+  - text/html
+  modified:
+  - '2024-02-04T04:38:32'
+- about: https://www.gutenberg.org/ebooks/1184.epub3.images
+  extents:
+  - 84600859
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:45:20.622069'
+- about: https://www.gutenberg.org/ebooks/1184.epub.images
+  extents:
+  - 84607225
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:44:37.641267'
+- about: https://www.gutenberg.org/ebooks/1184.epub.noimages
+  extents:
+  - 1314609
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:44:27.806322'
+- about: https://www.gutenberg.org/ebooks/1184.kf8.images
+  extents:
+  - 85247991
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T08:45:48.089415'
+- about: https://www.gutenberg.org/ebooks/1184.kindle.images
+  extents:
+  - 85117637
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T08:45:10.914110'
+- about: https://www.gutenberg.org/ebooks/1184.kindle.noimages
+  extents:
+  - 1891214
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-05T17:01:22.776186'
+- about: https://www.gutenberg.org/ebooks/1184.txt.utf-8
+  extents:
+  - 2787202
+  - 2787172
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T08:44:18.909386'
+  - '2023-10-01T08:03:42.216639'
+- about: https://www.gutenberg.org/files/1184/1184-0.txt
+  extents:
+  - 2767436
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-02-04T04:38:32'
+- about: https://www.gutenberg.org/ebooks/1184.rdf
+  extents:
+  - 19587
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T08:45:48.525376'
+- about: https://www.gutenberg.org/cache/epub/1184/pg1184.cover.medium.jpg
+  extents:
+  - 16414
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T08:44:28.163310'
+- about: https://www.gutenberg.org/cache/epub/1184/pg1184.cover.small.jpg
+  extents:
+  - 2755
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T08:44:28.010318'
+- about: https://www.gutenberg.org/cache/epub/1184/pg1184-h.zip
+  extents:
+  - 106293183
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T08:44:26.551335'
+issued: '1998-01-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Historical fiction
+- Revenge -- Fiction
+- Adventure stories
+- Prisoners -- Fiction
+- France -- History -- 19th century -- Fiction
+- Pirates -- Fiction
+- Dantès, Edmond (Fictitious character) -- Fiction
+- PQ
+title: The Count of Monte Cristo
+types:
+- Text

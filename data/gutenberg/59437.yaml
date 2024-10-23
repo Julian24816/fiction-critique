@@ -1,0 +1,152 @@
+bookshelves:
+- 'Browsing: History - Warfare'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Wharton, Edith Newbold Jones
+  - Olivieri, David
+  birthdate: 1862
+  deathdate: 1937
+  name: Wharton, Edith
+  webpage: https://en.wikipedia.org/wiki/Edith_Wharton
+description: ''
+downloads: 52
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/59437.html.images
+  extents:
+  - 674157
+  - 674166
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-24T13:00:49.310322'
+  - '2023-09-25T11:31:50.284491'
+- about: https://www.gutenberg.org/files/59437/59437-h/59437-h.htm
+  extents:
+  - 675407
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2019-05-04T20:59:22'
+- about: https://www.gutenberg.org/files/59437/59437-h.zip
+  extents:
+  - 386963
+  formats:
+  - text/html; charset=utf-8
+  - application/zip
+  modified:
+  - '2019-05-04T20:59:24'
+- about: https://www.gutenberg.org/ebooks/59437.epub3.images
+  extents:
+  - 457608
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T13:00:59.074260'
+- about: https://www.gutenberg.org/ebooks/59437.epub.images
+  extents:
+  - 453489
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T13:00:50.828307'
+- about: https://www.gutenberg.org/ebooks/59437.epub.noimages
+  extents:
+  - 361774
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T13:00:50.063335'
+- about: https://www.gutenberg.org/ebooks/59437.kf8.images
+  extents:
+  - 602857
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T13:01:05.412208'
+- about: https://www.gutenberg.org/ebooks/59437.kindle.images
+  extents:
+  - 553550
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T13:00:58.070304'
+- about: https://www.gutenberg.org/ebooks/59437.kindle.noimages
+  extents:
+  - 462295
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-26T23:36:32.789719'
+- about: https://www.gutenberg.org/ebooks/59437.txt.utf-8
+  extents:
+  - 602535
+  - 602343
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-24T13:00:48.005298'
+  - '2023-09-25T11:31:48.904534'
+- about: https://www.gutenberg.org/files/59437/59437-0.txt
+  extents:
+  - 602786
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2019-05-04T20:59:16'
+- about: https://www.gutenberg.org/files/59437/59437-0.zip
+  extents:
+  - 232192
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2019-05-04T20:59:24'
+- about: https://www.gutenberg.org/ebooks/59437.rdf
+  extents:
+  - 20016
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-24T13:01:05.559218'
+- about: https://www.gutenberg.org/cache/epub/59437/pg59437.cover.medium.jpg
+  extents:
+  - 10791
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T13:00:50.169311'
+- about: https://www.gutenberg.org/cache/epub/59437/pg59437.cover.small.jpg
+  extents:
+  - 1653
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T13:00:50.116302'
+- about: https://www.gutenberg.org/cache/epub/59437/pg59437-h.zip
+  extents:
+  - 388709
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-24T13:00:49.372331'
+issued: '2019-05-05'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- World War, 1914-1918 -- Fiction
+- War stories
+- Fathers and sons -- Fiction
+- Domestic fiction
+- Paris (France) -- Fiction
+- Americans -- France -- Fiction
+- PS
+title: A Son at the Front
+types:
+- Text

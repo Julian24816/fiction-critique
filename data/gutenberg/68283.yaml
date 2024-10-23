@@ -1,0 +1,131 @@
+bookshelves:
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Lovecraft, Howard Phillips
+  - Littlewit, Humphrey
+  - Lovecraft, H.P.
+  birthdate: 1890
+  deathdate: 1937
+  name: Lovecraft, H. P. (Howard Phillips)
+  webpage: https://en.wikipedia.org/wiki/H._P._Lovecraft
+description: ''
+downloads: 1710
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/68283.html.images
+  extents:
+  - 99774
+  - 99806
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-28T07:14:44.590256'
+  - '2023-09-29T08:02:50.090622'
+- about: https://www.gutenberg.org/files/68283/68283-h/68283-h.htm
+  extents:
+  - 76225
+  formats:
+  - text/html
+  modified:
+  - '2024-06-05T09:54:21'
+- about: https://www.gutenberg.org/ebooks/68283.epub3.images
+  extents:
+  - 432755
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-28T07:14:46.897213'
+- about: https://www.gutenberg.org/ebooks/68283.epub.images
+  extents:
+  - 433544
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-28T07:14:45.124242'
+- about: https://www.gutenberg.org/ebooks/68283.epub.noimages
+  extents:
+  - 102795
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-28T07:14:44.832209'
+- about: https://www.gutenberg.org/ebooks/68283.kf8.images
+  extents:
+  - 479349
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-28T07:14:48.494254'
+- about: https://www.gutenberg.org/ebooks/68283.kindle.images
+  extents:
+  - 471282
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-28T07:14:46.656213'
+- about: https://www.gutenberg.org/ebooks/68283.kindle.noimages
+  extents:
+  - 140608
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-30T18:20:14.430736'
+- about: https://www.gutenberg.org/ebooks/68283.txt.utf-8
+  extents:
+  - 92415
+  - 92390
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-28T07:14:44.444211'
+  - '2023-09-29T08:02:49.938628'
+- about: https://www.gutenberg.org/files/68283/68283-0.txt
+  extents:
+  - 72549
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-06-05T09:54:21'
+- about: https://www.gutenberg.org/ebooks/68283.rdf
+  extents:
+  - 16181
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-28T07:14:48.624204'
+- about: https://www.gutenberg.org/cache/epub/68283/pg68283.cover.medium.jpg
+  extents:
+  - 25538
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-28T07:14:44.942228'
+- about: https://www.gutenberg.org/cache/epub/68283/pg68283.cover.small.jpg
+  extents:
+  - 4213
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-28T07:14:44.887263'
+- about: https://www.gutenberg.org/cache/epub/68283/pg68283-h.zip
+  extents:
+  - 397498
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-28T07:14:44.607220'
+issued: '2022-06-10'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Horror tales
+- Cthulhu (Fictitious character) -- Fiction
+- PS
+title: The call of Cthulhu
+types:
+- Text

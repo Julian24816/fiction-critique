@@ -1,0 +1,165 @@
+bookshelves:
+- Gothic Fiction
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Orford, Horace Walpole, Earl of
+  - Walpole, Horatio
+  - Marshall, William
+  - Muralto, Onuphrio
+  birthdate: 1717
+  deathdate: 1797
+  name: Walpole, Horace
+  webpage: https://en.wikipedia.org/wiki/Horace_Walpole%2C_4th_Earl_of_Orford
+description: '"The Castle of Otranto" by Horace Walpole is a Gothic novel written
+  in the late 18th century. The story unfolds in a mysterious castle where supernatural
+  occurrences intertwine with human tragedy and ambition, centering on the tumultuous
+  life of Manfred, the Prince of Otranto, whose actions stem from an ancient prophecy
+  threatening his lineage. The characters include his beautiful daughter Matilda,
+  the sickly son Conrad, and Isabella, the unwilling bride-to-be who becomes embroiled
+  in the family''s dark machinations.  At the start of the novel, we are introduced
+  to Manfred and his family as preparations for the wedding of his son Conrad to Isabella
+  are underway. However, tragedy strikes when Conrad is crushed to death by a giant
+  helmet, triggering a chain of events that reveals the superstitions and tensions
+  underlying Manfred''s desperate desire for heirs. With Conrad''s sudden death, Manfred
+  becomes fixated on Isabella, disregarding her feelings, and reveals his tyrannical
+  nature. The opening captures gothic themes of horror, fate, and the fragility of
+  human connections, setting the stage for the ensuing drama and intrigue within the
+  castle. (This is an automatically generated summary.)'
+downloads: 3442
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/696.html.images
+  extents:
+  - 253681
+  - 253699
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T06:56:07.694862'
+  - '2023-10-01T06:30:16.468064'
+- about: https://www.gutenberg.org/files/696/696-h/696-h.htm
+  extents:
+  - 266029
+  formats:
+  - text/html
+  modified:
+  - '2021-04-09T08:29:10'
+- about: https://www.gutenberg.org/files/696/696-h.zip
+  extents:
+  - 175034
+  formats:
+  - text/html
+  - application/zip
+  modified:
+  - '2021-04-09T08:34:51'
+- about: https://www.gutenberg.org/ebooks/696.epub3.images
+  extents:
+  - 234935
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T06:56:12.587839'
+- about: https://www.gutenberg.org/ebooks/696.epub.images
+  extents:
+  - 234035
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T06:56:08.982893'
+- about: https://www.gutenberg.org/ebooks/696.epub.noimages
+  extents:
+  - 150952
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T06:56:08.185962'
+- about: https://www.gutenberg.org/ebooks/696.kf8.images
+  extents:
+  - 357581
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T06:56:15.412857'
+- about: https://www.gutenberg.org/ebooks/696.kindle.images
+  extents:
+  - 345594
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T06:56:12.048880'
+- about: https://www.gutenberg.org/ebooks/696.kindle.noimages
+  extents:
+  - 263699
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T07:40:35.147528'
+- about: https://www.gutenberg.org/ebooks/696.txt.utf-8
+  extents:
+  - 240227
+  - 240233
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T06:56:07.131872'
+  - '2023-10-01T06:30:16.080059'
+- about: https://www.gutenberg.org/files/696/696-0.txt
+  extents:
+  - 240149
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2021-04-09T08:31:07'
+- about: https://www.gutenberg.org/files/696/696-0.zip
+  extents:
+  - 88957
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-04-09T08:34:25'
+- about: https://www.gutenberg.org/ebooks/696.rdf
+  extents:
+  - 19534
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T06:56:15.562821'
+- about: https://www.gutenberg.org/cache/epub/696/pg696.cover.medium.jpg
+  extents:
+  - 12861
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T06:56:08.543863'
+- about: https://www.gutenberg.org/cache/epub/696/pg696.cover.small.jpg
+  extents:
+  - 3116
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T06:56:08.362865'
+- about: https://www.gutenberg.org/cache/epub/696/pg696-h.zip
+  extents:
+  - 225493
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T06:56:07.722888'
+issued: '1996-10-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Horror tales
+- Inheritance and succession -- Fiction
+- Gothic fiction
+- PR
+title: The Castle of Otranto
+types:
+- Text

@@ -1,0 +1,170 @@
+bookshelves:
+- Best Books Ever Listings
+- Harvard Classics
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Cervantes, Miguel de
+  - Saavedra, Miguel de Cervantes
+  - De Cervantes Saavedra, Miguel
+  - Cervantes, Michel
+  - Saavedra, Miguel Cervantes
+  birthdate: 1547
+  deathdate: 1616
+  name: Cervantes Saavedra, Miguel de
+  webpage: http://en.wikipedia.org/wiki/Miguel_de_Cervantes
+description: '"Don Quixote" by Miguel de Cervantes Saavedra is a classic novel written
+  during the early 17th century. This groundbreaking work tells the story of an aging
+  gentleman, Don Quixote, who becomes so enamored with tales of knight-errantry that
+  he decides to embark on his own adventures as a self-proclaimed knight, accompanied
+  by his pragmatic squire, Sancho Panza. The book serves as a satirical commentary
+  on the romantic ideals of chivalry and the human experience, exploring themes of
+  reality versus illusion.  The opening of "Don Quixote" introduces the protagonist,
+  detailing his characteristics, motivations, and eccentric decision to assume the
+  role of a knight after reading countless books on the subject. He becomes obsessed
+  with the idea of reviving chivalry, despite the world around him having significantly
+  changed. As he sets out on his journey armed with a makeshift suit of armor, he
+  is both comedic and tragic—engaging in misadventures and encounters that illustrate
+  the absurdity of his quest and the complexity of his character. The beginning sets
+  the stage for a rich narrative filled with humor, philosophical depth, and memorable
+  interactions between Don Quixote and Sancho Panza, ultimately inviting readers to
+  ponder the nature of dreams and reality. (This is an automatically generated summary.)'
+downloads: 8715
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/996.html.images
+  extents:
+  - 2545970
+  - 2546868
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T08:02:22.214249'
+  - '2023-10-01T07:27:55.651132'
+- about: https://www.gutenberg.org/files/996/996-h/996-h.htm
+  extents:
+  - 2532279
+  formats:
+  - text/html
+  modified:
+  - '2023-03-30T00:53:56'
+- about: https://www.gutenberg.org/ebooks/996.epub3.images
+  extents:
+  - 46102299
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:03:36.098452'
+- about: https://www.gutenberg.org/ebooks/996.epub.images
+  extents:
+  - 45992137
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:02:40.168626'
+- about: https://www.gutenberg.org/ebooks/996.epub.noimages
+  extents:
+  - 1212835
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:02:25.365215'
+- about: https://www.gutenberg.org/ebooks/996.kf8.images
+  extents:
+  - 46356908
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T08:04:10.242722'
+- about: https://www.gutenberg.org/ebooks/996.kindle.images
+  extents:
+  - 46128831
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T08:03:13.449511'
+- about: https://www.gutenberg.org/ebooks/996.kindle.noimages
+  extents:
+  - 1575172
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T09:04:48.558834'
+- about: https://www.gutenberg.org/ebooks/996.txt.utf-8
+  extents:
+  - 2391721
+  - 2391726
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T08:02:18.896276'
+  - '2023-10-01T07:27:52.078088'
+- about: https://www.gutenberg.org/files/996/996-0.txt
+  extents:
+  - 2391549
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2023-03-30T00:08:13'
+- about: https://www.gutenberg.org/ebooks/996.rdf
+  extents:
+  - 20898
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T08:04:10.787710'
+- about: https://www.gutenberg.org/cache/epub/996/pg996.cover.medium.jpg
+  extents:
+  - 18664
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T08:02:25.667202'
+- about: https://www.gutenberg.org/cache/epub/996/pg996.cover.small.jpg
+  extents:
+  - 2554
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T08:02:25.517200'
+- about: https://www.gutenberg.org/files/996/996-0.zip
+  extents:
+  - 895670
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-03-30T00:54:25'
+- about: https://www.gutenberg.org/files/996/996-h.zip
+  extents:
+  - 62482851
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-03-30T00:54:52'
+- about: https://www.gutenberg.org/cache/epub/996/pg996-h.zip
+  extents:
+  - 62604004
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T08:02:23.663210'
+issued: '2004-07-27'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Spain -- Social life and customs -- 16th century -- Fiction
+- Knights and knighthood -- Spain -- Fiction
+- Picaresque literature
+- Romances
+- PQ
+title: Don Quixote
+types:
+- Text

@@ -1,0 +1,183 @@
+bookshelves:
+- 'Browsing: Children & Young Adult Reading'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Van Dyne, Edith
+  - Bancroft, Laura
+  - Baum, Lyman Frank
+  - Metcalf, Suzanne
+  - Akers, Floyd
+  - Cooke, John Estes
+  - Fitzgerald, Capt. Hugh
+  - Fitzgerald, Hugh
+  - Staunton, Schuyler
+  birthdate: 1856
+  deathdate: 1919
+  name: Baum, L. Frank (Lyman Frank)
+  webpage: https://en.wikipedia.org/wiki/L._Frank_Baum
+description: '"The Wonderful Wizard of Oz" by L. Frank Baum is a children''s novel
+  written in the late 19th century. The story centers around Dorothy, a young girl
+  from Kansas who is swept away by a cyclone to the magical land of Oz. To return
+  home, she embarks on a journey to meet the great Wizard Oz, meeting various characters
+  along the way who each seek something they believe they lack, such as brains, a
+  heart, and courage. The enchanting and imaginative world promises themes of friendship,
+  adventure, and self-discovery.  At the start of the narrative, we are introduced
+  to Dorothy and her simple life on the Kansas prairie, living with her Uncle Henry
+  and Aunt Em. One day, a cyclone uproots her home, and when she awakens, she finds
+  herself in the vibrant and unfamiliar land of Oz, where she inadvertently kills
+  the Wicked Witch of the East. Grateful Munchkins celebrate her arrival as a hero,
+  and she learns she must travel to the Emerald City to seek help from the Wizard
+  Oz. Along her journey, she meets the Scarecrow, who desires brains; the Tin Woodman,
+  needing a heart; and the Cowardly Lion, who seeks courage. Together, they navigate
+  various challenges, illustrating themes of bravery, kindness, and the quest for
+  self-improvement against the backdrop of Baum''s whimsical and vivid creations.
+  (This is an automatically generated summary.)'
+downloads: 1602
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/43936.html.images
+  extents:
+  - 318614
+  - 318626
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-18T11:48:44.928374'
+  - '2023-09-19T07:38:31.674404'
+- about: https://www.gutenberg.org/files/43936/43936-h/43936-h.htm
+  extents:
+  - 321165
+  formats:
+  - text/html; charset=iso-8859-1
+  modified:
+  - '2020-10-13T13:04:24'
+- about: https://www.gutenberg.org/files/43936/43936-h.zip
+  extents:
+  - 10254482
+  formats:
+  - text/html; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2020-10-13T13:05:00'
+- about: https://www.gutenberg.org/ebooks/43936.epub3.images
+  extents:
+  - 10757654
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T11:48:55.801362'
+- about: https://www.gutenberg.org/ebooks/43936.epub.images
+  extents:
+  - 10767109
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T11:48:47.815404'
+- about: https://www.gutenberg.org/ebooks/43936.epub.noimages
+  extents:
+  - 158359
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-18T11:48:46.042389'
+- about: https://www.gutenberg.org/ebooks/43936.kf8.images
+  extents:
+  - 10914380
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-18T11:49:02.130291'
+- about: https://www.gutenberg.org/ebooks/43936.kindle.images
+  extents:
+  - 10866258
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-18T11:48:53.870375'
+- about: https://www.gutenberg.org/ebooks/43936.kindle.noimages
+  extents:
+  - 279574
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-20T05:05:52.591949'
+- about: https://www.gutenberg.org/ebooks/43936.txt.utf-8
+  extents:
+  - 239874
+  - 239743
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-18T11:48:43.574411'
+  - '2023-09-19T07:38:30.491326'
+- about: https://www.gutenberg.org/files/43936/43936.txt
+  extents:
+  - 239593
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2020-10-13T13:04:28'
+- about: https://www.gutenberg.org/files/43936/43936.zip
+  extents:
+  - 82393
+  formats:
+  - text/plain; charset=us-ascii
+  - application/zip
+  modified:
+  - '2020-10-13T13:05:00'
+- about: https://www.gutenberg.org/ebooks/43936.rdf
+  extents:
+  - 23276
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-18T11:49:02.319289'
+- about: https://www.gutenberg.org/cache/epub/43936/pg43936.cover.medium.jpg
+  extents:
+  - 13835
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-18T11:48:46.434367'
+- about: https://www.gutenberg.org/cache/epub/43936/pg43936.cover.small.jpg
+  extents:
+  - 3817
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-18T11:48:46.233370'
+- about: https://www.gutenberg.org/cache/epub/43936/pg43936-h.zip
+  extents:
+  - 10497152
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-18T11:48:45.314449'
+issued: '2013-10-12'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Oz (Imaginary place) -- Juvenile fiction
+- Fantasy literature
+- Courage -- Juvenile fiction
+- Home -- Juvenile fiction
+- Good and evil -- Juvenile fiction
+- Dreams -- Juvenile fiction
+- Gale, Dorothy (Fictitious character) -- Juvenile fiction
+- Cowardly Lion (Fictitious character) -- Juvenile fiction
+- Cyclones -- Juvenile fiction
+- Scarecrow (Fictitious character from Baum) -- Juvenile fiction
+- Toto (Fictitious character) -- Juvenile fiction
+- Witches -- Juvenile fiction
+- Wizard of Oz (Fictitious character) -- Juvenile fiction
+- Tin Woodman (Fictitious character) -- Juvenile fiction
+- PZ
+title: The Wonderful Wizard of Oz
+types:
+- Text

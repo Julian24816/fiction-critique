@@ -1,0 +1,164 @@
+bookshelves:
+- Best Books Ever Listings
+- 'Browsing: History - General'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases: []
+  birthdate: 1313
+  deathdate: 1375
+  name: Boccaccio, Giovanni
+  webpage: https://en.wikipedia.org/wiki/Giovanni_Boccaccio
+description: '"The Decameron" by Giovanni Boccaccio is a collection of short stories
+  written in the 14th century. This seminal work features a framing narrative in which
+  a group of ten nobles—seven women and three men—flee the decaying city of Florence
+  during the Black Death. As they take refuge in the countryside, each member of the
+  group recounts a tale over ten separate days, resulting in a rich tapestry of stories
+  that explore themes such as love, deception, and morality.  The opening of "The
+  Decameron" sets a somber tone as it vividly describes the devastation wrought by
+  the plague in Florence. Boccaccio introduces the characters, focusing on the plight
+  of the city''s inhabitants amidst their growing fear and abandonment in the face
+  of the epidemic. As the narrative progresses, a group of seven young ladies, seeking
+  solace from their grim surroundings, decides to escape to the countryside. Their
+  leader, Pampinea, proposes that they share joyous stories to divert their minds
+  from grief. This initial setup establishes the framework for the subsequent tales,
+  promising a mix of wit and wisdom that illustrates both the human condition and
+  the resilience of those experiencing turmoil. (This is an automatically generated
+  summary.)'
+downloads: 4437
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/23700.html.images
+  extents:
+  - 1947710
+  - 1947613
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-10T08:50:34.425501'
+  - '2023-09-10T11:56:02.107744'
+- about: https://www.gutenberg.org/files/23700/23700-h/23700-h.htm
+  extents:
+  - 1970134
+  formats:
+  - text/html
+  modified:
+  - '2021-10-02T23:49:38'
+- about: https://www.gutenberg.org/ebooks/23700.epub3.images
+  extents:
+  - 737787
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-10T08:50:55.686914'
+- about: https://www.gutenberg.org/ebooks/23700.epub.images
+  extents:
+  - 775873
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-10T08:50:37.905520'
+- about: https://www.gutenberg.org/ebooks/23700.epub.noimages
+  extents:
+  - 775873
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-10T08:50:36.123488'
+- about: https://www.gutenberg.org/ebooks/23700.kf8.images
+  extents:
+  - 1321381
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-10T08:51:09.263843'
+- about: https://www.gutenberg.org/ebooks/23700.kindle.images
+  extents:
+  - 1184199
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-10T08:50:53.348405'
+- about: https://www.gutenberg.org/ebooks/23700.kindle.noimages
+  extents:
+  - 1183829
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-11T06:49:55.905984'
+- about: https://www.gutenberg.org/ebooks/23700.txt.utf-8
+  extents:
+  - 1750464
+  - 1750410
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-10T08:50:31.535560'
+  - '2023-09-10T11:55:59.251714'
+- about: https://www.gutenberg.org/files/23700/23700-0.txt
+  extents:
+  - 1750174
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2021-10-02T23:49:16'
+- about: https://www.gutenberg.org/ebooks/23700.rdf
+  extents:
+  - 20215
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-10T08:51:09.435830'
+- about: https://www.gutenberg.org/cache/epub/23700/pg23700.cover.medium.jpg
+  extents:
+  - 17542
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-10T08:50:36.323484'
+- about: https://www.gutenberg.org/cache/epub/23700/pg23700.cover.small.jpg
+  extents:
+  - 3032
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-10T08:50:36.222502'
+- about: https://www.gutenberg.org/files/23700/23700-0.zip
+  extents:
+  - 659661
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-10-02T23:50:45'
+- about: https://www.gutenberg.org/files/23700/23700-h.zip
+  extents:
+  - 722668
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-10-02T23:51:07'
+- about: https://www.gutenberg.org/cache/epub/23700/pg23700-h.zip
+  extents:
+  - 715170
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-10T08:50:34.587539'
+issued: '2007-12-03'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Plague -- Europe -- History -- Fiction
+- Storytelling -- Fiction
+- Allegories
+- Frame-stories
+- PQ
+title: The Decameron of Giovanni Boccaccio
+types:
+- Text

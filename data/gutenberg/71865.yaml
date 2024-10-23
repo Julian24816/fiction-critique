@@ -1,0 +1,125 @@
+bookshelves:
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Psychiatry/Psychology'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Woolf, Virginia Stephen
+  - Stephen, Virginia
+  birthdate: 1882
+  deathdate: 1941
+  name: Woolf, Virginia
+  webpage: http://en.wikipedia.org/wiki/Virginia_Woolf
+description: ''
+downloads: 2171
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/71865.html.images
+  extents:
+  - 422973
+  formats:
+  - text/html
+  modified:
+  - '2024-08-29T12:54:30.576697'
+- about: https://www.gutenberg.org/files/71865/71865-h/71865-h.htm
+  extents:
+  - 398418
+  formats:
+  - text/html
+  modified:
+  - '2023-10-13T14:10:04'
+- about: https://www.gutenberg.org/ebooks/71865.epub3.images
+  extents:
+  - 411069
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T12:54:36.333711'
+- about: https://www.gutenberg.org/ebooks/71865.epub.images
+  extents:
+  - 413871
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T12:54:31.814726'
+- about: https://www.gutenberg.org/ebooks/71865.epub.noimages
+  extents:
+  - 261759
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T12:54:31.188738'
+- about: https://www.gutenberg.org/ebooks/71865.kf8.images
+  extents:
+  - 448631
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T12:54:39.981640'
+- about: https://www.gutenberg.org/ebooks/71865.kindle.images
+  extents:
+  - 423999
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T12:54:35.798715'
+- about: https://www.gutenberg.org/ebooks/71865.txt.utf-8
+  extents:
+  - 390387
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-08-29T12:54:30.065707'
+- about: https://www.gutenberg.org/files/71865/71865-0.txt
+  extents:
+  - 370531
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2023-10-13T14:10:04'
+- about: https://www.gutenberg.org/ebooks/71865.rdf
+  extents:
+  - 16577
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-29T12:54:40.119644'
+- about: https://www.gutenberg.org/cache/epub/71865/pg71865.cover.medium.jpg
+  extents:
+  - 6521
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T12:54:31.412704'
+- about: https://www.gutenberg.org/cache/epub/71865/pg71865.cover.small.jpg
+  extents:
+  - 1628
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T12:54:31.299702'
+- about: https://www.gutenberg.org/cache/epub/71865/pg71865-h.zip
+  extents:
+  - 422040
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-29T12:54:30.632704'
+issued: '2023-10-13'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- London (England) -- Fiction
+- Psychological fiction
+- Domestic fiction
+- Married women -- Fiction
+- Triangles (Interpersonal relations) -- Fiction
+- Suicide victims -- Fiction
+- Middle-aged women -- Fiction
+- PR
+title: Mrs. Dalloway
+types:
+- Text

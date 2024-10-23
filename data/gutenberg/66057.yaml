@@ -1,0 +1,153 @@
+bookshelves:
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Fujiwara, Murasaki
+  - Murasaki Sikibu
+  - 紫式部
+  birthdate: 0
+  deathdate: 0
+  name: Murasaki Shikibu
+  webpage: https://ja.wikipedia.org/wiki/%E7%B4%AB%E5%BC%8F%E9%83%A8
+description: ''
+downloads: 1419
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/66057.html.images
+  extents:
+  - 635191
+  - 635083
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-27T07:55:50.352715'
+  - '2023-09-28T08:08:06.107686'
+- about: https://www.gutenberg.org/files/66057/66057-h/66057-h.htm
+  extents:
+  - 634264
+  formats:
+  - text/html
+  modified:
+  - '2021-10-16T13:39:12'
+- about: https://www.gutenberg.org/ebooks/66057.epub3.images
+  extents:
+  - 612236
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T07:55:59.441674'
+- about: https://www.gutenberg.org/ebooks/66057.epub.images
+  extents:
+  - 617526
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T07:55:52.199703'
+- about: https://www.gutenberg.org/ebooks/66057.epub.noimages
+  extents:
+  - 326966
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-27T07:55:51.103828'
+- about: https://www.gutenberg.org/ebooks/66057.kf8.images
+  extents:
+  - 1182366
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-27T07:56:04.857606'
+- about: https://www.gutenberg.org/ebooks/66057.kindle.images
+  extents:
+  - 1145190
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-27T07:55:58.484664'
+- about: https://www.gutenberg.org/ebooks/66057.kindle.noimages
+  extents:
+  - 443980
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-29T17:50:15.047243'
+- about: https://www.gutenberg.org/ebooks/66057.txt.utf-8
+  extents:
+  - 573454
+  - 573347
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-27T07:55:49.581692'
+  - '2023-09-28T08:08:05.171678'
+- about: https://www.gutenberg.org/files/66057/66057-0.txt
+  extents:
+  - 573180
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2021-10-16T13:39:30'
+- about: https://www.gutenberg.org/ebooks/66057.rdf
+  extents:
+  - 20937
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-27T07:56:05.003620'
+- about: https://www.gutenberg.org/cache/epub/66057/pg66057.cover.medium.jpg
+  extents:
+  - 16312
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-27T07:55:51.359698'
+- about: https://www.gutenberg.org/cache/epub/66057/pg66057.cover.small.jpg
+  extents:
+  - 2451
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-27T07:55:51.280707'
+- about: https://www.gutenberg.org/files/66057/66057-0.zip
+  extents:
+  - 217303
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-10-16T13:39:50'
+- about: https://www.gutenberg.org/files/66057/66057-h.zip
+  extents:
+  - 570772
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-10-16T13:40:11'
+- about: https://www.gutenberg.org/cache/epub/66057/pg66057-h.zip
+  extents:
+  - 581252
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-27T07:55:50.417706'
+issued: '2021-08-13'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Man-woman relationships -- Fiction
+- Japan -- Court and courtiers -- Fiction
+- Japanese fiction -- To 1600 -- Translations into English
+- Japan -- Social life and customs -- To 1600 -- Fiction
+- Aristocracy (Social class) -- Japan -- Fiction
+- Princes -- Japan -- Fiction
+- PL
+title: The Tale of Genji
+types:
+- Text

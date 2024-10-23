@@ -1,0 +1,133 @@
+bookshelves:
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Forster, Edward Morgan
+  birthdate: 1879
+  deathdate: 1970
+  name: Forster, E. M. (Edward Morgan)
+  webpage: https://en.wikipedia.org/wiki/E._M._Forster
+description: ''
+downloads: 1599
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/61221.html.images
+  extents:
+  - 648708
+  - 648692
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-25T08:52:37.115505'
+  - '2023-09-26T08:17:11.270369'
+- about: https://www.gutenberg.org/files/61221/61221-h/61221-h.htm
+  extents:
+  - 628743
+  formats:
+  - text/html
+  modified:
+  - '2024-07-21T17:46:55'
+- about: https://www.gutenberg.org/ebooks/61221.epub3.images
+  extents:
+  - 405137
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-25T08:52:44.990470'
+- about: https://www.gutenberg.org/ebooks/61221.epub.images
+  extents:
+  - 415837
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-25T08:52:38.284492'
+- about: https://www.gutenberg.org/ebooks/61221.epub.noimages
+  extents:
+  - 300642
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-25T08:52:37.723521'
+- about: https://www.gutenberg.org/ebooks/61221.kf8.images
+  extents:
+  - 605219
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-25T08:52:50.598475'
+- about: https://www.gutenberg.org/ebooks/61221.kindle.images
+  extents:
+  - 567684
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-25T08:52:44.427486'
+- about: https://www.gutenberg.org/ebooks/61221.kindle.noimages
+  extents:
+  - 453388
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-27T16:34:30.184363'
+- about: https://www.gutenberg.org/ebooks/61221.txt.utf-8
+  extents:
+  - 620954
+  - 620994
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-25T08:52:35.818554'
+  - '2023-09-26T08:17:10.109359'
+- about: https://www.gutenberg.org/files/61221/61221-0.txt
+  extents:
+  - 601209
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-07-21T17:46:55'
+- about: https://www.gutenberg.org/ebooks/61221.rdf
+  extents:
+  - 16909
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-25T08:52:50.738473'
+- about: https://www.gutenberg.org/cache/epub/61221/pg61221.cover.medium.jpg
+  extents:
+  - 13825
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-25T08:52:37.837503'
+- about: https://www.gutenberg.org/cache/epub/61221/pg61221.cover.small.jpg
+  extents:
+  - 1768
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-25T08:52:37.780508'
+- about: https://www.gutenberg.org/cache/epub/61221/pg61221-h.zip
+  extents:
+  - 402584
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-25T08:52:37.173513'
+issued: '2020-01-22'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Political fiction
+- British -- India -- Fiction
+- Race relations -- Fiction
+- India -- Social conditions -- 20th century -- Fiction
+- PR
+title: A passage to India
+types:
+- Text

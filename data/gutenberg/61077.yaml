@@ -1,0 +1,147 @@
+bookshelves:
+- 'Browsing: Literature'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Plunkett, Edward John Moreton Drax, Baron Dunsany
+  - Dunsany, Edward John Moreton Drax Plunkett, Baron
+  birthdate: 1878
+  deathdate: 1957
+  name: Dunsany, Lord
+  webpage: https://en.wikipedia.org/wiki/Lord_Dunsany
+description: ''
+downloads: 455
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/61077.html.images
+  extents:
+  - 415817
+  - 418121
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-25T08:17:03.196632'
+  - '2023-09-26T07:46:02.784394'
+- about: https://www.gutenberg.org/files/61077/61077-h/61077-h.htm
+  extents:
+  - 417676
+  formats:
+  - text/html
+  modified:
+  - '2022-05-13T12:47:20'
+- about: https://www.gutenberg.org/ebooks/61077.epub3.images
+  extents:
+  - 449787
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-25T08:17:07.923597'
+- about: https://www.gutenberg.org/ebooks/61077.epub.images
+  extents:
+  - 450812
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-25T08:17:03.753603'
+- about: https://www.gutenberg.org/ebooks/61077.epub.noimages
+  extents:
+  - 251882
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-25T08:17:03.460620'
+- about: https://www.gutenberg.org/ebooks/61077.kf8.images
+  extents:
+  - 543997
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-25T08:17:11.648580'
+- about: https://www.gutenberg.org/ebooks/61077.kindle.images
+  extents:
+  - 509875
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-25T08:17:07.642576'
+- about: https://www.gutenberg.org/ebooks/61077.kindle.noimages
+  extents:
+  - 321589
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-27T15:23:43.761368'
+- about: https://www.gutenberg.org/ebooks/61077.txt.utf-8
+  extents:
+  - 400904
+  - 400934
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-25T08:17:02.746634'
+  - '2023-09-26T07:46:02.509400'
+- about: https://www.gutenberg.org/files/61077/61077-0.txt
+  extents:
+  - 400798
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-05-23T14:20:43'
+- about: https://www.gutenberg.org/ebooks/61077.rdf
+  extents:
+  - 18140
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-25T08:17:11.777569'
+- about: https://www.gutenberg.org/cache/epub/61077/pg61077.cover.medium.jpg
+  extents:
+  - 28212
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-25T08:17:03.550592'
+- about: https://www.gutenberg.org/cache/epub/61077/pg61077.cover.small.jpg
+  extents:
+  - 4296
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-25T08:17:03.504733'
+- about: https://www.gutenberg.org/files/61077/61077-0.zip
+  extents:
+  - 144068
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-05-23T14:25:05'
+- about: https://www.gutenberg.org/files/61077/61077-h.zip
+  extents:
+  - 366232
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-05-13T12:51:39'
+- about: https://www.gutenberg.org/cache/epub/61077/pg61077-h.zip
+  extents:
+  - 365835
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-25T08:17:03.237630'
+issued: '2020-01-02'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Fantasy fiction
+- PR
+title: The King of Elfland's Daughter
+types:
+- Text

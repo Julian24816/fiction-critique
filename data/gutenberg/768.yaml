@@ -1,0 +1,174 @@
+bookshelves:
+- Best Books Ever Listings
+- Gothic Fiction
+- Movie Books
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Bronte, Emily
+  - Bell, Ellis
+  - Brontë, Emily Jane
+  birthdate: 1818
+  deathdate: 1848
+  name: Brontë, Emily
+  webpage: https://en.wikipedia.org/wiki/Emily_Brontë
+description: '"Wuthering Heights" by Emily Brontë is a novel penned in the early 19th
+  century. The story centers around the intense and turbulent relationships among
+  the residents of Wuthering Heights and Thrushcross Grange, particularly focusing
+  on the enigmatic figure of Heathcliff and his connection to Catherine Earnshaw.
+  It delves into themes of love, revenge, and the haunting consequences of past actions,
+  set against the backdrop of the desolate Yorkshire moors.  The beginning of "Wuthering
+  Heights" introduces us to Mr. Lockwood, who has recently taken a rental at Thrushcross
+  Grange and decides to visit his reclusive landlord, Mr. Heathcliff, at Wuthering
+  Heights. Lockwood''s encounter with Heathcliff is marked by unease, revealing a
+  hostile atmosphere filled with mistrust and discontent. The narrative then hints
+  at Heathcliff’s complicated past as an orphan taken in by the Earnshaw family, setting
+  up an exploration of social hierarchies and emotional scars that form the crux of
+  the novel. As Lockwood navigates his burgeoning curiosity about these charged family
+  dynamics, he inadvertently becomes entangled in the brooding past that shapes the
+  characters'' present lives, notably those of Heathcliff and Catherine. (This is
+  an automatically generated summary.)'
+downloads: 10956
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/768.html.images
+  extents:
+  - 720747
+  - 720948
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T07:14:01.826713'
+  - '2023-10-01T06:45:59.010993'
+- about: https://www.gutenberg.org/files/768/768-h/768-h.htm
+  extents:
+  - 756308
+  formats:
+  - text/html
+  modified:
+  - '2022-01-18T12:18:20'
+- about: https://www.gutenberg.org/ebooks/768.epub3.images
+  extents:
+  - 375414
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T07:14:10.801663'
+- about: https://www.gutenberg.org/ebooks/768.epub.images
+  extents:
+  - 376831
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T07:14:03.474685'
+- about: https://www.gutenberg.org/ebooks/768.epub.noimages
+  extents:
+  - 376832
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T07:14:02.515698'
+- about: https://www.gutenberg.org/ebooks/768.kf8.images
+  extents:
+  - 608267
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T07:14:16.940627'
+- about: https://www.gutenberg.org/ebooks/768.kindle.images
+  extents:
+  - 576389
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T07:14:10.146655'
+- about: https://www.gutenberg.org/ebooks/768.kindle.noimages
+  extents:
+  - 576494
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T08:04:36.996026'
+- about: https://www.gutenberg.org/ebooks/768.txt.utf-8
+  extents:
+  - 693877
+  - 693883
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T07:14:00.859728'
+  - '2023-10-01T06:45:58.109995'
+- about: https://www.gutenberg.org/files/768/768-0.txt
+  extents:
+  - 693647
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-01-18T12:17:47'
+- about: https://www.gutenberg.org/ebooks/768.rdf
+  extents:
+  - 21023
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T07:14:17.095617'
+- about: https://www.gutenberg.org/cache/epub/768/pg768.cover.medium.jpg
+  extents:
+  - 13267
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T07:14:02.881695'
+- about: https://www.gutenberg.org/cache/epub/768/pg768.cover.small.jpg
+  extents:
+  - 3424
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T07:14:02.696688'
+- about: https://www.gutenberg.org/files/768/768-0.zip
+  extents:
+  - 272950
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-01-18T12:19:16'
+- about: https://www.gutenberg.org/files/768/768-h.zip
+  extents:
+  - 280282
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-01-18T12:19:37'
+- about: https://www.gutenberg.org/cache/epub/768/pg768-h.zip
+  extents:
+  - 325037
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T07:14:01.892687'
+issued: '1996-12-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Revenge -- Fiction
+- Psychological fiction
+- Rejection (Psychology) -- Fiction
+- Love stories
+- Domestic fiction
+- Yorkshire (England) -- Fiction
+- Foundlings -- Fiction
+- Rural families -- Fiction
+- 'Heathcliff (Fictitious character : Brontë) -- Fiction'
+- Triangles (Interpersonal relations) -- Fiction
+- PR
+title: Wuthering Heights
+types:
+- Text

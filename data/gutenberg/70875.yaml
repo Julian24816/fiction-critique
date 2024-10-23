@@ -1,0 +1,145 @@
+bookshelves:
+- 'Browsing: Health & Medicine'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Lewis, Harry Sinclair
+  - Graham, Tom
+  birthdate: 1885
+  deathdate: 1951
+  name: Lewis, Sinclair
+  webpage: https://en.wikipedia.org/wiki/Sinclair_Lewis
+description: ''
+downloads: 170
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/70875.html.images
+  extents:
+  - 1068172
+  - 1068181
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-29T07:46:35.841770'
+  - '2023-09-30T09:02:03.491388'
+- about: https://www.gutenberg.org/files/70875/70875-h/70875-h.htm
+  extents:
+  - 1071848
+  formats:
+  - text/html
+  modified:
+  - '2023-05-28T09:35:50'
+- about: https://www.gutenberg.org/ebooks/70875.epub3.images
+  extents:
+  - 704295
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T07:46:51.794693'
+- about: https://www.gutenberg.org/ebooks/70875.epub.images
+  extents:
+  - 717883
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T07:46:38.976745'
+- about: https://www.gutenberg.org/ebooks/70875.epub.noimages
+  extents:
+  - 588217
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T07:46:37.200785'
+- about: https://www.gutenberg.org/ebooks/70875.kf8.images
+  extents:
+  - 2000013
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T07:47:01.590153'
+- about: https://www.gutenberg.org/ebooks/70875.kindle.images
+  extents:
+  - 1920095
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T07:46:49.872704'
+- about: https://www.gutenberg.org/ebooks/70875.txt.utf-8
+  extents:
+  - 999427
+  - 999455
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-29T07:46:33.098767'
+  - '2023-09-30T09:02:00.708432'
+- about: https://www.gutenberg.org/files/70875/70875-0.txt
+  extents:
+  - 999210
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2023-05-28T09:35:51'
+- about: https://www.gutenberg.org/ebooks/70875.rdf
+  extents:
+  - 19374
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-29T07:47:01.986126'
+- about: https://www.gutenberg.org/cache/epub/70875/pg70875.cover.medium.jpg
+  extents:
+  - 16664
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T07:46:37.480758'
+- about: https://www.gutenberg.org/cache/epub/70875/pg70875.cover.small.jpg
+  extents:
+  - 2686
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T07:46:37.344744'
+- about: https://www.gutenberg.org/files/70875/70875-0.zip
+  extents:
+  - 398126
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-05-28T09:36:11'
+- about: https://www.gutenberg.org/files/70875/70875-h.zip
+  extents:
+  - 930573
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-05-28T09:36:10'
+- about: https://www.gutenberg.org/cache/epub/70875/pg70875-h.zip
+  extents:
+  - 933749
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-29T07:46:35.940750'
+issued: '2023-05-28'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Satire
+- Physicians -- Fiction
+- Medical fiction
+- Medical ethics -- Fiction
+- Medicine -- Practice -- Fiction
+- Medicine -- Research -- Fiction
+- PS
+title: Arrowsmith
+types:
+- Text

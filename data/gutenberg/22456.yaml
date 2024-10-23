@@ -1,0 +1,166 @@
+bookshelves:
+- Classical Antiquity
+- Harvard Classics
+- 'Browsing: History - General'
+- 'Browsing: Literature'
+- 'Browsing: Poetry'
+creator:
+  aliases:
+  - Vergil
+  - Vergilius Maro, Publius
+  - Publio Virgilio Marón
+  - Marón, Publio Virgilio
+  birthdate: -70
+  deathdate: -19
+  name: Virgil
+  webpage: https://en.wikipedia.org/wiki/Virgil
+description: '"The Aeneid of Virgil" by Virgil is a classic epic poem written in the
+  late 1st century BC. The poem narrates the legendary exploits of Aeneas, a Trojan
+  hero and the forefather of the Romans, as he embarks on a tumultuous journey from
+  the ruins of Troy to find a new homeland in Italy. Central to the story is Aeneas''s
+  struggles against divine forces, particularly the wrath of Juno, and his relentless
+  pursuit of destiny, amid themes of fate, duty, and the foundation of a great civilization.  At
+  the start of "The Aeneid," Aeneas is introduced as a noble warrior who survives
+  the fall of Troy and is propelled by fate to establish a new city in Italy. The
+  opening details the fierce opposition he faces from Juno, who harbors resentment
+  against the Trojans. Guided by divine intervention, Aeneas and his fleet are shipwrecked
+  on the coast of Carthage, where he seeks refuge and encounters the strong-willed
+  Queen Dido. As Aeneas reflects on his harrowing journey and lost comrades, the stormy
+  conflict between personal desires and divine mandates begins to unfold, setting
+  the stage for the epic''s exploration of heroism and destiny. (This is an automatically
+  generated summary.)'
+downloads: 2430
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/22456.html.images
+  extents:
+  - 628976
+  - 628861
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-09T14:18:01.128189'
+  - '2023-09-10T06:55:53.663140'
+- about: https://www.gutenberg.org/files/22456/22456-h/22456-h.htm
+  extents:
+  - 637472
+  formats:
+  - text/html
+  modified:
+  - '2021-09-06T00:29:37'
+- about: https://www.gutenberg.org/ebooks/22456.epub3.images
+  extents:
+  - 304849
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T14:18:09.377092'
+- about: https://www.gutenberg.org/ebooks/22456.epub.images
+  extents:
+  - 311429
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T14:18:02.936118'
+- about: https://www.gutenberg.org/ebooks/22456.epub.noimages
+  extents:
+  - 311428
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T14:18:01.911158'
+- about: https://www.gutenberg.org/ebooks/22456.kf8.images
+  extents:
+  - 532514
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-09T14:18:14.679116'
+- about: https://www.gutenberg.org/ebooks/22456.kindle.images
+  extents:
+  - 483918
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-09T14:18:08.599106'
+- about: https://www.gutenberg.org/ebooks/22456.kindle.noimages
+  extents:
+  - 483830
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-10T13:10:09.190581'
+- about: https://www.gutenberg.org/ebooks/22456.txt.utf-8
+  extents:
+  - 587099
+  - 587027
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-09T14:18:00.411140'
+  - '2023-09-10T06:55:52.992130'
+- about: https://www.gutenberg.org/files/22456/22456-0.txt
+  extents:
+  - 586824
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2021-09-06T00:29:14'
+- about: https://www.gutenberg.org/ebooks/22456.rdf
+  extents:
+  - 19967
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-09T14:18:14.826196'
+- about: https://www.gutenberg.org/cache/epub/22456/pg22456.cover.medium.jpg
+  extents:
+  - 11785
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-09T14:18:02.270125'
+- about: https://www.gutenberg.org/cache/epub/22456/pg22456.cover.small.jpg
+  extents:
+  - 3136
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-09T14:18:02.090117'
+- about: https://www.gutenberg.org/files/22456/22456-0.zip
+  extents:
+  - 239648
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-09-06T00:30:03'
+- about: https://www.gutenberg.org/files/22456/22456-h.zip
+  extents:
+  - 249383
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-09-06T00:30:27'
+- about: https://www.gutenberg.org/cache/epub/22456/pg22456-h.zip
+  extents:
+  - 292139
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-09T14:18:01.187145'
+issued: '2007-08-29'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Aeneas (Legendary character) -- Poetry
+- Epic poetry, Latin -- Translations into English
+- PA
+title: The Aeneid of Virgil
+types:
+- Text

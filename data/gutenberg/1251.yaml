@@ -1,0 +1,162 @@
+bookshelves:
+- Fantasy
+- Arthurian Legends
+- 'Browsing: Culture/Civilization/Society'
+- 'Browsing: Literature'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases: []
+  birthdate: 0
+  deathdate: 1471
+  name: Malory, Thomas, Sir
+  webpage: https://en.wikipedia.org/wiki/Thomas_Malory
+description: '"Le Morte d''Arthur: Volume 1" by Sir Thomas Malory is a historical
+  account written in the late 15th century. The narrative explores the legendary romances
+  of King Arthur and his noble Knights of the Round Table, detailing their adventures,
+  battles, and code of chivalry. Central figures include King Arthur, Merlin the wizard,
+  and Uther Pendragon, as the book delves into themes of honor, loyalty, and the consequences
+  of desires.  The opening of the book introduces the backstory of Uther Pendragon,
+  who falls in love with Igraine, the wife of the Duke of Cornwall. After a series
+  of events fueled by desire and deception, King Arthur is conceived through a manipulation
+  orchestrated by Merlin. The narrative unfolds with Uther''s death and the subsequent
+  turmoil as various nobles vie for power, ultimately leading to Arthur''s miraculous
+  acquisition of Excalibur and his acceptance as King. Through a series of battles
+  and tournaments, the groundwork is laid for King Arthur''s future as a just and
+  noble ruler, facing opposition as he strives to unite the realm. (This is an automatically
+  generated summary.)'
+downloads: 8586
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/1251.html.images
+  extents:
+  - 964681
+  - 966440
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T08:58:44.204235'
+  - '2023-10-01T08:16:23.046540'
+- about: https://www.gutenberg.org/files/1251/1251-h/1251-h.htm
+  extents:
+  - 963528
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2020-08-03T12:12:00'
+- about: https://www.gutenberg.org/files/1251/1251-h.zip
+  extents:
+  - 301170
+  formats:
+  - text/html; charset=utf-8
+  - application/zip
+  modified:
+  - '2020-08-03T09:28:00'
+- about: https://www.gutenberg.org/ebooks/1251.epub3.images
+  extents:
+  - 592523
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:58:59.438147'
+- about: https://www.gutenberg.org/ebooks/1251.epub.images
+  extents:
+  - 598252
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:58:47.017222'
+- about: https://www.gutenberg.org/ebooks/1251.epub.noimages
+  extents:
+  - 598252
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T08:58:45.502260'
+- about: https://www.gutenberg.org/ebooks/1251.kf8.images
+  extents:
+  - 804001
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T08:59:09.335120'
+- about: https://www.gutenberg.org/ebooks/1251.kindle.images
+  extents:
+  - 651444
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T08:58:57.880198'
+- about: https://www.gutenberg.org/ebooks/1251.kindle.noimages
+  extents:
+  - 661056
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T10:05:42.655778'
+- about: https://www.gutenberg.org/ebooks/1251.txt.utf-8
+  extents:
+  - 917479
+  - 917456
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T08:58:43.223233'
+  - '2023-10-01T08:16:22.033515'
+- about: https://www.gutenberg.org/files/1251/1251-0.txt
+  extents:
+  - 917658
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2020-08-03T12:09:20'
+- about: https://www.gutenberg.org/files/1251/1251-0.zip
+  extents:
+  - 296722
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2020-08-03T09:28:00'
+- about: https://www.gutenberg.org/ebooks/1251.rdf
+  extents:
+  - 19050
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T08:59:09.513092'
+- about: https://www.gutenberg.org/cache/epub/1251/pg1251.cover.medium.jpg
+  extents:
+  - 12141
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T08:58:45.944218'
+- about: https://www.gutenberg.org/cache/epub/1251/pg1251.cover.small.jpg
+  extents:
+  - 3352
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T08:58:45.754214'
+- about: https://www.gutenberg.org/cache/epub/1251/pg1251-h.zip
+  extents:
+  - 352749
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T08:58:44.284225'
+issued: '1998-03-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Arthurian romances
+- Arthur, King -- Legends
+- PR
+title: 'Le Morte d''Arthur: Volume 1'
+types:
+- Text

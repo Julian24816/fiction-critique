@@ -1,0 +1,148 @@
+bookshelves:
+- 'Browsing: Literature'
+- 'Browsing: Poetry'
+creator:
+  aliases:
+  - Collins, William Lucas
+  birthdate: 1817
+  deathdate: 1887
+  name: Collins, W. Lucas (William Lucas)
+  webpage: https://en.wikipedia.org/wiki/William_Lucas_Collins
+description: ''
+downloads: 228
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/59306.html.images
+  extents:
+  - 642724
+  - 642732
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-24T12:27:23.621336'
+  - '2023-09-25T11:02:08.137612'
+- about: https://www.gutenberg.org/files/59306/59306-h/59306-h.htm
+  extents:
+  - 651272
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2021-01-24T10:40:37'
+- about: https://www.gutenberg.org/files/59306/59306-h.zip
+  extents:
+  - 251613
+  formats:
+  - text/html; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-01-24T10:40:37'
+- about: https://www.gutenberg.org/ebooks/59306.epub3.images
+  extents:
+  - 274141
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T12:27:36.802275'
+- about: https://www.gutenberg.org/ebooks/59306.epub.images
+  extents:
+  - 284140
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T12:27:26.346316'
+- about: https://www.gutenberg.org/ebooks/59306.epub.noimages
+  extents:
+  - 284139
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-24T12:27:24.933363'
+- about: https://www.gutenberg.org/ebooks/59306.kf8.images
+  extents:
+  - 471854
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T12:27:42.771744'
+- about: https://www.gutenberg.org/ebooks/59306.kindle.images
+  extents:
+  - 438134
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-24T12:27:34.726299'
+- about: https://www.gutenberg.org/ebooks/59306.kindle.noimages
+  extents:
+  - 428245
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-26T22:25:30.298885'
+- about: https://www.gutenberg.org/ebooks/59306.txt.utf-8
+  extents:
+  - 525648
+  - 525485
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-24T12:27:21.894357'
+  - '2023-09-25T11:02:06.460609'
+- about: https://www.gutenberg.org/files/59306/59306-0.txt
+  extents:
+  - 525670
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2019-04-18T11:53:36'
+- about: https://www.gutenberg.org/files/59306/59306-0.zip
+  extents:
+  - 207142
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2019-04-18T11:54:08'
+- about: https://www.gutenberg.org/ebooks/59306.rdf
+  extents:
+  - 19035
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-24T12:27:42.924730'
+- about: https://www.gutenberg.org/cache/epub/59306/pg59306.cover.medium.jpg
+  extents:
+  - 16297
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T12:27:25.061357'
+- about: https://www.gutenberg.org/cache/epub/59306/pg59306.cover.small.jpg
+  extents:
+  - 2370
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-24T12:27:24.998320'
+- about: https://www.gutenberg.org/cache/epub/59306/pg59306-h.zip
+  extents:
+  - 249867
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-24T12:27:23.672372'
+issued: '2019-04-18'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Epic poetry, Greek -- Translations into English
+- Odysseus, King of Ithaca (Mythological character) -- Poetry
+- Epic poetry, Greek -- History and criticism
+- Homer. Iliad
+- PA
+title: 'Homer: The Iliad; The Odyssey'
+types:
+- Text

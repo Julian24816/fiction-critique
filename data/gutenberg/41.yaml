@@ -1,0 +1,164 @@
+bookshelves:
+- Children's Literature
+- Harvard Classics
+- 'Browsing: Children & Young Adult Reading'
+- 'Browsing: History - American'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Crayon, Geoffrey
+  birthdate: 1783
+  deathdate: 1859
+  name: Irving, Washington
+  webpage: https://en.wikipedia.org/wiki/Washington_Irving
+description: '"The Legend of Sleepy Hollow" by Washington Irving is a classic short
+  story from the early 19th century, specifically during the Romantic era. This tale
+  is a blend of folklore and ghost story that takes place in the mythical village
+  of Sleepy Hollow, where supernatural occurrences and local legends intertwine within
+  a vividly described rural setting. The narrative centers on themes of love, rivalry,
+  and the collision of rational thought with superstition.  The story primarily follows
+  Ichabod Crane, a lanky schoolteacher who arrives in Sleepy Hollow to woo the beautiful
+  Katrina Van Tassel, daughter of a wealthy farmer. However, he is met with competition
+  from the burly Brom Bones, who is equally determined to win her affections. As Ichabod
+  navigates his way through local superstitions and his own fear of the supernatural,
+  he ultimately encounters the infamous Headless Horseman during a fateful ride home.
+  The story culminates in a climactic chase that leads to Ichabod''s mysterious disappearance.
+  Through entertaining characters and a blend of humor and horror, Irving crafts a
+  story that remains a beloved part of American literature, exploring themes of ambition,
+  jealousy, and the power of legend. (This is an automatically generated summary.)'
+downloads: 14155
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/41.html.images
+  extents:
+  - 97612
+  - 97553
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T03:44:51.261718'
+  - '2023-10-01T03:43:24.749725'
+- about: https://www.gutenberg.org/files/41/41-h/41-h.htm
+  extents:
+  - 98003
+  formats:
+  - text/html
+  modified:
+  - '2022-06-27T04:09:44'
+- about: https://www.gutenberg.org/ebooks/41.epub3.images
+  extents:
+  - 87888
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:44:54.726696'
+- about: https://www.gutenberg.org/ebooks/41.epub.images
+  extents:
+  - 86959
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:44:52.577703'
+- about: https://www.gutenberg.org/ebooks/41.epub.noimages
+  extents:
+  - 86959
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:44:51.785702'
+- about: https://www.gutenberg.org/ebooks/41.kf8.images
+  extents:
+  - 156498
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:44:56.490701'
+- about: https://www.gutenberg.org/ebooks/41.kindle.images
+  extents:
+  - 149403
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:44:54.268690'
+- about: https://www.gutenberg.org/ebooks/41.kindle.noimages
+  extents:
+  - 149451
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T03:49:45.218383'
+- about: https://www.gutenberg.org/ebooks/41.txt.utf-8
+  extents:
+  - 90938
+  - 90915
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T03:44:50.986721'
+  - '2023-10-01T03:43:24.502717'
+- about: https://www.gutenberg.org/files/41/41-0.txt
+  extents:
+  - 90714
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-06-27T04:11:21'
+- about: https://www.gutenberg.org/ebooks/41.rdf
+  extents:
+  - 19060
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T03:44:56.622688'
+- about: https://www.gutenberg.org/cache/epub/41/pg41.cover.medium.jpg
+  extents:
+  - 11646
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:44:52.133713'
+- about: https://www.gutenberg.org/cache/epub/41/pg41.cover.small.jpg
+  extents:
+  - 3268
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:44:51.957693'
+- about: https://www.gutenberg.org/files/41/41-0.zip
+  extents:
+  - 36289
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-06-27T04:11:46'
+- about: https://www.gutenberg.org/files/41/41-h.zip
+  extents:
+  - 37768
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-06-27T04:12:04'
+- about: https://www.gutenberg.org/cache/epub/41/pg41-h.zip
+  extents:
+  - 87068
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T03:44:51.272698'
+issued: '2008-06-27'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Ghosts -- Fiction
+- New York (State) -- History -- 1775-1865 -- Fiction
+- PS
+title: The Legend of Sleepy Hollow
+types:
+- Text

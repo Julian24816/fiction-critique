@@ -1,0 +1,158 @@
+bookshelves:
+- Best Books Ever Listings
+- 'Browsing: History - Medieval/The Middle Ages'
+- 'Browsing: Literature'
+- 'Browsing: Poetry'
+creator:
+  aliases:
+  - Chaucer, Jeffrey
+  birthdate: 1342
+  deathdate: 1400
+  name: Chaucer, Geoffrey
+  webpage: https://en.wikipedia.org/wiki/Geoffrey_Chaucer
+description: '"Chaucer''s Works, Volume 4 — The Canterbury Tales" by Geoffrey Chaucer
+  is a collection of narrative poems written in the 14th century. This edition presents
+  an edited version of the famous tales, which are framed within a pilgrimage context,
+  where various characters share their stories along the journey to Canterbury Cathedral.
+  The work features a diverse cast of characters, each with unique backgrounds and
+  social standings, including the Knight, the Squire, and the Prioress, offering a
+  vivid portrayal of medieval society.  At the start of "The Canterbury Tales," the
+  scene is set in April, a time traditionally associated with renewal and pilgrimage.
+  The narrator introduces the story by explaining that he decided to join a group
+  of twenty-nine pilgrims at the Tabard Inn in Southwark, who are preparing to travel
+  to Canterbury. As the gathering is described, readers get a glimpse into the personalities
+  and social standings of various characters, laying the groundwork for the tales
+  they will tell. This opening sets a unique tone for the journey, blending themes
+  of faith, storytelling, and camaraderie with the anticipation of shared experiences
+  and moral reflections on life. (This is an automatically generated summary.)'
+downloads: 5543
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/22120.html.images
+  extents:
+  - 1910499
+  - 1910319
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-09T12:51:24.574708'
+  - '2023-09-10T05:39:57.387592'
+- about: https://www.gutenberg.org/files/22120/22120-h/22120-h.htm
+  extents:
+  - 2039226
+  formats:
+  - text/html; charset=iso-8859-1
+  modified:
+  - '2021-04-29T22:55:38'
+- about: https://www.gutenberg.org/files/22120/22120-h.zip
+  extents:
+  - 1088218
+  formats:
+  - text/html; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2021-04-29T23:17:04'
+- about: https://www.gutenberg.org/ebooks/22120.epub3.images
+  extents:
+  - 1142738
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T12:52:05.320524'
+- about: https://www.gutenberg.org/ebooks/22120.epub.images
+  extents:
+  - 1174578
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T12:51:29.531711'
+- about: https://www.gutenberg.org/ebooks/22120.epub.noimages
+  extents:
+  - 696705
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-09T12:51:26.962733'
+- about: https://www.gutenberg.org/ebooks/22120.kf8.images
+  extents:
+  - 1849514
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-09T12:52:25.116427'
+- about: https://www.gutenberg.org/ebooks/22120.kindle.images
+  extents:
+  - 1738135
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-09T12:52:02.309540'
+- about: https://www.gutenberg.org/ebooks/22120.kindle.noimages
+  extents:
+  - 1260058
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-10T11:27:35.223984'
+- about: https://www.gutenberg.org/ebooks/22120.txt.utf-8
+  extents:
+  - 1503797
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-09-09T12:51:14.090779'
+- about: https://www.gutenberg.org/files/22120/22120-0.txt
+  extents:
+  - 1503760
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2021-04-30T00:20:01'
+- about: https://www.gutenberg.org/files/22120/22120-0.zip
+  extents:
+  - 539700
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-04-30T00:20:01'
+- about: https://www.gutenberg.org/ebooks/22120.rdf
+  extents:
+  - 18861
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-09T12:52:25.354409'
+- about: https://www.gutenberg.org/cache/epub/22120/pg22120.cover.medium.jpg
+  extents:
+  - 13637
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-09T12:51:27.394671'
+- about: https://www.gutenberg.org/cache/epub/22120/pg22120.cover.small.jpg
+  extents:
+  - 2130
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-09T12:51:27.187692'
+- about: https://www.gutenberg.org/cache/epub/22120/pg22120-h.zip
+  extents:
+  - 1102236
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-09T12:51:24.725737'
+issued: '2007-07-22'
+language: enm
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Christian pilgrims and pilgrimages -- Poetry
+- PR
+title: Chaucer's Works, Volume 4 — The Canterbury Tales
+types:
+- Text

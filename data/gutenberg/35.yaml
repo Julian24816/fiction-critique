@@ -1,0 +1,161 @@
+bookshelves:
+- Science Fiction
+- Movie Books
+- 'Browsing: Literature'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Wells, Herbert George
+  birthdate: 1866
+  deathdate: 1946
+  name: Wells, H. G. (Herbert George)
+  webpage: https://en.wikipedia.org/wiki/H._G._Wells
+description: '"The Time Machine" by H. G. Wells is a science fiction novel written
+  in the late 19th century. The story introduces a brilliant Time Traveller who presents
+  his revolutionary ideas about time and space to a group of skeptical friends, discussing
+  the concept of a fourth dimension that intertwines with our understanding of time.  The
+  opening portion reveals the Time Traveller engaging his guests in a lively conversation
+  about his theories of time travel, demonstrating his intellect and confidence. He
+  showcases a small model of the time machine he has created, which he explains will
+  allow him to journey through time. His companions express disbelief and skepticism
+  regarding his claims, leading to a tense yet intriguing atmosphere. As the narrative
+  progresses, the Time Traveller prepares for an actual demonstration of his invention,
+  setting the stage for his soon-to-be incredible journey into both the past and the
+  future. (This is an automatically generated summary.)'
+downloads: 6338
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/35.html.images
+  extents:
+  - 215805
+  - 215933
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T03:43:43.529560'
+  - '2023-10-01T03:42:27.290728'
+- about: https://www.gutenberg.org/files/35/35-h/35-h.htm
+  extents:
+  - 219738
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2021-03-30T03:50:42'
+- about: https://www.gutenberg.org/files/35/35-h.zip
+  extents:
+  - 340845
+  formats:
+  - text/html; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-03-30T22:24:47'
+- about: https://www.gutenberg.org/ebooks/35.epub3.images
+  extents:
+  - 307381
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:43:46.955586'
+- about: https://www.gutenberg.org/ebooks/35.epub.images
+  extents:
+  - 307465
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:43:44.191546'
+- about: https://www.gutenberg.org/ebooks/35.epub.noimages
+  extents:
+  - 164392
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:43:43.790562'
+- about: https://www.gutenberg.org/ebooks/35.kf8.images
+  extents:
+  - 364276
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:43:49.483545'
+- about: https://www.gutenberg.org/ebooks/35.kindle.images
+  extents:
+  - 344916
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:43:46.720571'
+- about: https://www.gutenberg.org/ebooks/35.kindle.noimages
+  extents:
+  - 202313
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T03:48:11.959143'
+- about: https://www.gutenberg.org/ebooks/35.txt.utf-8
+  extents:
+  - 204427
+  - 204455
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T03:43:43.302569'
+  - '2023-10-01T03:42:27.078740'
+- about: https://www.gutenberg.org/files/35/35-0.txt
+  extents:
+  - 204357
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2021-03-30T03:52:41'
+- about: https://www.gutenberg.org/files/35/35-0.zip
+  extents:
+  - 78210
+  formats:
+  - text/plain; charset=utf-8
+  - application/zip
+  modified:
+  - '2021-03-30T03:53:12'
+- about: https://www.gutenberg.org/ebooks/35.rdf
+  extents:
+  - 19033
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T03:43:49.617522'
+- about: https://www.gutenberg.org/cache/epub/35/pg35.cover.medium.jpg
+  extents:
+  - 16626
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:43:44.006553'
+- about: https://www.gutenberg.org/cache/epub/35/pg35.cover.small.jpg
+  extents:
+  - 2072
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:43:43.833564'
+- about: https://www.gutenberg.org/cache/epub/35/pg35-h.zip
+  extents:
+  - 341374
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T03:43:43.553562'
+issued: '2004-10-02'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Science fiction
+- Time travel -- Fiction
+- Dystopias -- Fiction
+- PR
+title: The Time Machine
+types:
+- Text

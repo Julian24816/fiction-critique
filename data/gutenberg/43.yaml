@@ -1,0 +1,169 @@
+bookshelves:
+- Precursors of Science Fiction
+- Horror
+- Movie Books
+- 'Browsing: Psychiatry/Psychology'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Stevenson, R. L. (Robert Louis)
+  birthdate: 1850
+  deathdate: 1894
+  name: Stevenson, Robert Louis
+  webpage: https://en.wikipedia.org/wiki/Robert_Louis_Stevenson
+description: '"The Strange Case of Dr. Jekyll and Mr. Hyde" by Robert Louis Stevenson
+  is a novella written during the late 19th century that delves into the duality of
+  human nature and the struggle between good and evil. The narrative follows Mr. Utterson,
+  a lawyer, as he investigates the mysterious relationship between his friend, Dr.
+  Jekyll, and the sinister Mr. Hyde, uncovering dark secrets that test the boundaries
+  of morality.  At the start of the novella, we meet Mr. Utterson and his distant
+  cousin, Mr. Enfield, who discuss a strange door that Enfield associates with a disturbing
+  story about Hyde trampling a young girl and displaying an unsettling demeanor. Utterson
+  becomes increasingly intrigued by Hyde, especially when he discovers that Hyde stands
+  to inherit Jekyll''s wealth upon the doctor''s disappearance. The text evokes a
+  sense of foreboding as Utterson grapples with his concerns for Jekyll''s welfare
+  while unraveling the enigma surrounding Hyde, whose appearance elicits an inexplicable
+  sense of dread. As the tale unfolds, it sets the stage for a profound exploration
+  of identity, shame, and the darker aspects of human behavior. (This is an automatically
+  generated summary.)'
+downloads: 15401
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/43.html.images
+  extents:
+  - 174501
+  - 174580
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T03:45:02.911649'
+  - '2023-10-01T03:43:34.681819'
+- about: https://www.gutenberg.org/files/43/43-h/43-h.htm
+  extents:
+  - 179189
+  formats:
+  - text/html
+  modified:
+  - '2023-05-22T12:56:13'
+- about: https://www.gutenberg.org/ebooks/43.epub3.images
+  extents:
+  - 305135
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:45:05.873675'
+- about: https://www.gutenberg.org/ebooks/43.epub.images
+  extents:
+  - 304773
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:45:03.438640'
+- about: https://www.gutenberg.org/ebooks/43.epub.noimages
+  extents:
+  - 144227
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:45:03.190632'
+- about: https://www.gutenberg.org/ebooks/43.kf8.images
+  extents:
+  - 359917
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:45:08.075617'
+- about: https://www.gutenberg.org/ebooks/43.kindle.images
+  extents:
+  - 345048
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:45:05.650626'
+- about: https://www.gutenberg.org/ebooks/43.kindle.noimages
+  extents:
+  - 184679
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T03:50:01.060035'
+- about: https://www.gutenberg.org/ebooks/43.txt.utf-8
+  extents:
+  - 163537
+  - 163565
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T03:45:02.684629'
+  - '2023-10-01T03:43:34.474807'
+- about: https://www.gutenberg.org/files/43/43-0.txt
+  extents:
+  - 163489
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2023-05-22T12:55:43'
+- about: https://www.gutenberg.org/ebooks/43.rdf
+  extents:
+  - 20394
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T03:45:08.208633'
+- about: https://www.gutenberg.org/cache/epub/43/pg43.cover.medium.jpg
+  extents:
+  - 18278
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:45:03.278622'
+- about: https://www.gutenberg.org/cache/epub/43/pg43.cover.small.jpg
+  extents:
+  - 3376
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:45:03.235644'
+- about: https://www.gutenberg.org/files/43/43-0.zip
+  extents:
+  - 63228
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-05-22T12:56:35'
+- about: https://www.gutenberg.org/files/43/43-h.zip
+  extents:
+  - 273841
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-05-22T12:56:58'
+- about: https://www.gutenberg.org/cache/epub/43/pg43-h.zip
+  extents:
+  - 275425
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T03:45:02.932625'
+issued: '2008-06-27'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Science fiction
+- Horror tales
+- London (England) -- Fiction
+- Physicians -- Fiction
+- Psychological fiction
+- Self-experimentation in medicine -- Fiction
+- Multiple personality -- Fiction
+- PR
+title: The Strange Case of Dr. Jekyll and Mr. Hyde
+types:
+- Text

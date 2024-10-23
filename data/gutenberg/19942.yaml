@@ -1,0 +1,178 @@
+bookshelves:
+- Best Books Ever Listings
+- Banned Books from Anne Haight's list
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Arouet, François Marie
+  - Arouet, Francois Marie
+  birthdate: 1694
+  deathdate: 1778
+  name: Voltaire
+  webpage: https://en.wikipedia.org/wiki/Voltaire
+description: '"Candide" by Voltaire is a satirical novel written in the mid-18th century.
+  This work follows the misadventures of its main character, Candide, who is born
+  into a privileged life but is soon expelled from his idyllic home and thrust into
+  a world filled with absurdity, violence, and philosophical challenges. The story
+  critiques the optimistic philosophy of the time, particularly through Candide''s
+  interactions with various characters and the dire circumstances he encounters.  The
+  opening of "Candide" sets the stage with a glimpse into the life of the titular
+  character, who grows up in the castle of Baron Thunder-ten-Tronckh, where he is
+  taught by the optimistic philosopher Pangloss. Candide experiences a moment of youthful
+  passion with Cunegonde, the Baron''s daughter, but when discovered, he is brutally
+  expelled from the castle. His naive belief that he lives in "the best of all possible
+  worlds" is quickly challenged as he is thrust into a harsh reality marked by war
+  and suffering. The beginning establishes the central themes of philosophy, love,
+  and the inherent absurdity of life that will continue to develop throughout the
+  novel. (This is an automatically generated summary.)'
+downloads: 8731
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/19942.html.images
+  extents:
+  - 262589
+  - 262598
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-08T14:15:43.019391'
+  - '2023-09-09T06:16:47.880416'
+- about: https://www.gutenberg.org/files/19942/19942-h/19942-h.htm
+  extents:
+  - 262537
+  formats:
+  - text/html; charset=iso-8859-1
+  modified:
+  - '2012-11-05T10:07:18'
+- about: https://www.gutenberg.org/files/19942/19942-h.zip
+  extents:
+  - 650569
+  formats:
+  - text/html; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2012-11-05T10:20:12'
+- about: https://www.gutenberg.org/ebooks/19942.epub3.images
+  extents:
+  - 718715
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-08T14:15:49.946327'
+- about: https://www.gutenberg.org/ebooks/19942.epub.images
+  extents:
+  - 718379
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-08T14:15:44.974366'
+- about: https://www.gutenberg.org/ebooks/19942.epub.noimages
+  extents:
+  - 146253
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-08T14:15:43.656372'
+- about: https://www.gutenberg.org/ebooks/19942.kf8.images
+  extents:
+  - 913088
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-08T14:15:53.668325'
+- about: https://www.gutenberg.org/ebooks/19942.kindle.images
+  extents:
+  - 878915
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-08T14:15:48.816401'
+- about: https://www.gutenberg.org/ebooks/19942.kindle.noimages
+  extents:
+  - 231502
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-09T12:01:03.738670'
+- about: https://www.gutenberg.org/ebooks/19942.txt.utf-8
+  extents:
+  - 229839
+  - 229738
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-08T14:15:42.297363'
+  - '2023-09-09T06:16:47.261436'
+- about: https://www.gutenberg.org/files/19942/19942-8.txt
+  extents:
+  - 229683
+  formats:
+  - text/plain; charset=iso-8859-1
+  modified:
+  - '2006-11-27T00:00:00'
+- about: https://www.gutenberg.org/files/19942/19942-8.zip
+  extents:
+  - 88418
+  formats:
+  - text/plain; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2012-11-05T10:20:12'
+- about: https://www.gutenberg.org/files/19942/19942.txt
+  extents:
+  - 229682
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2006-11-27T00:00:00'
+- about: https://www.gutenberg.org/files/19942/19942.zip
+  extents:
+  - 88322
+  formats:
+  - text/plain; charset=us-ascii
+  - application/zip
+  modified:
+  - '2012-11-05T10:20:12'
+- about: https://www.gutenberg.org/ebooks/19942.rdf
+  extents:
+  - 20932
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-08T14:15:53.809318'
+- about: https://www.gutenberg.org/cache/epub/19942/pg19942.cover.medium.jpg
+  extents:
+  - 8047
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-08T14:15:44.014371'
+- about: https://www.gutenberg.org/cache/epub/19942/pg19942.cover.small.jpg
+  extents:
+  - 2221
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-08T14:15:43.834373'
+- about: https://www.gutenberg.org/cache/epub/19942/pg19942-h.zip
+  extents:
+  - 692910
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-08T14:15:43.054382'
+issued: '2006-11-27'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Satire
+- Optimism -- Fiction
+- PQ
+title: Candide
+types:
+- Text

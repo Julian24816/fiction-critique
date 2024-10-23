@@ -1,0 +1,153 @@
+bookshelves:
+- Best Books Ever Listings
+- 'Browsing: History - Ancient'
+- 'Browsing: Literature'
+creator:
+  aliases: []
+  birthdate: 1861
+  deathdate: 1921
+  name: Jastrow, Morris
+  webpage: https://en.wikipedia.org/wiki/Morris_Jastrow_Jr.
+description: '"An Old Babylonian Version of the Gilgamesh Epic" by Morris Jastrow
+  Jr. and Albert T. Clay is a scholarly publication that explores the ancient Mesopotamian
+  epic, likely written in the early 20th century. This work presents a translation
+  and analysis of recently discovered Old Babylonian texts of the Gilgamesh Epic,
+  focusing on its narrative structure, themes, and historical context. The book highlights
+  the adventures of the titular hero, Gilgamesh, and his companion Enkidu as they
+  confront the challenges of friendship, mortality, and the search for immortality.  At
+  the start of this publication, the authors provide essential background on the Gilgamesh
+  Epic, stating its significance in Babylonian literature and outlining the fragmentary
+  nature of its preservation. The introduction discusses the structure of the epic,
+  particularly the interaction and eventual friendship between Gilgamesh and Enkidu,
+  along with their collective battles against formidable foes. It hints at the deeper
+  philosophical explorations of life, death, and the human condition that underpin
+  the narrative. The opening also discusses the importance of the two tablets that
+  serve as the foundation for this Babylonian version, allowing scholars to trace
+  its evolution and connections to broader historical and cultural themes. (This is
+  an automatically generated summary.)'
+downloads: 1022
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/11000.html.images
+  extents:
+  - 428198
+  - 427896
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-05T07:10:49.571922'
+  - '2023-10-05T07:53:43.972096'
+- about: https://www.gutenberg.org/files/11000/11000-h/11000-h.htm
+  extents:
+  - 429199
+  formats:
+  - text/html
+  modified:
+  - '2006-07-04T03:34:47'
+- about: https://www.gutenberg.org/ebooks/11000.epub3.images
+  extents:
+  - 919925
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-05T07:11:03.041840'
+- about: https://www.gutenberg.org/ebooks/11000.epub.images
+  extents:
+  - 923287
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-05T07:10:53.567934'
+- about: https://www.gutenberg.org/ebooks/11000.epub.noimages
+  extents:
+  - 191795
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-05T07:10:50.816897'
+- about: https://www.gutenberg.org/ebooks/11000.kf8.images
+  extents:
+  - 2036060
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-05T07:11:07.927820'
+- about: https://www.gutenberg.org/ebooks/11000.kindle.images
+  extents:
+  - 606389
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-05T07:11:00.591853'
+- about: https://www.gutenberg.org/ebooks/11000.kindle.noimages
+  extents:
+  - 450843
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-05T11:10:26.544752'
+- about: https://www.gutenberg.org/ebooks/11000.txt.utf-8
+  extents:
+  - 251867
+  - 251842
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-05T07:10:47.416942'
+  - '2023-10-05T07:53:41.876075'
+- about: https://www.gutenberg.org/files/11000/11000-8.txt
+  extents:
+  - 251048
+  formats:
+  - text/plain; charset=iso-8859-1
+  modified:
+  - '2006-07-04T03:34:55'
+- about: https://www.gutenberg.org/files/11000/11000-8.zip
+  extents:
+  - 92348
+  formats:
+  - text/plain; charset=iso-8859-1
+  - application/zip
+  modified:
+  - '2006-07-04T03:34:55'
+- about: https://www.gutenberg.org/ebooks/11000.rdf
+  extents:
+  - 17554
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-05T07:11:08.090846'
+- about: https://www.gutenberg.org/cache/epub/11000/pg11000.cover.medium.jpg
+  extents:
+  - 21855
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-05T07:10:51.238890'
+- about: https://www.gutenberg.org/cache/epub/11000/pg11000.cover.small.jpg
+  extents:
+  - 4744
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-05T07:10:51.028914'
+- about: https://www.gutenberg.org/cache/epub/11000/pg11000-h.zip
+  extents:
+  - 933201
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-05T07:10:49.646910'
+issued: '2006-07-04'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Epic poetry, Assyro-Babylonian
+- PJ
+title: An Old Babylonian Version of the Gilgamesh Epic
+types:
+- Text

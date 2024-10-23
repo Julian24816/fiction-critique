@@ -1,0 +1,151 @@
+bookshelves:
+- Best Books Ever Listings
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Melville, Hermann
+  birthdate: 1819
+  deathdate: 1891
+  name: Melville, Herman
+  webpage: https://en.wikipedia.org/wiki/Herman_Melville
+description: '"Moby Dick; Or, The Whale" by Herman Melville is a novel written in
+  the mid-19th century. The story follows Ishmael, a sailor on a whaling voyage, who
+  seeks adventure and escape from his gloomy life on land. As he embarks on this journey,
+  he becomes drawn into the complex world of whaling and is introduced to the ominous
+  figure of Captain Ahab, whose obsession with a legendary white whale ultimately
+  drives the narrative.  At the start of the novel, Ishmael introduces himself and
+  shares his philosophy about the sea as a remedy for his melancholic disposition.
+  He muses on the magnetic pull of the ocean, describing not only his own urge to
+  set sail but also the collective longing of city dwellers for the water. Ishmael''s
+  journey takes him to New Bedford, where he experiences a series of humorous and
+  strange encounters while seeking lodging before joining a whaling ship. As he navigates
+  his way through the town, he is introduced to Queequeg, a tattooed harpooner with
+  a mysterious past, setting the stage for a unique friendship that unfolds amidst
+  the backdrop of whaling adventures. (This is an automatically generated summary.)'
+downloads: 58362
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/2701.html.images
+  extents:
+  - 1453628
+  - 1453561
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-02T04:22:46.840504'
+  - '2023-10-02T04:34:43.462887'
+- about: https://www.gutenberg.org/files/2701/2701-h/2701-h.htm
+  extents:
+  - 1504234
+  formats:
+  - text/html; charset=utf-8
+  modified:
+  - '2021-08-18T00:41:02'
+- about: https://www.gutenberg.org/ebooks/2701.epub3.images
+  extents:
+  - 604424
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-02T04:23:01.571446'
+- about: https://www.gutenberg.org/ebooks/2701.epub.images
+  extents:
+  - 628099
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-02T04:22:49.150511'
+- about: https://www.gutenberg.org/ebooks/2701.epub.noimages
+  extents:
+  - 628099
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-02T04:22:47.865519'
+- about: https://www.gutenberg.org/ebooks/2701.kf8.images
+  extents:
+  - 1051560
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-02T04:23:12.521379'
+- about: https://www.gutenberg.org/ebooks/2701.kindle.images
+  extents:
+  - 928029
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-02T04:23:00.504478'
+- about: https://www.gutenberg.org/ebooks/2701.kindle.noimages
+  extents:
+  - 935512
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-02T05:34:20.896866'
+- about: https://www.gutenberg.org/ebooks/2701.txt.utf-8
+  extents:
+  - 1276290
+  - 1276266
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-02T04:22:44.638548'
+  - '2023-10-02T04:34:41.460871'
+- about: https://www.gutenberg.org/files/2701/2701-0.txt
+  extents:
+  - 1276235
+  formats:
+  - text/plain; charset=utf-8
+  modified:
+  - '2021-08-18T00:41:22'
+- about: https://www.gutenberg.org/ebooks/2701.rdf
+  extents:
+  - 18426
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-02T04:23:12.727360'
+- about: https://www.gutenberg.org/cache/epub/2701/pg2701.cover.medium.jpg
+  extents:
+  - 13262
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-02T04:22:48.276510'
+- about: https://www.gutenberg.org/cache/epub/2701/pg2701.cover.small.jpg
+  extents:
+  - 3768
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-02T04:22:48.082477'
+- about: https://www.gutenberg.org/cache/epub/2701/pg2701-h.zip
+  extents:
+  - 584017
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-02T04:22:46.960538'
+issued: '2001-07-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Whaling -- Fiction
+- Sea stories
+- Psychological fiction
+- Ship captains -- Fiction
+- Adventure stories
+- Mentally ill -- Fiction
+- Ahab, Captain (Fictitious character) -- Fiction
+- Whales -- Fiction
+- Whaling ships -- Fiction
+- PS
+title: Moby Dick; Or, The Whale
+types:
+- Text

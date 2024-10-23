@@ -1,0 +1,164 @@
+bookshelves:
+- Classical Antiquity
+- Banned Books from Anne Haight's list
+- 'Browsing: History - Ancient'
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Apuleius, Lucius
+  - Apuleius Platonicus Madaurensis
+  birthdate: 0
+  deathdate: 0
+  name: Apuleius
+  webpage: https://en.wikipedia.org/wiki/Apuleius
+description: '"The Golden Asse" by Lucius Apuleius is a novel written in the 2nd century
+  AD. The story follows the protagonist, Lucius, who undergoes a series of transformative
+  adventures after he becomes accidentally transformed into an ass. As he navigates
+  the trials and tribulations of his new form, Lucius seeks knowledge and experiences
+  that ultimately lead him to a deeper understanding of love, transformation, and
+  the nature of humanity.  At the start of the narrative, we are introduced to Lucius,
+  who embarks on a journey to Thessaly, a region notorious for its witchcraft. Accompanying
+  him are two strangers who discuss the powers of sorcery, setting the stage for Lucius''s
+  ensuing misadventures with witches and magic. Through a series of humorous and poignant
+  encounters—including a notable episode involving a juggler and his impressive feats—Lucius''s
+  curiosity about witchcraft grows. He learns about the significant role these practices
+  play in the lives of those surrounding him while reflecting on the history and power
+  dynamics at play in Thessaly. The opening chapters set up a rich tapestry of themes
+  that include exploration, transformation, and the complexities of human desire.
+  (This is an automatically generated summary.)'
+downloads: 571
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/1666.html.images
+  extents:
+  - 484326
+  - 484698
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T10:38:01.364968'
+  - '2023-10-01T09:40:32.480539'
+- about: https://www.gutenberg.org/files/1666/1666-h/1666-h.htm
+  extents:
+  - 485385
+  formats:
+  - text/html
+  modified:
+  - '2022-09-17T14:26:30'
+- about: https://www.gutenberg.org/ebooks/1666.epub3.images
+  extents:
+  - 272145
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T10:38:08.415928'
+- about: https://www.gutenberg.org/ebooks/1666.epub.images
+  extents:
+  - 274135
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T10:38:03.070982'
+- about: https://www.gutenberg.org/ebooks/1666.epub.noimages
+  extents:
+  - 274137
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T10:38:01.994995'
+- about: https://www.gutenberg.org/ebooks/1666.kf8.images
+  extents:
+  - 416712
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T10:38:13.292902'
+- about: https://www.gutenberg.org/ebooks/1666.kindle.images
+  extents:
+  - 377174
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T10:38:07.829944'
+- about: https://www.gutenberg.org/ebooks/1666.kindle.noimages
+  extents:
+  - 378220
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-17T17:00:25.202491'
+- about: https://www.gutenberg.org/ebooks/1666.txt.utf-8
+  extents:
+  - 467374
+  - 467355
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T10:38:00.963006'
+  - '2023-10-01T09:40:32.113523'
+- about: https://www.gutenberg.org/files/1666/1666-0.txt
+  extents:
+  - 467133
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2022-09-17T14:28:44'
+- about: https://www.gutenberg.org/ebooks/1666.rdf
+  extents:
+  - 19231
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T10:38:13.439904'
+- about: https://www.gutenberg.org/cache/epub/1666/pg1666.cover.medium.jpg
+  extents:
+  - 11069
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T10:38:02.532953'
+- about: https://www.gutenberg.org/cache/epub/1666/pg1666.cover.small.jpg
+  extents:
+  - 2962
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T10:38:02.278956'
+- about: https://www.gutenberg.org/files/1666/1666-0.zip
+  extents:
+  - 174694
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-09-17T14:30:12'
+- about: https://www.gutenberg.org/files/1666/1666-h.zip
+  extents:
+  - 176844
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2022-09-17T14:30:06'
+- about: https://www.gutenberg.org/cache/epub/1666/pg1666-h.zip
+  extents:
+  - 215443
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T10:38:01.408960'
+issued: '2006-02-22'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Classical literature
+- Metamorphosis -- Fiction
+- PA
+title: The Golden Asse
+types:
+- Text

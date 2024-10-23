@@ -1,0 +1,140 @@
+bookshelves:
+- 'Browsing: Children & Young Adult Reading'
+- 'Browsing: Poetry'
+creator:
+  aliases:
+  - Milne, Alan Alexander
+  - Miln, Alen Aleksander
+  - Milne, A.A.
+  birthdate: 1882
+  deathdate: 1956
+  name: Milne, A. A. (Alan Alexander)
+  webpage: https://en.wikipedia.org/wiki/A._A._Milne
+description: ''
+downloads: 536
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/70271.html.images
+  extents:
+  - 182275
+  - 182306
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-08-29T04:36:59.259666'
+  - '2023-09-30T06:13:31.264203'
+- about: https://www.gutenberg.org/files/70271/70271-h/70271-h.htm
+  extents:
+  - 155299
+  formats:
+  - text/html
+  modified:
+  - '2024-04-18T07:51:13'
+- about: https://www.gutenberg.org/ebooks/70271.epub3.images
+  extents:
+  - 3912647
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T04:37:07.253592'
+- about: https://www.gutenberg.org/ebooks/70271.epub.images
+  extents:
+  - 3912932
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T04:37:01.630655'
+- about: https://www.gutenberg.org/ebooks/70271.epub.noimages
+  extents:
+  - 100677
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-08-29T04:37:00.551739'
+- about: https://www.gutenberg.org/ebooks/70271.kf8.images
+  extents:
+  - 3904292
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T04:37:12.245622'
+- about: https://www.gutenberg.org/ebooks/70271.kindle.images
+  extents:
+  - 3831978
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-08-29T04:37:06.085656'
+- about: https://www.gutenberg.org/ebooks/70271.txt.utf-8
+  extents:
+  - 79127
+  - 79102
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-08-29T04:36:57.741702'
+  - '2023-09-30T06:13:29.908174'
+- about: https://www.gutenberg.org/files/70271/70271-0.txt
+  extents:
+  - 59138
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-04-18T07:51:13'
+- about: https://www.gutenberg.org/ebooks/70271.rdf
+  extents:
+  - 19406
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-08-29T04:37:12.425567'
+- about: https://www.gutenberg.org/cache/epub/70271/pg70271.cover.medium.jpg
+  extents:
+  - 19026
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T04:37:00.708683'
+- about: https://www.gutenberg.org/cache/epub/70271/pg70271.cover.small.jpg
+  extents:
+  - 3295
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-08-29T04:37:00.629662'
+- about: https://www.gutenberg.org/files/70271/70271-0.zip
+  extents:
+  - 26089
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-03-12T15:54:53'
+- about: https://www.gutenberg.org/files/70271/70271-h.zip
+  extents:
+  - 4458671
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2023-03-12T15:54:53'
+- about: https://www.gutenberg.org/cache/epub/70271/pg70271-h.zip
+  extents:
+  - 4491894
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-08-29T04:36:59.551687'
+issued: '2023-03-12'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Children's poetry, English
+- PZ
+title: When we were very young
+types:
+- Text

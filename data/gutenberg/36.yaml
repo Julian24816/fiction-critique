@@ -1,0 +1,169 @@
+bookshelves:
+- Science Fiction
+- Movie Books
+- 'Browsing: History - Warfare'
+- 'Browsing: Science-Fiction & Fantasy'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Wells, Herbert George
+  birthdate: 1866
+  deathdate: 1946
+  name: Wells, H. G. (Herbert George)
+  webpage: https://en.wikipedia.org/wiki/H._G._Wells
+description: '"The War of the Worlds" by H. G. Wells is a science fiction novel written
+  in the late 19th century, during a time when literature began to explore themes
+  of alien life and the potential consequences of space exploration. The narrative
+  focuses on the harrowing invasion of Earth by Martians, highlighting the struggles
+  of human civilization when faced with technologically superior beings. The story
+  is primarily told through the experiences of an unnamed protagonist who witnesses
+  the unfolding chaos.  At the start of the book, the stage is set for an extraordinary
+  and unsettling invasion. It opens with a reflective take on humanity''s ignorance
+  of the vastness of space and the potential dangers that lie beyond it. Soon, the
+  protagonist observes a falling star that turns out to be a mysterious cylinder from
+  Mars, which crashes on Horsell Common. Alongside astronomers who first notice disturbing
+  phenomena on Mars, the protagonist soon becomes entwined in the ensuing panic once
+  it becomes apparent that extraterrestrial beings are making a terrifying arrival.
+  As the narrative explores the fears and reactions of those witnessing the Martian
+  emergence, the tone is charged with suspense, foreshadowing the catastrophic events
+  that are about to unfold. (This is an automatically generated summary.)'
+downloads: 6138
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/36.html.images
+  extents:
+  - 385241
+  - 385453
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T03:43:50.252566'
+  - '2023-10-01T03:42:33.010789'
+- about: https://www.gutenberg.org/files/36/36-h/36-h.htm
+  extents:
+  - 392337
+  formats:
+  - text/html
+  modified:
+  - '2021-11-27T02:21:36'
+- about: https://www.gutenberg.org/ebooks/36.epub3.images
+  extents:
+  - 293359
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:43:55.221539'
+- about: https://www.gutenberg.org/ebooks/36.epub.images
+  extents:
+  - 293948
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:43:50.943509'
+- about: https://www.gutenberg.org/ebooks/36.epub.noimages
+  extents:
+  - 245042
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T03:43:50.614557'
+- about: https://www.gutenberg.org/ebooks/36.kf8.images
+  extents:
+  - 390386
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:43:59.015485'
+- about: https://www.gutenberg.org/ebooks/36.kindle.images
+  extents:
+  - 362240
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T03:43:54.887513'
+- about: https://www.gutenberg.org/ebooks/36.kindle.noimages
+  extents:
+  - 313545
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-01T03:48:23.089251'
+- about: https://www.gutenberg.org/ebooks/36.txt.utf-8
+  extents:
+  - 366688
+  - 366716
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T03:43:49.822509'
+  - '2023-10-01T03:42:32.511784'
+- about: https://www.gutenberg.org/files/36/36-0.txt
+  extents:
+  - 366448
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2021-11-27T02:25:12'
+- about: https://www.gutenberg.org/ebooks/36.rdf
+  extents:
+  - 20022
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T03:43:59.151494'
+- about: https://www.gutenberg.org/cache/epub/36/pg36.cover.medium.jpg
+  extents:
+  - 20799
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:43:50.716521'
+- about: https://www.gutenberg.org/cache/epub/36/pg36.cover.small.jpg
+  extents:
+  - 3451
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T03:43:50.671522'
+- about: https://www.gutenberg.org/files/36/36-0.zip
+  extents:
+  - 139796
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-11-27T02:25:38'
+- about: https://www.gutenberg.org/files/36/36-h.zip
+  extents:
+  - 419229
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2021-11-27T02:26:02'
+- about: https://www.gutenberg.org/cache/epub/36/pg36-h.zip
+  extents:
+  - 419178
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T03:43:50.295515'
+issued: '2004-10-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- Science fiction
+- War stories
+- Martians -- Fiction
+- Mars (Planet) -- Fiction
+- Space warfare -- Fiction
+- Imaginary wars and battles -- Fiction
+- Life on other planets -- Fiction
+- PR
+title: The War of the Worlds
+types:
+- Text
