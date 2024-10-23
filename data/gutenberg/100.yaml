@@ -1,0 +1,146 @@
+bookshelves:
+- Plays
+- 'Browsing: Literature'
+- 'Browsing: Fiction'
+creator:
+  aliases:
+  - Shakspeare, William
+  - Shakspere, William
+  birthdate: 1564
+  deathdate: 1616
+  name: Shakespeare, William
+  webpage: https://en.wikipedia.org/wiki/William_Shakespeare
+description: '"The Complete Works of William Shakespeare" by William Shakespeare is
+  a collection of classic literary works written in the late 16th to early 17th centuries.
+  This comprehensive anthology includes a wide range of genres, encompassing sonnets,
+  comedies, histories, and tragedies, all showcasing Shakespeare''s unparalleled mastery
+  of language and character development. Important themes such as love, ambition,
+  betrayal, and the complexities of human nature resonate throughout these timeless
+  pieces.  At the start of this collection, the reader is immediately introduced to
+  Shakespeare''s "Sonnets," which serve as an eloquent prelude to his themes of love
+  and beauty. These opening verses explore the fleeting nature of beauty and time,
+  with a poignant focus on the necessity of procreation to preserve youthful beauty.
+  The sonnets address a young man of remarkable beauty and the poet''s passionate
+  urge for him to reproduce, emphasizing the tensions between self-love and the desire
+  for legacy. Through rhythmic language and rich imagery, the sonnets present a universal
+  contemplation on love, mortality, and the human experience, inviting readers to
+  engage deeply with concepts that remain relevant today. (This is an automatically
+  generated summary.)'
+downloads: 38662
+hasFormats:
+- about: https://www.gutenberg.org/ebooks/100.html.images
+  extents:
+  - 7237914
+  - 7178558
+  formats:
+  - text/html
+  - text/html
+  modified:
+  - '2024-09-01T03:59:55.899452'
+  - '2023-10-05T17:00:47.331860'
+- about: https://www.gutenberg.org/files/100/100-h/100-h.htm
+  extents:
+  - 7394650
+  formats:
+  - text/html
+  modified:
+  - '2024-01-18T11:25:29'
+- about: https://www.gutenberg.org/ebooks/100.epub3.images
+  extents:
+  - 2906575
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T04:18:09.910614'
+- about: https://www.gutenberg.org/ebooks/100.epub.images
+  extents:
+  - 2909748
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T04:08:01.522364'
+- about: https://www.gutenberg.org/ebooks/100.epub.noimages
+  extents:
+  - 2742825
+  formats:
+  - application/epub+zip
+  modified:
+  - '2024-09-01T04:03:59.113622'
+- about: https://www.gutenberg.org/ebooks/100.kf8.images
+  extents:
+  - 5165807
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T04:19:39.001161'
+- about: https://www.gutenberg.org/ebooks/100.kindle.images
+  extents:
+  - 4476839
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2024-09-01T04:10:12.863710'
+- about: https://www.gutenberg.org/ebooks/100.kindle.noimages
+  extents:
+  - 4143773
+  formats:
+  - application/x-mobipocket-ebook
+  modified:
+  - '2022-09-14T14:03:07.861440'
+- about: https://www.gutenberg.org/ebooks/100.txt.utf-8
+  extents:
+  - 5638519
+  - 5642249
+  formats:
+  - text/plain; charset=us-ascii
+  - text/plain
+  modified:
+  - '2024-09-01T03:59:20.410648'
+  - '2023-10-05T17:00:13.024620'
+- about: https://www.gutenberg.org/files/100/100-0.txt
+  extents:
+  - 5618815
+  formats:
+  - text/plain; charset=us-ascii
+  modified:
+  - '2024-01-18T12:20:02'
+- about: https://www.gutenberg.org/ebooks/100.rdf
+  extents:
+  - 15963
+  formats:
+  - application/rdf+xml
+  modified:
+  - '2024-09-01T04:19:39.646147'
+- about: https://www.gutenberg.org/cache/epub/100/pg100.cover.medium.jpg
+  extents:
+  - 19916
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T04:04:00.642647'
+- about: https://www.gutenberg.org/cache/epub/100/pg100.cover.small.jpg
+  extents:
+  - 2950
+  formats:
+  - image/jpeg
+  modified:
+  - '2024-09-01T04:03:59.912623'
+- about: https://www.gutenberg.org/cache/epub/100/pg100-h.zip
+  extents:
+  - 2656896
+  formats:
+  - application/octet-stream
+  - application/zip
+  modified:
+  - '2024-09-01T03:59:56.482417'
+issued: '1994-01-01'
+language: en
+license: http://www.gutenberg.org/license
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- English drama -- Early modern and Elizabethan, 1500-1600
+- PR
+title: The Complete Works of William Shakespeare
+types:
+- Text

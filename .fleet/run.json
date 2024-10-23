@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "python",
+            "name": "download-gutenberg",
+            "file": "scripts/download-gutenberg.py",
+            "arguments": [],
+        },
+
+    ]
+}
