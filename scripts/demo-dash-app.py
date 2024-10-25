@@ -1,62 +1,125 @@
+# story_analysis_app.py
+
 import dash
 from dash import dcc, html
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 import networkx as nx
-import matplotlib.pyplot as plt
-import io
-import base64
+from dash.dependencies import Input, Output
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
 
-# Sample data for story analysis
-df = pd.DataFrame({
-    "Scene": ["Scene 1", "Scene 2", "Scene 3", "Scene 4", "Scene 5"],
-    "Tension": [10, 40, 60, 80, 30],
-    "Characters": ["A, B", "A, C", "B, C", "A, B", "A, B, C"]
-})
+# Expanded data with additional relationships and character details
+characters = {
+    "Character A": {"role": "Protagonist", "description": "The hero of the story."},
+    "Character B": {"role": "Mentor", "description": "Guides the protagonist on their journey."},
+    "Character C": {"role": "Rival", "description": "A strong competitor with conflicting motives."},
+    "Character D": {"role": "Ally", "description": "Supports the protagonist in difficult times."},
+    "Character E": {"role": "Antagonist", "description": "The main villain who opposes the protagonist."}
+}
+
+relationships = [
+    ("Character A", "Character B"),
+    ("Character A", "Character C"),
+    ("Character A", "Character D"),
+    ("Character C", "Character D"),
+    ("Character B", "Character D"),
+    ("Character A", "Character E"),
+    ("Character C", "Character E")
+]
 
 # Generate a simple tension curve using Plotly
+df = pd.DataFrame({
+    "Scene": ["Scene 1", "Scene 2", "Scene 3", "Scene 4", "Scene 5"],
+    "Tension": [10, 40, 60, 80, 30]
+})
 tension_fig = px.line(df, x="Scene", y="Tension", title="Tension Curve")
 
-# Create a character interaction graph using NetworkX
-def generate_character_graph():
+# Function to create interactive character relationship graph
+def generate_interactive_character_graph():
     G = nx.Graph()
+    G.add_edges_from(relationships)
+    pos = nx.spring_layout(G)
+    edge_x = []
+    edge_y = []
 
-    # Add nodes (characters) and edges (relationships)
-    G.add_edges_from([("Character A", "Character B"),
-                      ("Character A", "Character C"),
-                      ("Character B", "Character C")])
+    for edge in G.edges():
+        x0, y0 = pos[edge[0]]
+        x1, y1 = pos[edge[1]]
+        edge_x.extend([x0, x1, None])
+        edge_y.extend([y0, y1, None])
 
-    # Draw the graph to a plot and convert it to a base64 image for display in Dash
-    fig, ax = plt.subplots()
-    nx.draw(G, with_labels=True, node_color='lightblue', node_size=2000, font_size=10, ax=ax)
+    edge_trace = go.Scatter(
+        x=edge_x, y=edge_y,
+        line=dict(width=2, color='#888'),
+        hoverinfo='none',
+        mode='lines'
+    )
 
-    buf = io.BytesIO()
-    plt.savefig(buf, format="png")
-    plt.close(fig)
-    buf.seek(0)
-    image_base64 = base64.b64encode(buf.read()).decode('utf-8')
+    node_x = []
+    node_y = []
+    node_text = []
+    node_color = []
 
-    return f"data:image/png;base64,{image_base64}"
+    for node in G.nodes():
+        x, y = pos[node]
+        node_x.append(x)
+        node_y.append(y)
+        node_text.append(f"{node}: {characters[node]['role']}")
+        node_color.append("blue" if characters[node]["role"] == "Protagonist" else "orange")
+
+    node_trace = go.Scatter(
+        x=node_x, y=node_y,
+        mode='markers+text',
+        text=node_text,
+        textposition="top center",
+        hoverinfo='text',
+        marker=dict(size=20, color=node_color)
+    )
+
+    fig = go.Figure(data=[edge_trace, node_trace],
+                    layout=go.Layout(
+                        title='Interactive Character Relationship Graph',
+                        showlegend=False,
+                        hovermode='closest',
+                        margin=dict(b=0, l=0, r=0, t=40),
+                        xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False)
+                    ))
+
+    return fig
 
 # Layout for the Dash app
 app.layout = html.Div([
     html.H1("Story Analysis Dashboard"),
-
-    # Display the tension curve graph
-    dcc.Graph(
-        id='tension-graph',
-        figure=tension_fig
-    ),
-
-    # Display the character relationship graph as an image
+    dcc.Graph(id='tension-graph', figure=tension_fig),
     html.Div([
-        html.H2("Character Relationship Graph"),
-        html.Img(src=generate_character_graph(), style={'width': '50%'})
+        html.H2("Interactive Character Relationship Graph"),
+        dcc.Graph(id='character-relationship-graph', figure=generate_interactive_character_graph())
+    ]),
+    html.Div([
+        html.H2("Character Details"),
+        html.Div(id='character-details', children="Click on a character to see details.")
     ])
 ])
+
+# Callback for displaying character details on click
+@app.callback(
+    Output('character-details', 'children'),
+    Input('character-relationship-graph', 'clickData')
+)
+def display_character_details(clickData):
+    if clickData is None:
+        return "Click on a character to see details."
+    character_name = clickData['points'][0]['text'].split(":")[0]
+    character_info = characters.get(character_name, {})
+    return [
+        html.H3(f"{character_name}"),
+        html.P(f"Role: {character_info['role']}"),
+        html.P(f"Description: {character_info['description']}")
+    ]
 
 # Run the Dash app
 if __name__ == '__main__':
