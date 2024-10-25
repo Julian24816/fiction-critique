@@ -1,3 +1,6 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 from collections import Counter
 from dataclasses import dataclass
 from spacy.tokens import Span
@@ -11,6 +14,7 @@ from nltk.util import ngrams
 import re
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 import torch
+
 
 # Load the spaCy language model
 nlp = spacy.load("en_core_web_sm")
@@ -166,9 +170,10 @@ def analyze(segmented_text: SegmentedText, text: str) -> AnalysisResult:
 # Example usage
 if __name__ == "__main__":
     # Load example Text File
-    filename = 'data/The Call of Cthulhu.md'
+    filename = 'data/royalroad/81642.md'
     with open(filename, 'r', encoding='utf-8') as file:
         text = file.read()
+        text = text[:1_000_000]
 
     # Text Segmentation
     segmented_text = segment_text(text)

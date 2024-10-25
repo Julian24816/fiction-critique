@@ -8,6 +8,12 @@
         },
         {
             "type": "python",
+            "name": "download-royalroad",
+            "file": "scripts/download-royalroad.py",
+            "arguments": [],
+        },
+        {
+            "type": "python",
             "name": "paragraph-analysis",
             "file": "scripts/paragraph-analysis.py",
             "arguments": [],

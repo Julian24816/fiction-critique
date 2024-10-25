@@ -7,7 +7,7 @@ __all__ = [
     "fetch_as_soup"
 ]
 
-def fetch_as_soup(url: str) -> BeautifulSoup | HTTPError:
+def fetch_as_soup(url: str) -> BeautifulSoup:
     client = HTTPClient()
     try:
         html = client.fetch(url, headers=get_cloudflare_headers(url)).body.decode('utf-8') #decode the html response
@@ -15,7 +15,7 @@ def fetch_as_soup(url: str) -> BeautifulSoup | HTTPError:
         if soup.find(is_cloudflare_protected_email): #remove protected emails by cloudflare
             soup = decode_all_emails(soup)
         return soup #return the soup object
-    # retry
     except HTTPError as e: #if the http request fails
-        return e
+        print("HTTPError", e)
+        raise e
 
