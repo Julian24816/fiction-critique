@@ -20,8 +20,8 @@ import torch
 nlp = spacy.load("en_core_web_sm")
 
 # Load Hugging Face transformer model for coreference resolution (e.g., SpanBERT)
-tokenizer = AutoTokenizer.from_pretrained("SpanBERT/spanbert-large-cased")
-model = AutoModelForTokenClassification.from_pretrained("SpanBERT/spanbert-large-cased")
+tokenizer = AutoTokenizer.from_pretrained("dbmdz/bert-large-cased-finetuned-conll03-english")
+model = AutoModelForTokenClassification.from_pretrained("dbmdz/bert-large-cased-finetuned-conll03-english")
 
 @dataclass
 class Entity:
@@ -172,8 +172,7 @@ if __name__ == "__main__":
     # Load example Text File
     filename = 'data/royalroad/81642.md'
     with open(filename, 'r', encoding='utf-8') as file:
-        text = file.read()
-        text = text[:1_000_000]
+        text = file.read(10_000)
 
     # Text Segmentation
     segmented_text = segment_text(text)

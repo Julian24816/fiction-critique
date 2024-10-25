@@ -3,7 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - spacy
-  - pytorch
-  - transformers
+  - dash
+  - networkx
   - numpy
+  - pandas
+  - plotly
+  - pytorch
+  - spacy
+  - transformers

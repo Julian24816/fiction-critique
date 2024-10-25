@@ -18,6 +18,11 @@
             "file": "scripts/paragraph-analysis.py",
             "arguments": [],
         },
-
+        {
+            "type": "python",
+            "name": "demo-dash-app",
+            "file": "scripts/demo-dash-app.py",
+            "arguments": [],
+        },
     ]
 }
