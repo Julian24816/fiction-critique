@@ -24,7 +24,7 @@ def download(fid: int, folder: Path) -> (Path, Fiction):
 
     with open(path, "a", encoding="utf-8") as f:
         for i, cid in enumerate(fiction.chapters):
-            if i <= last_saved_chapter:
+            if i < last_saved_chapter:
                 continue
             chapter = scrape_chapter(fid, cid)
             f.write(f"## {i+1}. {chapter.title}\n\n")
