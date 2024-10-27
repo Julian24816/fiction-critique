@@ -56,24 +56,26 @@ def to_snake_case(text):
     return text.lower()
 
 
-if __name__ == '__main__':
-    directory = Path("data/royalroad")
-    directory.mkdir(parents=True, exist_ok=True)
-    textpath, metadata = download(81642, directory)
-
-    # todo split into multiple files, e.g. every 100 chapters
+def convert_to_epub(path: Path, meta: Fiction):
     command = [
         "pandoc",
-        textpath,
-        "-o", directory / f"{to_snake_case(metadata.title)}.epub",
-        "--metadata", f'title="{metadata.title}"',
-        "--metadata", f'author="{metadata.author}"',
+        path,
+        "-o", directory / f"{to_snake_case(meta.title)}.epub",
+        "--metadata", f'title="{meta.title}"',
+        "--metadata", f'author="{meta.author}"',
         "--metadata", 'lang=en-US',
-        "--metadata", f'series="{metadata.title}"',
+        "--metadata", f'series="{meta.title}"',
         "--metadata", 'series_index="1"',
         "--split-level=1"
     ]
-
-    # Execute the command
     subprocess.run(command, check=True)
     print("converted to epub")
+
+
+if __name__ == '__main__':
+    directory = Path("data/royalroad")
+    directory.mkdir(parents=True, exist_ok=True)
+
+    for i in (95097, 94922):
+        # todo split into multiple files, e.g. every 100 chapters
+        convert_to_epub(*download(i, directory))
