@@ -54,6 +54,9 @@ def scrape_fiction(slot: int) -> Fiction | None:
     description = HTML2Text().handle(content.find("div", class_="description").prettify())
     tags = [tag.text.strip() for tag in soup.find_all('a', class_='fiction-tag')]
 
+    # Extract image URL
+    image_url = soup.find('meta', property='og:image')['content']
+
     # Extract stats
     stats = {}
     stats_section = soup.find('div', class_='fiction-stats')
@@ -79,6 +82,7 @@ def scrape_fiction(slot: int) -> Fiction | None:
         title=title,
         author=author,
         description=description,
+        image_url=image_url,
         tags=tags,
         stats=stats,
         chapters=chapters

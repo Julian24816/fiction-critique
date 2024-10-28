@@ -7,12 +7,13 @@ FictionStats = Mapping[str, int|datetime]
 
 class Fiction:
     """A work of fiction on royalroad.com"""
-    def __init__(self, slot:int, title:str, author:str, description:MD,
+    def __init__(self, slot:int, title:str, author:str, description:MD, image_url:str,
                  tags:List[str], stats:FictionStats, chapters:List[int]):
         self.slot = slot
         self.title = title
         self.author = author
         self.description = description
+        self.image_url = image_url
         self.tags = tags
         self.stats = stats
         self.chapters = chapters
@@ -22,6 +23,7 @@ class Fiction:
             ('slot', self.slot),
             ('title', self.title),
             ('author', self.author),
+            ('image_url', self.image_url),
             ('tags', self.tags),
             ('stats', self.stats),
             ('chapters', self.chapters),
@@ -34,12 +36,14 @@ class Fiction:
         return (self.slot == other.slot and
                 self.title == other.title and
                 self.author == other.author and
+                self.image_url == other.image_url and
                 self.tags == other.tags and
                 self.stats == other.stats and
                 self.description == other.description)
 
     def __repr__(self):
         return (f"Fiction(slot={self.slot!r}, title={self.title!r}, author={self.author!r}, "
+                f"image_url={self.image_url!r}, "
                 f"tags={self.tags!r}, stats={self.stats!r}, chapters={self.chapters!r}, "
                 "description={self.description!r})")
 
@@ -47,6 +51,7 @@ class Fiction:
         return (f"Fiction: {self.title}\n"
                 f"Slot: {self.slot}\n"
                 f"Author: {self.author}\n"
+                f"Image URL: {self.image_url}\n"
                 f"Tags: {', '.join(self.tags)}\n"
                 f"Stats:\n    {'\n    '.join(f"{key}: {value}" for key,value in self.stats.items())}\n"
                 f"Chapters: ({len(self.chapters)}) {', '.join(str(i) for i in self.chapters)}\n"

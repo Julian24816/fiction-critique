@@ -1,40 +1,43 @@
 from pathlib import Path
+from tornado.httpclient import HTTPClientError
+import re
+import requests
 import subprocess
+import time
 
 from fictique.crawler import scrape_fiction, scrape_chapter
 from fictique.model import Fiction
 
 
-def download(fid: int, folder: Path) -> (Path, Fiction):
-    path = folder / f"{fid}.md"
-    last_saved_chapter = -1
-    if path.exists():
-        with open(path, "r", encoding="utf-8") as f:
-            last_saved_chapter = int(f.read().split("## ")[-1].split(".")[0])
+def with_retry(func, *args, **kwargs):
+    try:
+        return func(*args, **kwargs)
+    except HTTPClientError as e:
+        print("caught http client error, waiting 10s, then retrying...")
+        time.sleep(10)
+        return func(*args, **kwargs)
 
-    fiction = scrape_fiction(fid)
+
+def download(fid: int, folder: Path) -> (Fiction, list[str], Path):
+    fiction = with_retry(scrape_fiction, fid)
     print("downloaded metadata")
 
-    if last_saved_chapter == -1:
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(f"# {fiction.title}\n\n")
-            f.write(f"by {fiction.author}\n\n")
-            f.write(fiction.description)
-            f.write("\n\n")
+    image_url = fiction.image_url
+    image_path = folder / f"{fid}.jpg"
+    response = requests.get(image_url)
+    with open(image_path, "wb") as img_file:
+        img_file.write(response.content)
+    print("downloaded image", image_path)
 
-    with open(path, "a", encoding="utf-8") as f:
-        for i, cid in enumerate(fiction.chapters):
-            if i < last_saved_chapter:
-                continue
-            chapter = scrape_chapter(fid, cid)
-            f.write(f"## {i+1}. {chapter.title}\n\n")
-            f.write(chapter.body)
-            f.write("\n\n")
-            print("downloaded chapter", i+1, "of", len(fiction.chapters))
+    chapters = []
 
-    return path, fiction
+    for i, cid in enumerate(fiction.chapters):
+        chapter = with_retry(scrape_chapter, fid, cid)
+        chapters.append(f"## {i + 1}. {chapter.title}\n\n{chapter.body}\n\n")
+        print("downloaded chapter", i + 1, "of", len(fiction.chapters))
 
-import re
+    return fiction, chapters, image_path
+
 
 def to_snake_case(text):
     """
@@ -56,26 +59,43 @@ def to_snake_case(text):
     return text.lower()
 
 
-def convert_to_epub(path: Path, meta: Fiction):
-    command = [
-        "pandoc",
-        path,
-        "-o", directory / f"{to_snake_case(meta.title)}.epub",
-        "--metadata", f'title="{meta.title}"',
-        "--metadata", f'author="{meta.author}"',
-        "--metadata", 'lang=en-US',
-        "--metadata", f'series="{meta.title}"',
-        "--metadata", 'series_index="1"',
-        "--split-level=1"
-    ]
-    subprocess.run(command, check=True)
-    print("converted to epub")
+def split_into_volumes(chapters, max_chapters=100):
+    for i in range(0, len(chapters), max_chapters):
+        yield chapters[i:i + max_chapters]
+
+
+def convert_to_epub(volumes: list[list[str]], meta: Fiction, image_path: Path, output_dir: Path):
+    for vol_num, volume in enumerate(volumes, start=1):
+        volume_path = output_dir / f"{to_snake_case(meta.title)}_volume_{vol_num}.md"
+        with open(volume_path, "w", encoding="utf-8") as f:
+            f.write(f"# {meta.title}\n\n")
+            f.write(f"by {meta.author}\n\n")
+            f.write(meta.description)
+            f.write("\n\n")
+            f.write("\n\n".join(volume))
+
+        command = [
+            "pandoc",
+            volume_path,
+            "-o", output_dir / f"{to_snake_case(meta.title)}_volume_{vol_num}.epub",
+            "--metadata", f'title="{meta.title}" (Volume {vol_num})',
+            "--metadata", f'author="{meta.author}"',
+            "--metadata", 'lang=en-US',
+            "--metadata", f'series="{meta.title}"',
+            "--metadata", f'series_index="{vol_num}"',
+            "--split-level=1",
+            "--epub-cover-image", image_path
+        ]
+        subprocess.run(command, check=True)
+        print(f"Converted to EPUB: Volume {vol_num}")
 
 
 if __name__ == '__main__':
     directory = Path("data/royalroad")
     directory.mkdir(parents=True, exist_ok=True)
 
-    for i in (95097, 94922):
-        # todo split into multiple files, e.g. every 100 chapters
-        convert_to_epub(*download(i, directory))
+    for i in (#88515, 83023,
+            82768, ):
+        fiction, chapters, image_path = download(i, directory)
+        volumes = list(split_into_volumes(chapters))
+        convert_to_epub(volumes, fiction, image_path, directory)
