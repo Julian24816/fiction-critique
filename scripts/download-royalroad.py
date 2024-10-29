@@ -1,7 +1,9 @@
 from pathlib import Path
+
 from tornado.httpclient import HTTPClientError
 import re
 import requests
+import shlex
 import subprocess
 import time
 
@@ -13,21 +15,21 @@ def with_retry(func, *args, **kwargs):
     try:
         return func(*args, **kwargs)
     except HTTPClientError as e:
-        print("caught http client error, waiting 10s, then retrying...")
-        time.sleep(10)
+        print("caught http client error, waiting 60s, then retrying...")
+        time.sleep(60)
         return func(*args, **kwargs)
 
 
 def download(fid: int, folder: Path) -> (Fiction, list[str], Path):
     fiction = with_retry(scrape_fiction, fid)
-    print("downloaded metadata")
+    print("downloaded metadata of", fid, fiction.title)
 
     image_url = fiction.image_url
     image_path = folder / f"{fid}.jpg"
     response = requests.get(image_url)
     with open(image_path, "wb") as img_file:
         img_file.write(response.content)
-    print("downloaded image", image_path)
+    print("downloaded cover image to", image_path)
 
     chapters = []
 
@@ -39,24 +41,22 @@ def download(fid: int, folder: Path) -> (Fiction, list[str], Path):
     return fiction, chapters, image_path
 
 
-def to_snake_case(text):
-    """
-    Converts a given text to snake_case.
+def clean_title(title):
+    # Remove everything inside and including brackets and parentheses
+    title = re.sub(r'[\[\(].*?[\]\)]', '', title)
+    # Remove special characters except whitespaces
+    title = re.sub(r'[^\w\s]', '', title)
+    # Remove leading and trailing whitespaces
+    title = title.strip()
+    # Replace any sequence of whitespace with a single space
+    title = re.sub(r'\s+', ' ', title)
+    return title
 
-    Parameters:
-    text (str): The text to convert.
 
-    Returns:
-    str: The snake_case version of the text.
-    """
-    # Replace non-letter and non-digit characters with underscores
-    text = re.sub(r'[^a-zA-Z0-9]', '_', text)
-
-    # Convert camelCase or PascalCase to snake_case
-    text = re.sub(r'([a-z])([A-Z])', r'\1_\2', text)
-
-    # Convert the entire text to lowercase
-    return text.lower()
+def escape_if_needed(value):
+    value = str(value)
+    # Escapes the value only if it contains whitespace
+    return shlex.quote(value) if ' ' in value else value
 
 
 def split_into_volumes(chapters, max_chapters=100):
@@ -65,37 +65,38 @@ def split_into_volumes(chapters, max_chapters=100):
 
 
 def convert_to_epub(volumes: list[list[str]], meta: Fiction, image_path: Path, output_dir: Path):
-    for vol_num, volume in enumerate(volumes, start=1):
-        volume_path = output_dir / f"{to_snake_case(meta.title)}_volume_{vol_num}.md"
+    for vol_num, chapters in enumerate(volumes, start=1):
+        filename = clean_title(f"{meta.title} Volume {vol_num}")
+        volume_path = output_dir / f"{filename}.md"
         with open(volume_path, "w", encoding="utf-8") as f:
             f.write(f"# {meta.title}\n\n")
             f.write(f"by {meta.author}\n\n")
             f.write(meta.description)
             f.write("\n\n")
-            f.write("\n\n".join(volume))
+            f.write("\n\n".join(chapters))
 
         command = [
             "pandoc",
             volume_path,
-            "-o", output_dir / f"{to_snake_case(meta.title)}_volume_{vol_num}.epub",
-            "--metadata", f'title="{meta.title}" (Volume {vol_num})',
-            "--metadata", f'author="{meta.author}"',
+            "-o", output_dir / f"{filename}.epub",
+            "--metadata", f'title="{filename}',
+            "--metadata", f'author={escape_if_needed(meta.author)}',
             "--metadata", 'lang=en-US',
-            "--metadata", f'series="{meta.title}"',
+            "--metadata", f'series="{escape_if_needed(clean_title(meta.title))}"',
             "--metadata", f'series_index="{vol_num}"',
-            "--split-level=1",
-            "--epub-cover-image", image_path
+            "--split-level=2",
+            "--epub-cover-image", image_path,
         ]
         subprocess.run(command, check=True)
-        print(f"Converted to EPUB: Volume {vol_num}")
+        print(f"Converted to EPUB:", volume_path)
 
 
 if __name__ == '__main__':
     directory = Path("data/royalroad")
     directory.mkdir(parents=True, exist_ok=True)
 
-    for i in (#88515, 83023,
-            82768, ):
+    for i in (#54068, 79092,
+            76389, 70915, ):
         fiction, chapters, image_path = download(i, directory)
         volumes = list(split_into_volumes(chapters))
         convert_to_epub(volumes, fiction, image_path, directory)
