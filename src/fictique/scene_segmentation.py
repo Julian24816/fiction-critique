@@ -3,11 +3,14 @@ import re
 from pathlib import Path
 from typing import Mapping, List
 
+
+# setup openai from .env file
+from dotenv import load_dotenv
+load_dotenv()
 import openai
 from openai.types.chat import ChatCompletionMessageParam
 
 from model.scene import Scene
-
 
 
 async def call_llm(*messages: ChatCompletionMessageParam) -> str:

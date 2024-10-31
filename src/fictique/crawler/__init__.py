@@ -7,17 +7,17 @@ from .royalroad import scrape_fiction_list, Fiction, scrape_fiction, scrape_chap
 
 def scrape_all_rankings(
         key2url: Mapping[str, str],
-        report_rankings_until: int = 3, report_multi_ranking: int = 2, verbose: bool = True
+        report_rankings_until: int = 3, report_multi_ranking: int = 2, verbosity: int = 2
 ):
     fictions: MutableMapping[int, Fiction] = {}
     for key, url in key2url.items():
-        if verbose: print("now scraping", url)
+        if verbosity > 1: print("now scraping", url)
         scraped = scrape_fiction_list(url)
 
         # update rankings
         ranking = [f.slot for f in scraped]
         updated = update_ranking(key, ranking)
-        if verbose: print("-", key, "ranking", "updated" if updated else "unchanged")
+        if verbosity > 0: print("-", key, "ranking", "updated" if updated else "unchanged")
 
         # collect scraped novels
         new = 0
@@ -27,7 +27,7 @@ def scrape_all_rankings(
                 new += 1
             f = fictions[f.slot]
             f.stats[f"ranking-{key}"] = i + 1
-        if verbose: print("-", new, "of", len(scraped), "fictions not yet seen on rankings during this run")
+        if verbosity > 1: print("-", new, "of", len(scraped), "fictions not yet seen on rankings during this run")
 
         # report on top ranks:
         if report_rankings_until == 1:
@@ -37,7 +37,7 @@ def scrape_all_rankings(
             for i in range(0, report_rankings_until):
                 print(f"{i + 1}. {scraped[i].slot} {scraped[i].title}")
 
-    if verbose: print("collected", len(fictions), "novels")
+    if verbosity > 1: print("collected", len(fictions), "novels")
     num_updated = 0
     on_rankings: MutableMapping[int, List[Tuple[Fiction, List[str]]]] = {i: [] for i in range(len(key2url) + 1)}
     for f in fictions.values():
@@ -45,7 +45,7 @@ def scrape_all_rankings(
             num_updated += 1
         rankings = list(i[8:] for i in filter(lambda item: item.startswith('ranking-'), f.stats))
         on_rankings[len(rankings)].append((f, rankings))
-    if verbose: print("updated", num_updated)
+    if verbosity > 0: print("- updated", num_updated)
 
     for i in range(len(key2url), report_multi_ranking - 1, -1):
         if len(on_rankings[i]) > 0:
@@ -57,14 +57,15 @@ def scrape_all_rankings(
 def scrape_all_rankings_silent(key2url: Mapping[str, str]):
     scrape_all_rankings(
         key2url,
-        report_rankings_until=0, report_multi_ranking=len(key2url)+1, verbose=False
+        report_rankings_until=0, report_multi_ranking=len(key2url)+1, verbosity=0
     )
 
 
-def download_complete_fiction_text(slot: int, verbose: bool = True):
+def download_complete_fiction_text(slot: int, directory: Path, verbose: bool = True) -> Path:
     fiction = scrape_fiction(slot)
     if verbose: print("scraped fiction:", fiction.title, "-", len(fiction.chapters), "chapters")
-    with open(f"out/{slot}.md", "w", encoding="utf-8") as f:
+    filepath = directory / f"{slot}.md"
+    with filepath.open("w", encoding="utf-8") as f:
         f.write(f"# {fiction.title}\n\n")
         f.write(f"by {fiction.author}\n\n")
         f.write(fiction.description)
@@ -75,6 +76,7 @@ def download_complete_fiction_text(slot: int, verbose: bool = True):
             f.write(c.body)
             f.write("\n\n")
             if verbose: print("scraped chapter:", c.title)
+    return filepath
 
 
 def remove_copyright_notes_from_file(path: Path, keyword="Amazon", interactive=True):

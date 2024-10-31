@@ -35,7 +35,7 @@ setup(
     install_requires=requirements,
     entry_points={
         'console_scripts': [
-            'fictique_update_rankings=fictique.main:update_rankings',
+            # 'fictique_update_rankings=fictique.main:update_rankings',
         ],
     },
 )

@@ -8,6 +8,12 @@
         },
         {
             "type": "python",
+            "name": "royalroad-popular",
+            "file": "scripts/royalroad-popular.py",
+            "arguments": [],
+        },
+        {
+            "type": "python",
             "name": "download-royalroad",
             "file": "scripts/download-royalroad.py",
             "arguments": [],

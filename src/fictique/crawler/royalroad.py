@@ -20,6 +20,7 @@ def parse_fiction_listing(tag: Tag) -> Fiction:
         title=tag.find("h2").text.strip().split("\n")[0],
         author="",
         description=HTML2Text().handle(tag.find(id="description-" + fiction_id).prettify()),
+        image_url=tag.find("img").get("src").strip(),
         tags=[el.text for el in tag.find_all("a", attrs={"class": "fiction-tag"})],
         stats=parse_stats(tag.find("div", attrs={"class": "stats"})),
         chapters=[],

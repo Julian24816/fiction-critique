@@ -11,7 +11,7 @@ import yaml
 from fictique.model import Fiction, GutenbergBook
 
 fiction_tag = "!Fiction"
-fictions_dir = Path("out/fictions/")
+fictions_dir = Path("data/royalroad/")
 fictions_dir.mkdir(parents=True, exist_ok=True)
 
 def fiction_path(slot: int) -> Path:
@@ -66,7 +66,7 @@ from datetime import datetime
 
 
 dateformat = '%Y%m%d%H%M%S'
-rankings_dir = Path("out/rankings/")
+rankings_dir = Path("data/royalroad/rankings/")
 rankings_dir.mkdir(parents=True, exist_ok=True)
 
 def ranking_path(key: str) -> Path:
